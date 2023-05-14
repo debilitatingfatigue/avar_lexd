@@ -1,0 +1,4797 @@
+PATTERNS
+
+N-VAS-Root [<n>:] (N-VAS-ABS-SG|N-VAS-ABS-PL CLIT-SUBST-II?) | (N-VAS-OBL-SG|N-VAS-OBL-PL (N-VAS-CORE-CASES|LOC-CASES) CLIT-SUBST-I?)
+N-BIHINCHI-Root [<n>:] ([чи] (N-VAS-ABS-SG CLIT-SUBST-II?) | (N-VAS-OBL-SG (N-VAS-CORE-CASES|LOC-CASES) CLIT-SUBST-I?)) | ((N-BIHINCHI-ABS-PL CLIT-SUBST-II?) | (N-BIHINCHI-OBL-PL (N-VAS-CORE-CASES|LOC-CASES) CLIT-SUBST-I?)
+N-GIALIMCHI-Root [<n>:] ([чи] (N-VAS-ABS-SG CLIT-SUBST-II?) | (N-VAS-OBL-SG (N-VAS-CORE-CASES|LOC-CASES) CLIT-SUBST-I?)) | ((N-GIALIMCHI-ABS-PL CLIT-SUBST-II?) | (N-GIALIMCHI-OBL-PL (N-VAS-CORE-CASES|LOC-CASES) CLIT-SUBST-I?)
+N-CHI-Root [<n>:] (N-CHI-ABS-SG CLIT-SUBST-II?) | (N-CHI-ABS-PL | (N-CHI-OBL-SG|N-CHI-OBL-PL (N-VAS-CORE-CASES|LOC-CASES)) CLIT-SUBST-I?)
+N-GIOLOHANCHI-Root [<n>:] (N-GIOLOHANCHI-ABS-SG CLIT-SUBST-II?) | (N-GIOLOHANCHI-ABS-PL | (N-GIOLOHANCHI-OBL-SG|N-GIOLOHANCHI-OBL-PL (N-VAS-CORE-CASES|LOC-CASES)) CLIT-SUBST-I?)
+N-PREDSEDATEL-Root [<n>:] (N-UCHITEL-ABS-SG|N-UCHITEL-ABS-PL | (N-UCHITEL-OBL-PL (N-VAS-CORE-CASES|LOC-CASES)) CLIT-SUBST-II?) | (N-UCHITEL-OBL-SG (N-VAS-CORE-CASES|LOC-CASES) CLIT-SUBST-I?) | (N-PREDSEDATEL-ABS-SG CLIT-SUBST-II?) | (N-PREDSEDATEL-OBL-SG (N-PREDSEDATEL-CORE-CASES|LOC-CASES) CLIT-SUBST-I?)
+N-GIADAN-Root [<n>:] (N-GIADAN-ABS-SG|N-GIADAN-ABS-PL CLIT-SUBST-II?) | (N-GIADAN-OBL-SG|N-GIADAN-OBL-PL (N-VAS-CORE-CASES|LOC-CASES) CLIT-SUBST-I?)
+N-DARAN-Root [<n>:] (N-DARAN-CORE-CASES CLIT-SUBST-I?) | (N-DARAN-ABS-SG|N-DARAN-ABS-PL CLIT-SUBST-II?) | (N-DARAN-OBL-SG|N-DARAN-OBL-PL (N-VAS-CORE-CASES|LOC-CASES) CLIT-SUBST-I?)
+N-STOL-Root [<n>:] (N-STOL-ERG CLIT-SUBST-I?) | (N-STOL-ABS-SG|N-STOL-ABS-PL CLIT-SUBST-II?) | (N-STOL-OBL-SG|N-STOL-OBL-PL (N-VAS-CORE-CASES|LOC-CASES) CLIT-SUBST-I?)
+N-MARHA-Root [<n>:] (N-MARHA-ERG CLIT-SUBST-I?) | (N-MARHA-ABS-SG CLIT-SUBST-II?) | (N-MARHA-ABS-PL | (N-MARHA-OBL-SG|N-MARHA-OBL-PL (N-VAS-CORE-CASES|LOC-CASES)) CLIT-SUBST-I?)
+N-GII-Root [<n>:] (N-GII-ABS CLIT-SUBST-II?) | (N-GII-OBL CLIT-SUBST-I?) | (N-GII-LOC LOC-CASES CLIT-SUBST-I?)
+N-CHINKILLI-Root [<n>:] (N-CHINKILLI-ABS-SG CLIT-SUBST-II?) | (N-CHINKILLI CLIT-SUBST-I?) | (N-CHINKILLI-LOC LOC-CASES CLIT-SUBST-I?)
+N-KAJ-Root [<n>:] (N-KAJ-ABS-SG CLIT-SUBST-II?) | (N-KAJ CLIT-SUBST-I?) | (N-KAJ-LOC LOC-CASES CLIT-SUBST-I?)
+N-MUZEJ-Root [<n>:] (N-MUZEJ-ABS-SG|N-MUZEJ-ABS-PL CLIT-SUBST-II?) | (N-MUZEJ-OBL-SG|N-MUZEJ-OBL-PL (N-VAS-CORE-CASES|LOC-CASES) CLIT-SUBST-I?)
+N-CHAJ-Root [<n>:] (N-CHAJ CLIT-SUBST-I?) | (N-MUZEJ-ABS-SG|N-MUZEJ-ABS-PL CLIT-SUBST-II?) | (N-MUZEJ-OBL-SG|N-MUZEJ-OBL-PL (N-VAS-CORE-CASES|LOC-CASES) CLIT-SUBST-I?)
+N-ZAVEDUJUSHCHIJ-Root [<n>:] (N-ZAVEDUJUSHCHIJ-ABS-SG|N-ZAVEDUJUSHCHIJ-ABS-PL CLIT-SUBST-II?) | (N-ZAVEDUJUSHCHIJ-OBL-SG|N-ZAVEDUJUSHCHIJ-OBL-PL (N-VAS-CORE-CASES|LOC-CASES) CLIT-SUBST-I?)
+N-SOBRANIJE-Root [<n>:] (N-SOBRANIJE-ABS-SG|N-SOBRANIJE-ABS-PL CLIT-SUBST-II?) | (N-SOBRANIJE-OBL-SG|N-SOBRANIJE-OBL-PL (N-VAS-CORE-CASES|LOC-CASES) CLIT-SUBST-I?)
+N-CHERX-Root [<n>:] (N-CHERX-ABS CLIT-SUBST-II?) | (N-CHERX-OBL CLIT-SUBST-I?) | (N-CHERX-LOC LOC-CASES CLIT-SUBST-I?)
+N-ZHO-Root [<n>:] (N-ZHO-ABS CLIT-SUBST-II?) | (LEXICON N-ZHO-OBL CLIT-SUBST-I?) | (N-ZHO-LOC LOC-CASES CLIT-SUBST-I?)
+N-CAD-Root [<n>:] (N-CAD-ABS CLIT-SUBST-II?) | (LEXICON N-CAD-OBL CLIT-SUBST-I?) | (N-CAD-LOC LOC-CASES CLIT-SUBST-I?)
+N-JAS-Root [<n>:] (N-JAS-ABS-SG|N-JAS-ABS-PL CLIT-SUBST-II?) | (N-JAS-OBL-SG|N-JAS-OBL-PL (N-VAS-CORE-CASES|LOC-CASES) CLIT-SUBST-I?)
+N-LADI-Root [<n>:] (N-LADI-ABS CLIT-SUBST-II?) | (N-LADI-OBL CLIT-SUBST-I?) | (N-LADI-LOC LOC-CASES CLIT-SUBST-I?)
+N-KIODO-Root [<n>:] ((N-KIODO-ABS CLIT-SUBST-II?) | (N-KIODO-OBL CLIT-SUBST-I?) | (N-KIODO-LOC LOC-CASES CLIT-SUBST-I?)) | ((N-JAS-ABS-PL CLIT-SUBST-II?) | (N-JAS-OBL-PL (N-VAS-CORE-CASES|LOC-CASES) CLIT-SUBST-I?))
+N-EMEN-Root (N-EMEN-ABS CLIT-SUBST-II?) | (N-EMEN-OBL CLIT-SUBST-I?) | (N-EMEN-LOC LOC-CASES CLIT-SUBST-I?)
+N-EBEL-Root (N-EBEL-ABS CLIT-SUBST-II?) | (N-EBEL-OBL CLIT-SUBST-I?) | (N-EBEL-LOC LOC-CASES CLIT-SUBST-I?)
+N-CCIN-Root [<n>:] (N-CCIN-ABS CLIT-SUBST-II?) | (N-CCIN-OBL CLIT-SUBST-I?) | (N-CCIN-LOC LOC-CASES CLIT-SUBST-I?)
+N-XANZHU-Root [<n>:] (N-XANZHU-ABS CLIT-SUBST-II?) | (N-XANZHU-OBL CLIT-SUBST-I?) | (N-XANZHU-LOC LOC-CASES CLIT-SUBST-I?)
+N-CHIUZHU-Root (N-CHIUZHU-ABS-PL CLIT-SUBST-II?) | (N-CHIUZHU-ABS-SG|N-CHIUZHU-OBL CLIT-SUBST-I?) | (N-CHIUZHU-LOC LOC-CASES CLIT-SUBST-I?)
+N-AX-Root [<n>:] (N-AX-ABS CLIT-SUBST-II?) | (N-AX-OBL CLIT-SUBST-I?) | (N-AX-LOC LOC-CASES CLIT-SUBST-I?)
+N-MOCI-Root [<n>:] (N-MOCI-ABS CLIT-SUBST-II?) | (N-MOCI-OBL CLIT-SUBST-I?) | (N-MOCI-LOC LOC-CASES CLIT-SUBST-I?)
+N-TAMIXI-Root [<n>:] (N-TAMIXI-ABS CLIT-SUBST-II?) | (N-TAMIXI-OBL CLIT-SUBST-I?) | (N-TAMIXI-LOC LOC-CASES CLIT-SUBST-I?)
+N-INZHIT-Root [<n>:] (N-INZHIT-ABS CLIT-SUBST-II?) | (N-INZHIT-OBL CLIT-SUBST-I?) | (N-INZHIT-LOC LOC-CASES CLIT-SUBST-I?)
+N-FIZIKA-Root [<n>:] (N-FIZIKA-ABS CLIT-SUBST-II?) | (N-FIZIKA-OBL CLIT-SUBST-I?) | (N-FIZIKA-LOC LOC-CASES CLIT-SUBST-I?)
+N-DARS-Root [<n>:] (N-DARS-ABS CLIT-SUBST-II?) | (N-DARS-OBL CLIT-SUBST-I?) | (N-DARS-LOC LOC-CASES CLIT-SUBST-I?)
+N-RUQ-Root [<n>:] (N-RUQ-ABS-SG|N-RUQ-PL CLIT-SUBST-II?) | (N-RUQ-OBL-SG CLIT-SUBST-I?) | (N-RUQ-LOC LOC-CASES CLIT-SUBST-I?)
+N-XIZAN-Root [<n>:] (N-XIZAN-ABS CLIT-SUBST-II?) | (N-XIZAN-OBL CLIT-SUBST-I?) | (N-XIZAN-LOC LOC-CASES CLIT-SUBST-I?)
+#N-AVTOR-Root [<n>:] (N-VAS-SG | N-JAS-SG) | (N-AVTOR-Infl (CLIT-SUBST-II) | (CLIT-SUBST-I) | (LOC-CASES))
+#N-MUGHALIM-Root [<n>:] (N-VAS-SG | N-JAS-SG) | (N-MUGHALIM-Infl (CLIT-SUBST-II) | (CLIT-SUBST-I) | (LOC-CASES))
+([майдан] (LEXICON N-STOL-ERG CLIT-SUBST-I?) | (N-STOL-ABS-SG|N-STOL-ABS-PL CLIT-SUBST-II?) | (N-STOL-OBL-SG|N-STOL-OBL-PL (N-VAS-CORE-CASES|LOC-CASES) CLIT-SUBST-I?)) | ([майдан<n><nt><pl><nom>:байдаби])
+
+LEXICON LOC-CASES 
+
+# 1 серия
+<loc>:>да
+<all>:>де
+<abl>:>даса
+<tra>:>дасан
+
+# 2 серия
++хъ<post><loc>:>{u}хъ
++хъ<post><all>:>{u}хъе
++хъ<post><abl>:>{u}хъан
++хъ<post><tra>:>{u}хъан
+
+# 3 серия
++лъ<post><loc>:>{u}лъ
++лъ<post><all>:>{u}лъе
++лъ<post><abl>:>{u}лъа
++лъ<post><tra>:>{u}лъан
+
+# 4 серия
++кь<post><loc>:>{u}кь
++кь<post><all>:>{u}кье
++кь<post><abl>:>{u}кьа
++кь<post><tra>:>{u}кьан
+
+# 5 серия
+#<obl>+б<post><m><loc>:>{u}в
+#<obl>+б<post><f><loc>:>{u}й
+#<obl>+б<post><nt><loc>:>{u}б
+#<obl>+б<post><pl><loc>:>{u}л
+#<obl>+б<post><all>:>{u}е
+#<obl>+б<post><abl>:>{u}са
+#<obl>+б<post><tra>:>{u}сан
+
+LEXICON CLIT-SUBST-I
+
++го<emph>:го  
++ги<cnjcoo>:ги 
++гин<adv>:гин 
++гун<adv>:гун
++ин<emph>:{й}ин
+
+LEXICON CLIT-SUBST-II
+
++лъун<post>:лъун
++лъун<post>+ги<cnjcoo>:лъунги
+
+LEXICON N-VAS-ABS-SG
+
+<m><sg><nom>:
+
+LEXICON N-VAS-ABS-PL
+
+<m><pl><nom>:>{a}л
+
+LEXICON N-VAS-OBL-SG
+
+<m><sg><obl>:>{a}с
+
+LEXICON N-VAS-OBL-PL
+<m><pl><obl>:>{a}з
+
+LEXICON N-VAS-CORE-CASES
+<erg>: 
+<gen>:ул  
+<dat>:е
+
+LEXICON N-MURSHID # как сингулярис N-VAS-SG
+
+<m><pl><nom>:>заби   # Dir/LR
+<m><pl><erg>:>забаз   # Dir/LR
+<m><pl><gen>:>забазул   # Dir/LR
+<m><pl><dat>:>забазе   # Dir/LR
+<m><pl>:>забаз   # Dir/LR
+
+LEXICON N-GIALIMCHI-ABS-PL # :чи N-VAS-SG
+
+<m><pl><nom>:>заби 
+
+LEXICON N-GIALIMCHI-OBL-PL 
+<m><pl><obl>:>забаз  
+
+LEXICON N-BIHINCHI-ABS-PL # :чи N-VAS-SG
+<m><pl><nom>:>ал
+
+LEXICON N-BIHINCHI-OBL-PL  
+<m><pl><obl>:>з
+
+LEXICON N-TURKAV
+
+<m><sg><nom>:в  
+<m><sg><erg>:>с  
+<m><sg><gen>:>сул  
+<m><sg><dat>:>се  
+<m><sg>:>с  
+<m><pl><nom>:>л  
+<m><pl><erg>:>з  
+<m><pl><gen>:>зул  
+<m><pl><dat>:>зе  
+<m><pl>:>з  
+
+LEXICON N-TIEH
+
+<nt><sg><nom>:ехь  
+<nt><sg><erg>:ехь>алъ  
+<nt><sg><gen>:ехь>алъул  
+<nt><sg><dat>:ехь>алъе  
+<nt><sg>:ехь>ал{ъ} 
+<nt><pl><nom>:ахь>ал  
+<nt><pl><erg>:ахь>аз  
+<nt><pl><gen>:ахь>азул  
+<nt><pl><dat>:ахь>азе  
+<nt><pl>:ахь>аз  
+<nt><sg><erg>:охь>оца  # Dir/LR
+<nt><sg><gen>:охь>ол  # Dir/LR
+<nt><sg><dat>:охь>ое  # Dir/LR
+<nt><sg>:охь>о  # Dir/LR
+<nt><pl><nom>:ухь>дул  # Dir/LR
+#<n><nt><pl><erg>:охь>оз  # Dir/LR
+#<n><nt><pl><gen>:охь>озул  # Dir/LR
+#<n><nt><pl><dat>:охь>озе  # Dir/LR
+#<n><nt><pl>:охь>оз  # Dir/LR
+
+LEXICON N-CHIUZHUGIADAN
+
+чӏужугӏадан<n><f><sg><nom>:чӏужугӏадан  
+чӏужугӏадан<n><f><sg><erg>:чӏужугӏадам>{a}лъ  # Dir/LR
+чӏужугӏадан<n><f><sg><gen>:чӏужугӏадам>{a}лъул  # Dir/LR
+чӏужугӏадан<n><f><sg><dat>:чӏужугӏадам>{a}лъе  # Dir/LR
+чӏужугӏадан<n><f><sg>:чӏужугӏадам>{a}л  # Dir/LR
+чӏужугӏадан<n><f><sg><erg>:чӏужугӏадан>{a}лъ  
+чӏужугӏадан<n><f><sg><gen>:чӏужугӏадан>{a}лъул  
+чӏужугӏадан<n><f><sg><dat>:чӏужугӏадан>{a}лъе  
+чӏужугӏадан<n><f><sg>:чӏужугӏадан>{a}л  
+чӏужугӏадан<n><f><pl><nom>:руччаби  
+чӏужугӏадан<n><f><pl><erg>:руччабаз  
+чӏужугӏадан<n><f><pl><gen>:руччабаз>ул  
+чӏужугӏадан<n><f><pl><dat>:руччабаз>е  
+чӏужугӏадан<n><f><pl>:руччабаз>  
+
+LEXICON N-CHIUZHU-ABS-SG
+чӏужу<n><f><sg><nom>:чӏужу
+
+LEXICON N-CHIUZHU-ABS-PL
+чӏужу<n><f><pl><nom>:руччаби
+
+LEXICON N-CHIUZHU-OBL
+чӏужу<n><f><sg><erg>:чӏужу>{a}лъ  
+чӏужу<n><f><sg><gen>:чӏужу>{a}лъул  
+чӏужу<n><f><sg><dat>:чӏужу>{a}лъе
+чӏужу<n><f><pl><erg>:руччабаз  
+чӏужу<n><f><pl><gen>:руччабаз>ул  
+чӏужу<n><f><pl><dat>:руччабаз>е
+
+LEXICON N-CHIUZHU-LOC
+чӏужу<n><f><sg>:чӏужу>{a}л
+чӏужу<n><f><pl>:руччабаз>
+
+LEXICON N-JAS-ABS-SG
+<f><sg><nom>: 
+
+LEXICON N-JAS-OBL-SG
+<f><sg><obl>:>{a}л{ъ}
+
+LEXICON N-JAS-ABS-PL
+<f><pl><nom>:>{a}л
+
+LEXICON N-JAS-OBL-PL
+<f><pl><obl>:>{a}з
+
+LEXICON N-KIODO-ABS # плюралис как N-JAS-PL
+<f><sg><nom>:
+
+LEXICON N-KIODO-OBL
+<f><sg><erg>:>ца 
+<f><sg><gen>:>л 
+<f><sg><dat>:>ле
+
+LEXICON N-KIODO-LOC
+<f><sg>:>л{ъ} 
+
+LEXICON N-GEOGRAFIJA
+
+<nt><sg>: 
+
+<nt><pl><nom>:>л  
+<nt><pl><erg>:>з  
+<nt><pl><gen>:>зул  
+<nt><pl><dat>:>зе  
+<nt><pl>:>з
+
+LEXICON N-EKSPEDICIJA # сингулярис по типу N-GEOGRAFIJA
+
+<nt><pl><nom>:>би   # Dir/LR
+<nt><pl><erg>:>баз   # Dir/LR
+<nt><pl><gen>:>базул   # Dir/LR
+<nt><pl><dat>:>базе   # Dir/LR
+<nt><pl>:>баз   # Dir/LR
+
+LEXICON N-CIAJI
+
+<nt><sg><nom>:йи  
+<nt><sg><erg>:йи>ялъ  
+<nt><sg><gen>:йи>ялъул  
+<nt><sg><gen>:в>ул  # Dir/LR
+<nt><sg><dat>:йи>ялъе  
+<nt><sg>:йи>ял{ъ}  
+<nt><pl><nom>:йи>ял  
+<nt><pl><erg>:йи>яз  
+<nt><pl><gen>:йи>язул  
+<nt><pl><dat>:йи>язе  
+<nt><pl>:йи>яз  
+
+LEXICON N-SPEKTAKL
+
+<nt><sg><nom>:ь  
+<nt><sg><erg>:>ялъ  
+<nt><sg><gen>:>ялъул  
+<nt><sg><dat>:>ялъе  
+<nt><sg>:>ял{ъ}  
+<nt><pl><nom>:>ял  
+<nt><pl><erg>:>яца  
+<nt><pl><gen>:>язул  
+<nt><pl><dat>:>язе  
+<nt><pl>:>яз  
+
+LEXICON N-BUSEN
+
+<nt><sg><nom>:ен  
+<nt><sg><erg>:ен>алъ  
+<nt><sg><erg>:>аца   # Dir/LR
+<nt><sg><gen>:ен>алъул  
+<nt><sg><gen>:>адул   # Dir/LR
+<nt><sg><dat>:ен>алъе  
+#<n><nt><sg>:>ал{ъ}  
+<nt><sg>:>а  
+<nt><pl><nom>:>аби  
+<nt><pl><erg>:>абаз  
+<nt><pl><gen>:>абазул  
+<nt><pl><dat>:>абазе  
+<nt><pl>:>абаз  
+
+LEXICON N-KALENDAR
+
+<nt><sg><nom>:ь  
+<nt><sg><erg>:>алъ  
+<nt><sg><gen>:>алъул  
+<nt><sg><dat>:>алъе  
+<nt><sg>:>ал{ъ}  
+<nt><pl><nom>:>ал  
+<nt><pl><erg>:>аца  
+<nt><pl><gen>:>азул  
+<nt><pl><dat>:>азе  
+<nt><pl>:>аз  
+
+LEXICON N-CHERX-ABS
+<nt><sg><nom>:ерх
+<nt><pl><nom>:урх>дул
+
+LEXICON N-CHERX-OBL
+<nt><sg><erg>:ерх>алъ  
+<nt><sg><erg>:орх>оца  # Dir/LR
+<nt><sg><gen>:ерх>алъул  
+<nt><sg><gen>:орх>ол  # Dir/LR
+<nt><sg><dat>:орх>олъе  
+<nt><pl><erg>:урх>дуз  
+<nt><pl><gen>:урх>дузул  
+<nt><pl><dat>:урх>дузе
+
+LEXICON N-CHERX-LOC
+<nt><sg>:ерх>ал{ъ}
+<nt><pl>:урх>дуз    
+
+LEXICON N-ROCEN
+
+<nt><sg><nom>:ен  
+<nt><sg><erg>:ен>алъ  
+<nt><sg><gen>:ен>алъул  
+<nt><sg><gen>:а>дул  # Dir/LR
+<nt><sg><dat>:ан>алъе  
+<nt><sg>:ен>ал{ъ}  
+<nt><pl><nom>:ен>ал  
+<nt><pl><erg>:ен>аз  
+<nt><pl><gen>:ен>азул  
+<nt><pl><dat>:ен>азе  
+<nt><pl>:ен>аз  
+
+LEXICON N-HVEL
+
+<nt><sg><nom>:ел  
+<nt><sg><erg>:ел>алъ  
+<nt><sg><erg>:ал>ица  # Dir/LR
+<nt><sg><gen>:ел>алъул  
+<nt><sg><gen>:ал>ил  # Dir/LR
+<nt><sg><dat>:ал>алъе  
+<nt><sg><dat>:ал>ие  # Dir/LR
+<nt><sg>:ел>ал{ъ}  
+<nt><sg>:ал>и  # Dir/LR
+<nt><pl><nom>:ел>ал  
+<nt><pl><erg>:ел>аз  
+<nt><pl><gen>:ел>азул  
+<nt><pl><dat>:ел>азе  
+<nt><pl>:ел>аз  
+
+LEXICON N-KECH
+
+<nt><sg><nom>:ечӏ  
+<nt><sg><erg>:ечӏ>алъ  
+<nt><sg><erg>:Ӏочӏ>оца  # Dir/LR
+<nt><sg><gen>:ечӏ>алъул  
+<nt><sg><gen>:очӏ>ол  # Dir/LR
+<nt><sg><dat>:ечӏ>алъе  
+<nt><sg>:ечӏ>ал{ъ}  
+<nt><sg>:очӏ>ол  # Dir/LR
+<nt><pl><nom>:учӏ>дул  
+<nt><pl><erg>:учӏ>дуз  
+<nt><pl><gen>:учӏ>дузул  
+<nt><pl><dat>:учӏ>дузе  
+<nt><pl>:учӏ>дуз  
+
+LEXICON N-KUCH
+
+<nt><sg><nom>:учӏ  
+<nt><sg><erg>:учӏ>алъ  
+<nt><sg><erg>:очӏ>оца  # Dir/LR
+<nt><sg><gen>:учӏ>алъул  
+<nt><sg><gen>:очӏ>ол  # Dir/LR
+<nt><sg><dat>:учӏ>але  
+<nt><sg>:учӏ>ал{ъ}  
+<nt><sg>:очӏ>ол  # Dir/LR
+<nt><pl><nom>:учӏ>ал  
+<nt><pl><erg>:учӏ>аз  
+<nt><pl><gen>:учӏ>азул  
+<nt><pl><dat>:учӏ>азе  
+<nt><pl>:учӏ>аз  
+
+LEXICON N-GIOR
+
+<nt><sg><nom>:ор  
+<nt><sg><erg>:ор>алъ  
+<nt><sg><erg>:ур>уца  # Dir/LR
+<nt><sg><gen>:ор>алъул  
+<nt><sg><gen>:ур>ул  # Dir/LR
+<nt><sg><dat>:ор>алъе  
+<nt><sg>:ор>ал{ъ}  
+<nt><pl><nom>:ор>ал  
+<nt><pl><erg>:ор>аз  
+<nt><pl><gen>:ор>азул  
+<nt><pl><dat>:ор>азе  
+<nt><pl>:ор>аз  
+
+LEXICON N-LEL
+
+<nt><sg><nom>:ел  
+<nt><sg><erg>:ел>алъ  
+<nt><sg><gen>:ел>алъул  
+<nt><sg><gen>:ал>ил  # Dir/LR
+<nt><sg><dat>:ел>алъе  
+<nt><sg>:>ел{ъ}  
+<nt><pl><nom>:ул>дул  
+<nt><pl><erg>:ул>дуз  
+<nt><pl><gen>:ул>дузул  
+<nt><pl><dat>:ул>дузе  
+<nt><pl>:ул>дуз  
+
+LEXICON N-MAGINA
+
+<nt><sg><nom>:  
+<nt><sg><erg>:>ялъ  
+<nt><sg><gen>:>ялъул  
+<nt><sg><gen>:>дул  # Dir/LR
+<nt><sg><dat>:>ялъе  
+<nt><sg>:>ял{ъ}  
+<nt><pl><nom>:>би  
+<nt><pl><erg>:>бица  
+<nt><pl><gen>:>базул  
+<nt><pl><dat>:>базе  
+<nt><pl>:>баз  
+
+LEXICON N-GIAKLU
+
+<nt><sg><nom>:у  
+<nt><sg><erg>:у>ялъ  
+<nt><sg><gen>:у>ялъул  
+<nt><sg><dat>:у>ялъе  
+<nt><sg>:у>ял{ъ}  
+<nt><pl><nom>:>аби  
+<nt><pl><erg>:>абаз  
+<nt><pl><gen>:>абазул  
+<nt><pl><gen>:у>ялъулъ  
+<nt><pl><dat>:>абазе  
+<nt><pl>:>абаз  
+
+LEXICON N-XIUKMU
+
+<nt><sg><nom>:у  
+<nt><sg><erg>:у>ялъ  
+<nt><sg><gen>:у>ялъул  
+<nt><sg><gen>:у>дул  # Dir/LR
+<nt><sg><dat>:у>ялъе  
+<nt><sg>:у>ял{ъ}  
+<nt><pl><nom>:>аби  
+<nt><pl><erg>:>абаз  
+<nt><pl><gen>:>абазул  
+<nt><pl><gen>:у>ялъулъ  
+<nt><pl><dat>:>абазе  
+<nt><pl>:>абаз  
+
+LEXICON N-GIARAC
+
+<nt><sg><nom>:ац  
+<nt><sg><erg>:ц>уца  
+<nt><sg><gen>:ц>ул  
+<nt><sg><dat>:ц>уе  
+<nt><sg>:ц>у  
+#<n><nt><pl><nom>:>аби  
+#<n><nt><pl><erg>:>абица  
+#<n><nt><pl><gen>:>абазул  
+#<n><nt><pl><gen>:у>ялъулъ  
+#<n><nt><pl><dat>:>абазе  
+#<n><nt><pl>:>абаз  
+
+LEXICON N-GIELMU
+
+<nt><sg><nom>:у  
+<nt><sg><erg>:у>ялъ  
+<nt><sg><gen>:у>ялъул  
+<nt><sg><dat>:у>ялъе  
+<nt><sg>:у>ял{ъ}  
+<nt><pl><nom>:>аби  
+<nt><pl><erg>:>абица  
+<nt><pl><gen>:>абазул  
+<nt><pl><gen>:у>ялъулъ  
+<nt><pl><dat>:>абазе  
+<nt><pl>:>абаз  
+
+LEXICON N-STOL-ABS-SG
+<nt><sg><nom>: 
+
+LEXICON N-STOL-OBL-SG 
+<nt><sg><obl>:{a}л{ъ} 
+
+LEXICON N-STOL-ABS-PL
+<nt><pl><nom>:{a}л
+
+LEXICON N-STOL-OBL-PL
+<nt><pl><obl>:{a}з
+
+LEXICON N-STOL-ERG
+<nt><pl><erg>:{a}ца
+
+LEXICON N-NAJIXAN-DECL-SG
+
+<sg><nom>:н
+<sg><erg>:н{a}с
+<sg><gen>:н{a}сул 
+<sg><dat>:н{a}се 
+<sg>:н{a}с
+
+LEXICON N-NAJIXAN-DECL-PL
+
+<pl><nom>:би
+<pl><erg>:баз
+<pl><gen>:базул
+<pl><dat>:базе 
+<pl>:баз
+
+LEXICON N-AHIHAN # <m>: N-NAJIXAN-DECL-SG <mf>: N-NAJIXAN-DECL-PL 
+
+<f><sg><nom>:н  
+<f><sg><erg>:н>{a}лъ  
+<f><sg><gen>:н>{a}лъу   # check
+<f><sg><dat>:н>{a}лъе  
+<f><sg>:н>{a}л{ъ}
+
+LEXICON N-XVADARUXAN # <m>: N-NAJIXAN-DECL-SG <mf>: N-NAJIXAN-DECL-PL 
+
+<f><sg><nom>:н  
+<f><sg><erg>:н>{a}лъ  
+<f><sg><gen>:н>{a}лъул 
+<f><sg><dat>:н>{a}лъе  
+<f><sg>:н>{a}л{ъ}
+
+LEXICON N-OBSHCHESTVO
+
+<nt><sg><nom>:о  
+<nt><sg><erg>:о>{a}лъ  
+<nt><sg><gen>:о>{a}лъул  
+<nt><sg><dat>:о>{a}лъе  
+<nt><sg>:о>{a}л{ъ}  
+<nt><pl><nom>:а>би  
+<nt><pl><erg>:а>баз  
+<nt><pl><gen>:а>базул  
+<nt><pl><dat>:а>базе  
+<nt><pl>:а>ба  
+
+LEXICON N-GIOLILAV-DECL
+
+<m><sg><nom>:в
+<m><sg><erg>:с
+<m><sg><gen>:сул
+<m><sg><dat>:се
+<m><sg>:с 
+<f><sg><nom>:й
+<f><sg><erg>:лъ
+<f><sg><gen>:лъул
+<f><sg><dat>:лъе
+<f><sg>:л{ъ} 
+<mf><pl><nom>:л
+<mf><pl><erg>:з
+<mf><pl><gen>:зул 
+<mf><pl><dat>:зе
+<mf><pl>:з 
+
+LEXICON N-ASKARIJAV
+
+<m><sg><nom>:в
+<m><sg><erg>:с
+<m><sg><gen>:сул
+<m><sg><dat>:се
+<m><sg>:с
+<mf><pl><nom>:л
+<mf><pl><erg>:з
+<mf><pl><gen>:зул
+<mf><pl><dat>:зе
+<mf><pl>:з
+
+LEXICON N-GIUMRU # по типу N-STOL
+
+<nt><sg><gen>:>дул   # Dir/LR
+
+LEXICON N-RAKI # :акӏ N-STOL ; 
+
+<nt><sg><erg>:>екӏеца   # Dir/LR
+<nt><sg><gen>:>екӏел   # Dir/LR
+<nt><sg><dat>:>екӏее   # Dir/LR
+<nt><sg>:>екӏе   # Dir/LR
+
+LEXICON N-ROH
+
+<nt><sg><nom>:  
+<nt><sg><erg>:>{a}лъ  
+<nt><sg><gen>:>ил  
+<nt><sg><dat>:>{a}лъе  
+<nt><sg>:>{a}л{ъ}  
+<nt><pl><nom>:>{a}л  
+<nt><pl><erg>:>{a}ца  
+<nt><pl><gen>:>{a}зул  
+<nt><pl><dat>:>{a}зе  
+<nt><pl>:>{a}з  
+
+LEXICON N-NUX
+
+<nt><sg><nom>:  
+<nt><sg><erg>:>{a}лъ  
+<nt><sg><gen>:>лул  
+<nt><sg><dat>:>{a}лъе  
+<nt><sg>:  
+<nt><pl><nom>:>{a}л  
+<nt><pl><erg>:>{a}ца  
+<nt><pl><gen>:>{a}зул  
+<nt><pl><dat>:>{a}зе  
+<nt><pl>:>{a}з  
+
+LEXICON N-MUX # N-NUX ; 
+
+<nt><sg><gen>:>алъул  # Dir/LR
+
+LEXICON N-SHAHAR # :ар N-STOL ;
+
+<nt><pl><nom>:р>{a²}би    # Dir/LR
+<nt><pl><erg>:р>{a²}баца   # Dir/LR
+<nt><pl><gen>:р>{a²}базул   # Dir/LR
+<nt><pl><dat>:р>{a²}базе   # Dir/LR
+<nt><pl>:р>{a²}баз   # Dir/LR
+
+LEXICON N-GIALAX
+
+<nt><sg><nom>:ах  
+<nt><sg><erg>:ах>{a}лъ  
+<nt><sg><gen>:>хул  
+<nt><sg><gen>:ах>{a}лъул  # Dir/LR
+<nt><sg><dat>:>хуле  
+<nt><sg><dat>:ах>{a}лъе  # Dir/LR
+<nt><sg>:ах>{a}л{ъ}  
+<nt><pl><nom>:>хал  
+<nt><pl><erg>:>хаца  
+<nt><pl><gen>:>хазул  
+<nt><pl><dat>:>хазе  
+<nt><pl>:>хаз  
+
+LEXICON N-XANZHU-ABS
+<nt><sg><nom>:у
+
+LEXICON N-XANZHU-OBL
+<nt><sg><erg>:>даца  
+<nt><sg><gen>:>дал  
+<nt><sg><dat>:>дале
+
+LEXICON N-XANZHU-LOC
+<nt><sg>:>дал  
+
+LEXICON N-CCIN-ABS
+<nt><sg><nom>:н
+
+LEXICON N-CCIN-OBL
+<nt><sg><erg>:>даца  
+<nt><sg><gen>:>дал  
+<nt><sg><dat>:>дале
+
+LEXICON N-CCIN-LOC
+<nt><sg>:а>дал
+
+LEXICON N-LIM
+
+<nt><sg><nom>:им  
+<nt><sg><erg>:а>даца  
+<nt><sg><erg>:е>ца  # Dir/LR
+<nt><sg><gen>:а>дал  
+<nt><sg><gen>:>лъел  # Dir/LR
+<nt><sg><dat>:а>дале  
+<nt><sg>:а>дал  
+<nt><pl><nom>:ин>{a}л  
+<nt><pl><erg>:ин>{a}ца  
+<nt><pl><gen>:ин>{a}зул  
+<nt><pl><dat>:ин>{a}зе  
+<nt><pl>:ин>{a}з  
+
+LEXICON N-QVATI
+
+<nt><sg><nom>:  
+<nt><sg><erg>:>{a}лъ  
+<nt><sg><gen>:>{a}лъул  
+<nt><sg><gen>:>ул  # Dir/LR
+<nt><sg><dat>:>{a}лъе  
+<nt><sg><dat>:>уле   # Dir/LR
+<nt><sg>:>{a}л{ъ}  
+<nt><pl><nom>:>{a}л  
+<nt><pl><erg>:>{a}з  
+<nt><pl><gen>:>{a}зул  
+<nt><pl><dat>:>{a}зе  
+<nt><pl>:>{a}з  
+
+LEXICON N-MAZGAR
+
+<nt><sg><nom>:  
+<nt><sg><erg>:>{a}лъ  
+<nt><sg><gen>:>{a}лъул  
+<nt><sg><gen>:>ул  # Dir/LR
+<nt><sg><dat>:>{a}лъе  
+<nt><sg><dat>:>уле   # Dir/LR
+<nt><sg>:>{a}л{ъ}  
+
+LEXICON N-MESED
+
+<nt><sg><nom>:  
+<nt><sg><erg>:>{a}лъ  
+<nt><sg><gen>:>{a}лъул  
+<nt><sg><gen>:>ил  # Dir/LR
+<nt><sg><dat>:>{a}лъе  
+<nt><sg><dat>:>иле   # Dir/LR
+<nt><sg>:>{a}л{ъ}  
+<nt><pl><nom>:>{a}л  
+#<n><nt><pl><erg>:>{a}ца  
+<nt><pl><erg>:>{a}з  
+<nt><pl><gen>:>{a}зул  
+<nt><pl><dat>:>{a}зе  
+<nt><pl>:>{a}з  
+
+LEXICON N-SHAL
+
+<nt><sg><nom>:  
+<nt><sg><erg>:>{a}лъ  
+<nt><sg><gen>:>{a}лъул  
+<nt><sg><gen>:>ил  # Dir/LR
+<nt><sg><dat>:>{a}лъе  
+<nt><sg><dat>:>иле   # Dir/LR
+<nt><sg>:>{a}л{ъ}  
+<nt><pl><nom>:>{a}л  
+<nt><pl><erg>:>{a}з  
+<nt><pl><gen>:>{a}зул  
+<nt><pl><dat>:>{a}зе  
+<nt><pl>:>{a}з  
+
+LEXICON N-SON # :он N-MESED ;
+
+<nt><pl><nom>:ан>{a}л   # Dir/LR
+<nt><pl><erg>:ан>{a}з  # Dir/LR
+<nt><pl><gen>:ан>{a}зул  # Dir/LR
+<nt><pl><dat>:ан>{a}зе  # Dir/LR
+<nt><pl>:ан>{a}з  # Dir/LR
+
+LEXICON N-GIECH
+
+<nt><sg><nom>:  
+<nt><sg><erg>:>алъ  
+<nt><sg><erg>:>уца  # Dir/LR
+<nt><sg><gen>:>алъул  
+<nt><sg><gen>:>ул  # Dir/LR
+<nt><sg><dat>:>уле  
+<nt><sg>:>ал{ъ}  
+<nt><sg>:>ул  # Dir/LR
+
+LEXICON N-RAK 
+
+<nt><sg><nom>:  
+<nt><sg><erg>:>алъ  
+<nt><sg><erg>:>уца  # Dir/LR
+<nt><sg><gen>:>алъул  
+<nt><sg><gen>:>ул  # Dir/LR
+<nt><sg><dat>:>уле  
+<nt><sg>:>ал{ъ}  
+<nt><sg>:>ул  # Dir/LR
+<nt><pl><nom>:>{a}л  
+<nt><pl><erg>:>{a}з  
+<nt><pl><gen>:>{a}зул  
+<nt><pl><dat>:>{a}зе  
+<nt><pl>:>{a}з  
+
+LEXICON N-KANLI
+
+<nt><sg><nom>:и  
+<nt><sg><erg>:и>ялъ  
+<nt><sg><gen>:и>ялъул  
+<nt><sg><gen>:>ул  # Dir/LR
+<nt><sg><dat>:и>ялъе   
+<nt><sg>:и>ял{ъ}  
+
+LEXICON N-GIORXI
+
+<nt><sg><nom>:и  
+<nt><sg><erg>:и>ялъ  
+<nt><sg><gen>:и>ялъул  
+<nt><sg><gen>:и>дул  # Dir/LR
+<nt><sg><dat>:и>яле   
+<nt><sg>:и>ял{ъ}  
+<nt><pl><nom>:>аби  
+<nt><pl><erg>:>абаз  
+<nt><pl><gen>:>абазул  
+<nt><pl><dat>:>абазе  
+<nt><pl>:>абаз  
+
+LEXICON N-NAX
+
+<nt><sg><nom>:  
+<nt><sg><erg>:>уца  
+<nt><sg><gen>:>ул  
+<nt><sg><dat>:>уле  
+<nt><sg>:>ул  # Dir/LR
+<nt><pl><nom>:>{a}л  
+<nt><pl><erg>:>{a}з  
+<nt><pl><gen>:>{a}зул  
+<nt><pl><dat>:>{a}зе  
+<nt><pl>:>{a}з  
+
+LEXICON N-RAGH
+
+<nt><sg><nom>:  
+<nt><sg><erg>:>алъ  
+<nt><sg><erg>:>уца  # Dir/LR
+<nt><sg><gen>:>ул  
+<nt><sg><dat>:>уле  
+<nt><sg>:>ал{ъ}  
+<nt><sg>:>ул  # Dir/LR
+<nt><pl><nom>:>{a}л  
+<nt><pl><erg>:>{a}з  
+<nt><pl><gen>:>{a}зул  
+<nt><pl><dat>:>{a}зе  
+<nt><pl>:>{a}з  
+
+LEXICON N-BAQ
+
+<nt><sg><nom>:  
+<nt><sg><erg>:>уца  
+<nt><sg><gen>:>ул  
+<nt><sg><dat>:>уле  
+<nt><sg>:>ул  
+#<n><nt><pl><nom>:>{a}л  
+#<n><nt><pl><erg>:>{a}ца  
+#<n><nt><pl><gen>:>{a}зул  
+#<n><nt><pl><dat>:>{a}зе  
+#<n><nt><pl>:>{a}з  
+
+LEXICON N-RAH
+
+<nt><sg><nom>:  
+<nt><sg><erg>:>алъ  # Dir/LR
+<nt><sg><erg>:>даца  
+<nt><sg><gen>:>дал  
+<nt><sg><dat>:>дале  
+<nt><sg>:>да  
+<nt><sg>:>ал  # Dir/LR
+#<n><nt><pl><nom>:>аби  
+#<n><nt><pl><erg>:>{a}ца  
+#<n><nt><pl><gen>:>{a}базул  
+#<n><nt><pl><dat>:>{a}базе  
+#<n><nt><pl>:>{a}баз  
+
+LEXICON N-CHURI
+
+<nt><sg><nom>:и  
+<nt><sg><erg>:>уца  
+<nt><sg><gen>:>ул  
+<nt><sg><dat>:>уе  
+#<n><nt><sg>:>ул  
+<nt><sg>:>у  
+<nt><pl><nom>:>аби  
+<nt><pl><erg>:>{a}баз  
+<nt><pl><gen>:>{a}базул  
+<nt><pl><dat>:>{a}базе  
+<nt><pl>:>{a}баз  
+
+LEXICON N-DARAN-ABS-SG
+<m><sg><nom>:ан
+
+LEXICON N-DARAN-OBL-PL
+<m><sg><obl>:ан>{a}л{ъ}
+
+LEXICON N-DARAN-ABS-PL
+<m><pl><nom>:м>{a}л
+
+LEXICON N-DARAN-OBL-PL
+<m><pl>:м>{a}з
+
+LEXICON N-DARAN-CORE-CASES
+<erg>:м>ица
+<gen>:м>ил
+
+LEXICON N-GIADAN-ABS-SG
+<m><sg><nom>:н
+
+LEXICON N-GIADAN-OBL-SG
+<m><sg><obl>:м>{a}с
+
+LEXICON N-GIADAN-ABS-PL
+<m><pl><nom>:м>{a}л
+
+LEXICON N-GIADAN-OBL-PL
+<m><pl><obl>:м>{a}з
+
+LEXICON N-XIZAN-ABS
+<nt><sg><nom>:н
+<nt><pl><nom>:м>{a}л 
+
+LEXICON N-XIZAN-OBL
+<nt><sg><erg>:м>{a}лъ  
+<nt><sg><gen>:м>{a}лъул  
+<nt><sg><dat>:м>{a}лъе
+<nt><pl><erg>:м>{a}ца  
+<nt><pl><gen>:м>{a}зул  
+<nt><pl><dat>:м>{a}зе
+<nt><sg><erg>:н>{a}лъ  # Dir/LR
+<nt><sg><gen>:н>{a}лъул  # Dir/LR
+<nt><sg><dat>:н>{a}лъе  # Dir/LR
+<nt><sg><erg>:н>{a}лъ  # Dir/LR
+<nt><sg><gen>:н>{a}лъул  # Dir/LR
+<nt><sg><dat>:н>{a}лъе  # Dir/LR
+<nt><pl><nom>:н>{a}л  # Dir/LR
+<nt><pl><erg>:н>{a}ца  # Dir/LR
+<nt><pl><gen>:н>{a}зул  # Dir/LR
+<nt><pl><dat>:н>{a}зе  # Dir/LR
+
+LEXICON N-XIZAN-LOC
+<nt><sg>:м>{a}л{ъ}
+<nt><pl>:м>{a}з  
+<nt><sg>:н>{a}л{ъ}  # Dir/LR
+<nt><pl>:н>{a}з  # Dir/LR
+
+LEXICON N-KAGHAT
+
+<nt><sg><nom>:ат  
+<nt><sg><erg>:т>ица  
+<nt><sg><gen>:т>ил  
+<nt><sg><dat>:т>иле  
+<nt><sg>:т>и  
+<nt><sg>:ат>ал{ъ}  # Dir/LR # Use/Sub
+<nt><pl><nom>:т>ал  
+<nt><pl><erg>:т>аз  
+<nt><pl><gen>:т>азул  
+<nt><pl><dat>:т>азе  
+<nt><pl>:т>аз  
+
+LEXICON N-URGHEL
+
+<nt><sg><nom>:ел  
+<nt><sg><erg>:ал>ица  
+<nt><sg><gen>:ал>ил  
+<nt><sg><dat>:ал>иле  
+<nt><sg>:ал>ил  
+<nt><pl><nom>:ал>аби  
+<nt><pl><erg>:ал>абаз  
+<nt><pl><gen>:ал>абазул  
+<nt><pl><dat>:ал>абазе  
+<nt><pl>:ал>абаз  
+
+LEXICON N-RETIEL
+
+<nt><sg><nom>:ел  
+<nt><sg><erg>:л>ица  
+<nt><sg><gen>:л>ил  
+<nt><sg><dat>:л>иле  
+<nt><sg>:л>ил  
+
+LEXICON N-LAGHEL
+
+<nt><sg><nom>:ел  
+<nt><sg><erg>:ел>{a}лъ  
+<nt><sg><erg>:ал>ица  # Dir/LR
+<nt><sg><gen>:ел>{a}лъул  
+<nt><sg><gen>:ал>ил  # Dir/LR
+<nt><sg><dat>:ел>{a}лъе  
+<nt><sg><dat>:ал>иле  # Dir/LR
+<nt><sg>:ел>{a}л{ъ}  
+<nt><pl><nom>:ел>{a}л  
+<nt><pl><erg>:ел>{a}з  
+<nt><pl><gen>:ел>{a}зул  
+<nt><pl><dat>:ел>{a}зе  
+<nt><pl>:ел>{a}з  
+
+LEXICON N-RALAD
+
+<nt><sg><nom>:ад  
+<nt><sg><erg>:ад>{a}лъ  
+<nt><sg><erg>:д>{a}ца  # Dir/LR
+<nt><sg><gen>:ад>{a}лъул  
+<nt><sg><gen>:д>{a}лъул  # Dir/LR
+<nt><sg><dat>:ад>{a}лъе  
+<nt><sg><dat>:д>{a}лъе  # Dir/LR
+<nt><sg>:ад>{a}л{ъ}  
+<nt><pl><nom>:ад>{a}л  
+<nt><pl><erg>:ад>{a}ца  
+<nt><pl><gen>:ад>{a}зул  
+<nt><pl><dat>:ад>{a}зе  
+<nt><pl>:ад>{a}з  
+<nt><pl><nom>:д>{a}л  # Dir/LR
+<nt><pl><erg>:д>{a}ца  # Dir/LR
+<nt><pl><gen>:д>{a}зул  # Dir/LR
+<nt><pl><dat>:д>{a}зе  # Dir/LR
+<nt><pl>:д>{a}з  # Dir/LR
+
+LEXICON N-GHURUSH
+
+<nt><sg><nom>:ущ  
+<nt><sg><erg>:ущ>{a}ца   # Dir/LR # Use/Sub
+<nt><sg><gen>:ущ>{a}лъул   # Dir/LR # Use/Sub
+<nt><sg><dat>:ущ>{a}лъе   # Dir/LR # Use/Sub
+#<n><nt><sg>:ущ>{a}л   # Dir/LR # Use/Sub
+<nt><sg><erg>:щ>{a}ца  
+<nt><sg><gen>:щ>ил  
+<nt><sg><dat>:щ>{a}лъе  
+#<n><nt><sg>:щ>{a}л  
+<nt><sg>:щ>и  
+<nt><pl><nom>:ущ>{a}л   # Dir/LR # Use/Sub
+<nt><pl><erg>:ущ>{a}ца   # Dir/LR # Use/Sub
+<nt><pl><gen>:ущ>{a}зул   # Dir/LR # Use/Sub
+<nt><pl><dat>:ущ>{a}зе   # Dir/LR # Use/Sub
+<nt><pl>:ущ>{a}з   # Dir/LR # Use/Sub
+<nt><pl><nom>:щ>{a}л  
+<nt><pl><erg>:щ>{a}ца  
+<nt><pl><gen>:щ>{a}зул  
+<nt><pl><dat>:щ>{a}зе  
+<nt><pl>:щ>{a}з  
+
+LEXICON N-CAD-ABS
+<nt><sg><nom>: 
+
+LEXICON N-CAD-OBL
+<nt><sg><erg>:>аца  
+<nt><sg><gen>:>ал  
+<nt><sg><dat>:>ле  
+
+LEXICON N-CAD-LOC
+<nt><sg>:>ал{ъ}
+
+LEXICON N-ZHO-ABS
+<nt><sg><nom>:о
+<nt><pl><nom>:ал
+
+LEXICON N-ZHO-OBL
+<nt><sg><erg>:о>{a}лъ 
+<nt><sg><gen>:о>{a}лъул
+<nt><sg><dat>:о>{a}лъе
+<nt><pl><erg>:а>ца
+<nt><pl><gen>:а>зул 
+<nt><pl><dat>:а>зе
+
+LEXICON N-ZHO-LOC
+
+<nt><sg>:о>{a}л{ъ}
+<nt><pl>:а>з
+
+LEXICON N-LAGA
+
+<nt><sg><nom>:ага  
+<nt><sg><erg>:ага>{a}лъ  
+<nt><sg><erg>:ог>оца  # Dir/LR
+<nt><sg><gen>:ага>{a}лъул  
+<nt><sg><gen>:ог>ол  # Dir/LR
+<nt><sg><dat>:ага>{a}лъе  
+<nt><sg><dat>:ог>оле  # Dir/LR 
+<nt><sg>:ага>{a}л{ъ}  
+<nt><sg>:ог>ол  # Dir/LR 
+<nt><pl><nom>:уг>би  
+<nt><pl><erg>:уг>би>ца  
+<nt><pl><gen>:уг>бал  
+<nt><pl><dat>:уг>бале  
+<nt><pl>:уг>бал  
+
+LEXICON N-SOBRANIJE-ABS-SG
+<nt><sg><nom>:е
+
+LEXICON N-SOBRANIJE-OBL-SG
+<nt><sg><obl>:>ял{ъ}
+
+LEXICON N-SOBRANIJE-ABS-PL
+<nt><pl><nom>:>ял
+
+LEXICON N-SOBRANIJE-OBL-PL
+<nt><pl><obl>:>яз
+
+LEXICON N-KUC
+
+<nt><sg><nom>:уц  
+<nt><sg><erg>:уц>алъ  
+<nt><sg><erg>:оц>оца   # Dir/LR
+<nt><sg><gen>:уц>алъул  
+<nt><sg><gen>:оц>ол   # Dir/LR
+<nt><sg><dat>:уц>але  
+<nt><sg><dat>:>оцоле   # Dir/LR
+<nt><sg>:уц>ал  
+<nt><sg>:оц>ол   # Dir/LR
+<nt><pl><nom>:уц>ал  
+<nt><pl><erg>:уц>аз  
+<nt><pl><gen>:уц>азул  
+<nt><pl><dat>:уц>азе  
+<nt><pl>:уц>аз  
+
+LEXICON N-QADI
+
+<m><sg><nom>:и  
+<m><sg><erg>:и>яс  
+<m><sg><gen>:и>ясул  
+<m><sg><dat>:и>ясе  
+<m><sg>:и>яс  
+<m><pl><nom>:иял  
+<m><pl><erg>:и>яз  
+<m><pl><gen>:и>язул  
+<m><pl><dat>:и>язе  
+<m><pl>:и>яз  
+
+LEXICON N-ZAVEDUJUSHCHIJ-ABS-SG
+<m><sg><nom>:й
+
+LEXICON N-ZAVEDUJUSHCHIJ-OBL-SG
+<m><sg><obl>:>яс
+
+LEXICON N-ZAVEDUJUSHCHIJ-ABS-PL
+<m><pl><nom>:ял
+
+LEXICON N-ZAVEDUJUSHCHIJ-OBL-PL
+<m><pl><obl>:>яз 
+
+LEXICON N-CHAJ # N-MUZEJ
+<nt><sg><gen>:й>дул  # Dir/LR
+
+LEXICON N-PIL
+
+<nt><sg><nom>:  
+<nt><sg><erg>:>ялъ  
+<nt><sg><gen>:>ялъул  
+<nt><sg><dat>:>ялъе  
+<nt><sg>:>ял{ъ}  
+<nt><pl><nom>:ал  
+<nt><pl><erg>:>аз  
+<nt><pl><gen>:>азул  
+<nt><pl><dat>:>азе  
+<nt><pl>:>аз  
+
+LEXICON N-MUZEJ-ABS-SG
+<nt><sg><nom>:й
+
+LEXICON N-MUZEJ-OBL-SG
+<nt><sg><obl>:>ял{ъ}
+
+LEXICON N-MUZEJ-ABS-PL
+<nt><pl><nom>:ял
+
+LEXICON N-MUZEJ-OBL-PL
+<nt><pl><obl>:>яз
+
+LEXICON N-KAJ-ABS-SG
+<nt><sg><nom>:й
+
+LEXICON N-KAJ
+ 
+<nt><sg><erg>:>ялъ  
+<nt><sg><gen>:>ялъул  
+<nt><sg><dat>:>ялъе  
+
+LEXICON N-KAJ-LOC
+<nt><sg>:>ял{ъ}  
+
+LEXICON N-CHINKILLI-ABS-SG
+<nt><sg><nom>:и
+
+LEXICON N-CHINKILLI
+<nt><sg><erg>:и>ялъ  
+<nt><sg><gen>:>ялъул  
+<nt><sg><dat>:>ялъе
+<nt><pl><nom>:>{a²}би  
+<nt><pl><erg>:>{a²}баца  
+<nt><pl><gen>:>{a²}базул  
+<nt><pl><dat>:>{a²}базе
+
+LEXICON N-CHINKILLI-LOC
+
+<nt><sg><nom>:и  
+<nt><sg><erg>:и>ялъ  
+<nt><sg><gen>:>ялъул  
+<nt><sg><dat>:>ялъе  
+<nt><sg>:и>ял{ъ}  
+<nt><pl><nom>:>{a²}би  
+<nt><pl><erg>:>{a²}баца  
+<nt><pl><gen>:>{a²}базул  
+<nt><pl><dat>:>{a²}базе  
+<nt><pl>:>{a²}баз  
+
+LEXICON N-SHKOLA # школазда
+
+<nt><sg><nom>:  
+<nt><sg><erg>:>{a³}лъ  
+<nt><sg><gen>:>{a³}лъул  
+<nt><sg><dat>:>{a³}лъе  
+<nt><sg>:>{a³}л  
+<nt><pl><nom>:>{a²}л  
+<nt><pl><erg>:>{a²}з  
+<nt><pl><gen>:>{a²}зул  
+<nt><pl><dat>:>{a²}зе  
+<nt><pl>:>з  
+
+LEXICON N-CIA
+
+<nt><sg><nom>:а  
+<nt><sg><erg>:а>{a}лъ  
+<nt><sg><erg>:а>дуца  # Dir/LR
+<nt><sg><erg>:е>ца  # Dir/LR
+<nt><sg><gen>:а>{a}лъул  
+<nt><sg><gen>:а>дул  # Dir/LR
+<nt><sg><gen>:е>л  # Dir/LR
+<nt><sg><dat>:а>{a³}лъе  
+<nt><sg>:а>{a}л{ъ}  
+<nt><pl><nom>:а>{a}л  
+<nt><pl><erg>:а>{a}з  
+<nt><pl><gen>:а>{a}зул  
+<nt><pl><dat>:а>{a}зе  
+<nt><pl>:а>з  
+
+LEXICON N-GIAKA
+
+<nt><sg><nom>:ка  
+<nt><sg><erg>:кдаца  
+<nt><sg><gen>:к>дал   
+<nt><sg><dat>:к>дае   
+<nt><sg>:к>да  
+<nt><pl><nom>:ч>и  
+#<n><nt><pl><erg>:ч>ица  
+#<n><nt><pl><gen>:ач>{a²}базул  
+#<n><nt><pl><dat>:ач>{a²}базе  
+#<n><nt><pl>:аз  
+
+LEXICON N-ROSU
+
+<nt><sg><nom>:у  
+<nt><sg><erg>:даца  
+<nt><sg><gen>:>дал   
+<nt><sg><dat>:>дае   
+<nt><sg>:>да  
+<nt><sg><obl>+лъ<post><loc>:у>лъ  # Dir/LR 
+#<n><nt><sg><gen>:у>лъул  # Dir/LR 
+<nt><sg><obl>+лъ<post><all>:у>лъе  # Dir/LR
+<nt><sg><obl>+лъ<post><abl>:у>лъа  # Dir/LR
+<nt><pl><nom>:>{a²}би  
+<nt><pl><erg>:>{a²}баз  
+<nt><pl><gen>:>{a²}базул  
+<nt><pl><dat>:>{a²}базе  
+<nt><pl>:>{a²}баз  
+
+LEXICON N-ZULMU
+
+<nt><sg><nom>:у  
+<nt><sg><erg>:у>{a}лъ  
+<nt><sg><gen>:у>{a}лъул  
+<nt><sg><dat>:у>{a}лъе  
+<nt><sg>:у>{a}л{ъ}  
+<nt><pl><nom>:>{a²}би  
+<nt><pl><erg>:>{a²}баз  
+<nt><pl><gen>:>{a²}базул  
+<nt><pl><dat>:>{a²}базе  
+<nt><pl>:>{a²}баз  
+
+LEXICON N-GIASRU
+
+<nt><sg><nom>:у  
+<nt><sg><erg>:>{a}лъ  
+<nt><sg><gen>:>{a}лъул  
+<nt><sg><gen>:у>{a}лъул   # Dir/LR # Use/Sub
+<nt><sg><dat>:>{a}лъе  
+<nt><sg>:>{a}л{ъ}  
+<nt><pl><nom>:>{a²}би  
+<nt><pl><erg>:>{a²}баз  
+<nt><pl><gen>:>{a²}базул  
+<nt><pl><dat>:>{a²}базе  
+<nt><pl>:>{a²}баз  
+
+LEXICON N-SCENA 
+
+<nt><sg><nom>:  
+<nt><sg><erg>:>{a}лъ  
+<nt><sg><gen>:>{a}лъул  
+<nt><sg><dat>:>{a}лъе  
+<nt><sg>:>{a}л{ъ}  
+<nt><pl><nom>:>{a²}би  
+<nt><pl><erg>:>{a²}баз  
+<nt><pl><gen>:>{a²}базул  
+<nt><pl><dat>:>{a²}базе  
+<nt><pl>:>{a²}баз  
+
+LEXICON N-MARHA-ABS-SG
+<nt><sg><nom>:
+
+LEXICON N-MARHA-OBL-SG
+<nt><sg><obl>:>{a}л{ъ}
+
+LEXICON N-MARHA-ABS-PL
+<nt><pl><nom>:>{a²}би
+
+LEXICON N-MARHA-OBL-PL
+<nt><pl><obl>:>{a²}баз
+
+LEXICON N-MARHA-ERG
+<nt><sg><gen>:>дул   # Dir/LR
+
+LEXICON N-STUDENTKA # N-JAS-SG ;  
+
+<f><pl><nom>:>{a²}би  
+<f><pl><erg>:>{a²}баз  
+<f><pl><gen>:>{a²}базул  
+<f><pl><dat>:>{a²}базе  
+<f><pl>:>{a²}баз  
+
+LEXICON N-ARTIST # N-VAS-SG ; ка:ка N-JAS-SG ; 
+
+<m><pl><nom>:>{a}л  
+<m><pl><erg>:>{a}з  
+<m><pl><gen>:>{a}зул  
+<m><pl><dat>:>{a}зе  
+<m><pl>:>{a}з  
+
+LEXICON N-AVTOR # N-VAS-SG ; N-JAS-SG ; 
+
+<mf><pl><nom>:>{a}л  
+<mf><pl><erg>:>{a}з  
+<mf><pl><gen>:>{a}зул  
+<mf><pl><dat>:>{a}зе  
+<mf><pl>:>{a}з  
+
+LEXICON N-MUGHALIM # N-VAS-SG ; N-JAS-SG ; 
+
+<m><pl><nom>:>заби  
+<m><pl><erg>:>забаз  
+<m><pl><gen>:>забазул  
+<m><pl><dat>:>забазе  
+<m><pl>:>забаз  
+
+LEXICON N-IMAM # N-VAS-SG ;
+
+<m><pl><nom>:>заби  
+<m><pl><erg>:>забаз  
+<m><pl><gen>:>забазул  
+<m><pl><dat>:>забазе  
+<m><pl>:>забаз  
+
+LEXICON N-SHAGIIR # N-VAS-SG ; N-JAS-SG ; 
+
+<mf><pl><nom>:>заби  
+<mf><pl><erg>:>з  
+<mf><pl><gen>:>зул  
+<mf><pl><dat>:>зе  
+<mf><pl>:>з  
+
+LEXICON N-GIOLOHANCHI-ABS-SG
+<m><sg><nom>:нчи
+
+LEXICON N-GIOLOHANCHI-ABS-PL
+<m><pl><nom>:>би
+
+LEXICON N-GIOLOHANCHI-OBL-SG
+<m><sg><obl>:нчи>яс
+
+LEXICON N-GIOLOHANCHI-OBL-PL
+<m><pl><obl>:>баз
+
+LEXICON N-CHI-ABS-SG
+<m><sg><nom>:и
+
+LEXICON N-CHI-OBL-SG
+<m><sg><obl>:и>{a}с
+
+LEXICON N-CHI-ABS-PL
+<m><pl><nom>:>агӏи
+
+LEXICON N-CHI-OBL-PL
+<m><pl><obl>:>агӏаз  
+
+LEXICON N-LIMER
+
+лъимер<n><m><sg><nom>:лъимер  
+лъимер<n><m><sg><erg>:лъимералъ  
+лъимер<n><m><sg><erg>:лъимераца  # Dir/LR
+лъимер<n><m><sg><gen>:лъимералъул  
+лъимер<n><m><sg><gen>:лъимадул  # Dir/LR
+лъимер<n><m><sg><dat>:лъимералъе  
+лъимер<n><m><sg><dat>:лъимадуле  # Dir/LR
+лъимер<n><m><sg>:лъимерал 
+лъимер<n><m><pl><nom>:лъимал  
+лъимер<n><m><pl><erg>:лъимал>аз  
+лъимер<n><m><pl><gen>:лъимал>азул  
+лъимер<n><m><pl><dat>:лъимал>азе  
+лъимер<n><m><pl>:лъимал>аз  
+
+LEXICON N-EMEN-ABS
+эмен<n><m><sg><nom>:эмен
+эмен<n><m><pl><nom>:умуму>л
+
+LEXICON N-EMEN-OBL
+эмен<n><m><sg><erg>:инсуца  
+эмен<n><m><sg><gen>:инсул  
+эмен<n><m><sg><dat>:инсуе
+эмен<n><m><pl><erg>:умуму>з  
+эмен<n><m><pl><gen>:умуму>зул  
+эмен<n><m><pl><dat>:умуму>зе
+
+LEXICON N-EMEN-LOC
+эмен<n><m><sg>:инсу 
+эмен<n><m><pl>:умуму>з  
+
+LEXICON N-EBEL-ABS
+эбел<n><f><sg><nom>:эбел
+эбел<n><f><pl><nom>:улбул
+
+LEXICON N-EBEL-OBL
+эбел<n><f><sg><erg>:эбел>{a}лъ  
+эбел<n><f><sg><gen>:эбел>{a}лъул  
+эбел<n><f><sg><dat>:эбел>{a}лъе
+эбел<n><f><pl><erg>:улбуз  
+эбел<n><f><pl><gen>:улбузул  
+эбел<n><f><pl><dat>:улбузе
+
+LEXICON N-EBEL-LOC
+эбел<n><f><sg>:эбел>{a}л{ъ} 
+эбел<n><f><pl>:улбуз  
+#<n><f><pl><erg>:руччаби  
+#<n><f><pl><gen>:руччаби  
+#<n><f><pl><dat>:руччаби  
+
+LEXICON N-DARS-ABS
+<nt><sg><nom>:
+<nt><pl><nom>:>ал 
+
+LEXICON N-DARS-OBL
+<nt><sg><erg>:>алъ  
+<nt><sg><erg>:>ица  # Dir/LR
+<nt><sg><gen>:>алъул  
+<nt><sg><gen>:>ил  # Dir/LR
+<nt><sg><dat>:>алъе
+<nt><pl><erg>:>аз  
+<nt><pl><gen>:>азул  
+<nt><pl><dat>:>азе
+
+LEXICON N-DARS-LOC
+<nt><sg>:>и
+<nt><pl>:>аз  
+
+LEXICON N-MOCI-ABS
+<nt><sg><nom>:
+
+LEXICON N-MOCI-OBL
+<nt><sg><erg>:>роца  
+<nt><sg><gen>:>рол  
+<nt><sg><dat>:>рое 
+
+LEXICON N-MOCI-LOC
+<nt><sg>:>ро  
+
+LEXICON N-AX-ABS
+<nt><sg><nom>:
+<nt><pl><nom>:>ал
+
+LEXICON N-AX-OBL
+<nt><sg><erg>:>ица  
+<nt><sg><gen>:>ил  
+<nt><sg><gen>:>алъул  # Dir/LR # Use/Sub
+<nt><sg><dat>:>ие  
+<nt><pl><erg>:>аз  
+<nt><pl><erg>:>азул  
+<nt><pl><erg>:>азе
+
+LEXICON N-AX-LOC 
+<nt><sg>:>ал  # Dir/LR
+<nt><sg>:>и 
+<nt><pl>:>аз  
+
+LEXICON N-RUQ-ABS-SG
+<nt><sg><nom>:
+
+LEXICON N-RUQ-OBL-SG
+<nt><sg><erg>:>{a}лъ  
+<nt><sg><gen>:>{a}лъул  
+<nt><sg><dat>:>{a}лъе 
+
+LEXICON N-RUQ-PL
+<nt><pl><nom>:>зал  
+<nt><pl><erg>:>заз  
+<nt><pl><gen>:>зазул  
+<nt><pl><dat>:>зазе
+<nt><pl><nom>:>заби   # Dir/LR
+<nt><pl><erg>:>забаз   # Dir/LR
+<nt><pl><gen>:>забазул   # Dir/LR
+<nt><pl><dat>:>забазе   # Dir/LR
+
+LEXICON N-RUQ-LOC
+<nt><sg>:>{a}л{ъ}  
+<nt><pl>:>заз
+<nt><pl>:>забаз   # Dir/LR
+
+LEXICON N-SORDO
+
+<nt><sg><nom>:ордо  
+<nt><sg><erg>:ордо>ялъ  # Dir/LR
+<nt><sg><erg>:ард>ица  
+<nt><sg><gen>:ордо>ялъул  # Dir/LR
+<nt><sg><gen>:ард>ил  
+<nt><sg><dat>:ордо>алъе  
+<nt><sg>:ордо>ал{ъ}  
+<nt><pl><nom>:ард>ал  
+<nt><pl><erg>:ард>ал  
+<nt><pl><gen>:ард>азул  
+<nt><pl><dat>:ард>азе  
+<nt><pl><dat>:ард>аз  
+
+LEXICON N-XABAR 
+
+<nt><sg><nom>:бар  
+<nt><sg><erg>:бар>алъ  # Dir/LR
+<nt><sg><erg>:рб>ица  
+<nt><sg><gen>:бар>алъул  # Dir/LR
+<nt><sg><gen>:рб>ил  
+<nt><sg><dat>:бар>алъе  
+<nt><sg>:бар>ал{ъ}  
+<nt><pl><nom>:бар>ал  # Dir/LR 
+<nt><pl><nom>:рб>ал  
+<nt><pl><erg>:рб>ал  
+<nt><pl><gen>:рб>азул  
+<nt><pl><dat>:рб>азе  
+<nt><pl><dat>:рб>аз  
+
+LEXICON N-KAPEK
+
+<nt><sg><nom>:апек  
+<nt><sg><erg>:апек>алъ  # Dir/LR
+<nt><sg><erg>:апк>ица  
+<nt><sg><gen>:апек>алъул  # Dir/LR
+<nt><sg><gen>:апк>ил  
+<nt><sg><dat>:апек>алъе  
+<nt><sg>:епек>ал{ъ}  
+<nt><pl><nom>:епк>ал  # Dir/LR 
+<nt><pl><nom>:епк>ал  
+<nt><pl><erg>:епк>ал  
+<nt><pl><gen>:епк>азул  
+<nt><pl><dat>:епк>азе  
+<nt><pl><dat>:епк>аз  
+
+LEXICON N-HUMER
+
+<nt><sg><nom>:мер  
+<nt><sg><erg>:мер>алъ  
+<nt><sg><gen>:мер>алъул  
+<nt><sg><gen>:рм>ал   # Dir/LR
+<nt><sg><dat>:мер>алъе  
+<nt><sg><gen>:рм>але   # Dir/LR
+<nt><sg>:мер>ал{ъ}  
+<nt><pl><nom>:рм>ал  
+#<n><nt><pl><erg>:>ица  
+
+LEXICON N-BOSEN
+
+<nt><sg><nom>:ен  
+<nt><pl><nom>:>аби  
+
+LEXICON N-UCHITEL-ABS-SG
+<m><sg><nom>:ь
+
+LEXICON N-UCHITEL-OBL-SG 
+<m><sg><obl>:ас 
+
+LEXICON N-UCHITEL-ABS-PL
+<m><pl><nom>:ь>заби
+
+LEXICON N-UCHITEL-OBL-PL  
+<m><pl><obl>:ь>забаз  
+
+LEXICON N-PREDSEDATEL-ABS-SG # N-UCHITEL ; 
+<f><sg><nom>:ь
+
+LEXICON N-PREDSEDATEL-OBL-SG
+<f><sg><obl>:ал{ъ}
+
+LEXICON N-PREDSEDATEL-CORE-CASES
+<erg>:  
+<gen>:ул  
+<dat>:уле 
+
+LEXICON N-PREPODAVATEL
+
+<m><sg><nom>:ь  
+<m><sg><erg>:ас  
+<m><sg><gen>:асул  
+<m><sg><dat>:асе  
+<m><sg>:ас  
+<m><pl><nom>:ал  
+<m><pl><nom>:ьзаби  # Dir/LR # Use/Sub
+<m><pl><erg>:аз  
+<m><pl><erg>:ьзабаз  # Dir/LR # Use/Sub
+<m><pl><gen>:азул  
+<m><pl><dat>:азе  
+<m><sg>:аз  
+
+LEXICON N-GII-ABS
+<m><sg><nom>: 
+<m><pl><nom>:>ял
+
+LEXICON N-GII-OBL
+<m><sg><erg>:>яца
+<m><sg><gen>:>ял
+<m><sg><dat>:>яле     
+<m><pl><erg>:>яз
+<m><pl><gen>:>язул  
+<m><pl><dat>:>язе 
+
+LEXICON N-GII-LOC
+<m><sg>:>я
+<m><sg>:>яз
+
+LEXICON N-PRAVILO
+
+<nt><sg><nom>:о  
+#<n><nt><sg><erg>:ала>ялъ  
+#<n><nt><sg><gen>:ала>ялъул  
+#<n><nt><sg><gen>:ала>дул  # Dir/LR 
+#<n><nt><sg><dat>:ала>яле  
+#<n><nt><sg>:ала>ял  
+<nt><pl><nom>:а>би  
+<nt><pl><erg>:а>баз  
+<nt><pl><gen>:а>базул  
+<nt><pl><dat>:а>базе  
+<nt><sg>:а>баз  
+
+LEXICON N-TIALA 
+
+<nt><sg><nom>:ала  
+<nt><sg><erg>:ала>ялъ  
+<nt><sg><gen>:ала>ялъул  
+<nt><sg><gen>:ала>дул  # Dir/LR 
+<nt><sg><dat>:ала>яле  
+<nt><sg>:ала>ял{ъ}  
+<nt><pl><nom>:ул>би  
+<nt><pl><erg>:ул>баз  
+<nt><pl><gen>:ул>базул  
+<nt><pl><dat>:ул>базе  
+<nt><sg>:ул>баз  
+
+LEXICON N-NART
+
+<nt><sg><nom>:  
+<nt><sg><erg>:алъ  
+<nt><sg><gen>:алъул  
+<nt><sg><gen>:ил  # Dir/LR
+<nt><sg><dat>:алъе  
+<nt><sg>:>ал{ъ}  
+
+LEXICON N-TAMIXI-ABS
+<nt><sg><nom>:
+
+LEXICON N-TAMIXI-OBL
+<nt><sg><erg>:алъ  
+<nt><sg><gen>:алъул  
+<nt><sg><dat>:алъе
+
+LEXICON N-TAMIXI-LOC  
+<nt><sg>:>ал{ъ}  
+
+LEXICON N-KVEN
+
+<nt><sg><nom>:ен  
+<nt><sg><erg>:ан>ица  
+<nt><sg><gen>:ан>ил  
+<nt><sg><dat>:ан>ие  
+<nt><sg>:ан>и  
+
+LEXICON N-HAN
+
+<nt><sg><nom>:  
+<nt><sg><erg>:>аца  
+<nt><sg><gen>:>ал  
+<nt><sg><dat>:>але  
+<nt><sg>:>ал{ъ}  
+
+LEXICON N-GHIRA
+
+<nt><sg><nom>:  
+<nt><sg><erg>:>ялъ  
+<nt><sg><gen>:>ялъул  
+<nt><sg><gen>:>дул  # Dir/LR
+<nt><sg><dat>:>ялъе  
+<nt><sg>:>ял{ъ}  
+
+LEXICON N-BASI # :аси N-GHIRA ; 
+
+<nt><pl><nom>:ус>би  
+<nt><pl><erg>:ус>баз  
+<nt><pl><gen>:ус>базул  
+<nt><pl><dat>:ус>базе  
+<nt><sg>:ус>баз
+
+LEXICON N-OC 
+
+<nt><sg><nom>:  
+<nt><sg><erg>:>алъ  
+<nt><sg><erg>:>оца  # Dir/LR
+<nt><sg><gen>:>алъул  
+<nt><sg><gen>:>ол  # Dir/LR
+<nt><sg><dat>:>алъе  
+<nt><sg>:>ал{ъ}  
+<nt><pl><nom>:>ал  
+<nt><pl><erg>:>аз  
+<nt><pl><gen>:>азул  
+<nt><pl><dat>:>азе  
+<nt><sg>:>аз  
+
+LEXICON N-INZHIT-ABS
+<nt><sg><nom>: 
+
+LEXICON N-INZHIT-OBL
+<nt><sg><erg>:>ица  
+<nt><sg><gen>:>ил  
+<nt><sg><dat>:>ие 
+
+LEXICON N-INZHIT-LOC 
+<nt><sg>:>и  
+
+LEXICON N-FIZIKA-ABS
+<nt><sg><nom>:
+
+LEXICON N-FIZIKA-OBL
+<nt><sg><erg>:>ялъ  
+<nt><sg><gen>:>ялъул  
+<nt><sg><dat>:>ялъе
+
+LEXICON N-FIZIKA-LOC
+<nt><sg>:>ял{ъ} 
+
+LEXICON N-BOCI
+
+<nt><sg><nom>:и  
+<nt><sg><erg>:уца  
+<nt><sg><gen>:ул  
+<nt><sg><dat>:уе  
+<nt><sg>:>у  
+
+LEXICON N-BETIER
+
+<m><sg><nom>:етӏер  
+<m><sg><erg>:отӏроца  
+<m><sg><erg>:етӏерас   # Dir/LR # Use/Sub
+<m><sg><gen>:отӏрол   
+<m><sg><gen>:етӏерасул   # Dir/LR # Use/Sub
+<m><sg><dat>:етӏерасе   
+<m><sg>:етӏерас  
+<f><sg><nom>:етӏер  
+<f><sg><erg>:етӏералъ  
+<f><sg><gen>:етӏералъул  
+<f><sg><dat>:етӏрале   
+<f><sg>:етӏерал{ъ}  
+<mf><pl><nom>:утӏ>рул  
+<mf><pl><erg>:утӏ>руз  
+<mf><pl><gen>:утӏ>рузул  
+<mf><pl><dat>:утӏ>рузе  
+<mf><pl>:утӏ>руз  
+
+LEXICON N-MEGHER
+
+<nt><sg><nom>:егӏер  
+<nt><sg><erg>:егӏералъ  
+<nt><sg><gen>:егӏералъул  
+<nt><sg><gen>:угӏрул   # Dir/LR
+<nt><pl><nom>:угӏ>рул  
+<nt><pl><erg>:угӏ>руз  
+<nt><pl><gen>:угӏ>рузул  
+<nt><pl><dat>:угӏ>рузе  
+<nt><pl>:угӏ>руз  
+
+LEXICON N-JANVAR
+
+<nt><sg><nom>:ь  
+<nt><sg><erg>:алъ  
+<nt><sg><gen>:алъул  
+<nt><sg>:>ал{ъ}  
+
+LEXICON N-FINANSAL
+
+<nt><pl><nom>:л  
+<nt><pl><erg>:>з  
+<nt><pl><gen>:>зул  
+<nt><pl><dat>:>зе  
+<nt><pl>:>з  
+
+LEXICON N-GIEMERISEL
+
+<mf><pl><nom>:л  
+<mf><pl><erg>:>з  
+<mf><pl><gen>:>зул  
+<mf><pl><gen>:>зе  
+<mf><pl>:>з  
+
+LEXICON N-BICEN
+
+<nt><sg><gen>:адул  # Dir/LR
+
+LEXICON N-XAL-INDECL
+
+<nt>: 
+
+LEXICON N-HARAK
+
+<nt><sg><nom>:акь  
+<nt><sg><erg>:акь>алъ  
+<nt><sg><erg>:кь>ица  # Dir/LR
+<nt><sg><gen>:акь>алъул  
+<nt><sg><gen>:кь>ил  # Dir/LR
+<nt><sg><dat>:акь>алъе  
+<nt><sg>:акь>ал{ъ}  
+
+LEXICON N-IRGA
+
+<nt><sg><nom>:  
+<nt><sg><erg>:>ялъ  
+<nt><sg><erg>:>ца  # Dir/LR
+<nt><sg><gen>:>ялъул  
+<nt><sg><gen>:>дул  # Dir/LR
+<nt><sg><dat>:>ялъе  
+<nt><sg>:>ал{ъ}  
+
+LEXICON N-XER
+
+<nt><sg><nom>:ер  
+<nt><sg><erg>:ар>ица  
+<nt><sg><gen>:ар>ил  
+<nt><sg><gen>:ер>алъул  # Dir/LR # Use/Sub
+<nt><sg><dat>:ар>иле  
+<nt><sg>:ар>ил{ъ}  
+
+LEXICON N-JARGH
+
+<nt><sg><nom>:агъ  
+<nt><sg><erg>:гъ>ица  
+<nt><sg><gen>:гъ>ил  
+<nt><sg><dat>:гъ>иле  
+<nt><sg>:гъ>ил  
+
+LEXICON N-KEREN
+
+<nt><sg><nom>:ерен  
+<nt><sg><erg>:аран>ца  
+<nt><sg><gen>:аран>зул  
+<nt><sg><dat>:аран>зуе  
+<nt><sg>:аран  
+<nt><pl><nom>:урмул  
+<nt><pl><erg>:урму>з  
+<nt><pl><gen>:урму>зул  
+<nt><pl><dat>:урму>зуе  
+<nt><pl>:урму>зул  
+
+LEXICON N-XINHCHI
+
+<nt><sg><nom>:инчӏ  
+<nt><sg><erg>:анчӏи>ца  
+<nt><sg><gen>:анчӏи>л  
+<nt><sg><dat>:анчӏи>е  
+<nt><sg>:анчӏи  
+<nt><pl><nom>:анчӏи  
+#<n><nt><pl><erg>:анчӏи>з  
+#<n><nt><pl><gen>:анчӏи>зул  
+#<n><nt><pl><dat>:анчӏи>зе  
+#<n><nt><pl>:анчӏи>з  
+
+LEXICON N-XIARP
+
+<nt><sg><nom>:арп  
+<nt><sg><erg>:арп>алъ  
+<nt><sg><gen>:арп>алъул  
+<nt><sg><gen>:арп>ил  # Dir/LR
+<nt><sg><dat>:арп>але  
+<nt><sg>:арп>ал{ъ}  
+<nt><pl><nom>:арпал  
+<nt><pl><erg>:арп>аз  
+<nt><pl><gen>:арп>азул  
+<nt><pl><dat>:арп>азе  
+<nt><pl>:арп>аз  
+<nt><pl><nom>:урупал   # Dir/LR
+<nt><pl><erg>:уруп>аз   # Dir/LR
+<nt><pl><gen>:уруп>азул   # Dir/LR
+<nt><pl><dat>:уруп>азе   # Dir/LR
+<nt><pl>:уруп>азул   # Dir/LR
+
+LEXICON N-HURI
+
+<nt><sg><nom>:ури  
+<nt><sg><erg>:ороца  
+<nt><sg><gen>:орол  
+<nt><sg><dat>:ороле  
+<nt><sg>:орол  
+<nt><pl><nom>:урал  
+<nt><pl><erg>:ур>аз  
+<nt><pl><gen>:ур>азул  
+<nt><pl><dat>:ур>азе  
+<nt><pl>:ур>аз  
+
+LEXICON N-RII
+
+<nt><sg><nom>:ии  
+<nt><sg><erg>:ии>ялъ  
+<nt><sg><gen>:ии>далил  
+<nt><sg><gen>:оо>л   # Dir/LR
+<nt><sg><dat>:ии>ялъе  
+<nt><sg>:ии>дали  
+
+LEXICON N-HORKO
+
+<nt><sg><nom>:оркьо  
+<nt><sg><erg>:аркьица  
+<nt><sg><gen>:аркьил  
+<nt><sg><dat>:аркьие  
+<nt><sg>:аркьи  
+<nt><pl><nom>:аркьал  
+<nt><pl><erg>:аркь>аз  
+<nt><pl><gen>:аркь>азул  
+<nt><pl><dat>:аркь>азе  
+<nt><pl>:аркь>аз  
+
+LEXICON N-TIEX
+
+<nt><sg><nom>:ех  
+<nt><sg><erg>:ох>оца  
+<nt><sg><gen>:ох>ол  
+<nt><sg><gen>:ех>алъул  # Dir/LR # Use/Sub
+<nt><sg><dat>:ох>ое  
+<nt><sg><dat>:ех>алъе  # Dir/LR # Use/Sub
+<nt><sg>:ехал  
+
+LEXICON N-BERTIN
+
+<nt><sg><nom>:ин  
+<nt><sg><erg>:аца  
+<nt><sg><gen>:адул  
+<nt><sg><dat>:алъе  
+<nt><sg>:а  
+<nt><pl><nom>:аби  
+<nt><pl><erg>:>абаз  
+<nt><pl><gen>:>абазул  
+<nt><pl><dat>:>абазе  
+<nt><pl>:>абаз  
+
+LEXICON N-HOBOL
+
+<m><sg><nom>:обол  
+<m><sg><erg>:оболас  
+<m><sg><gen>:оболасул  
+<m><sg><dat>:оболе  
+<m><sg>:оболас  
+<f><sg><nom>:обол  
+<f><sg><erg>:оболалъ  
+<f><sg><gen>:оболалъул  
+<f><sg><dat>:оболалъе  
+<f><sg>:оболал{ъ}  
+<mf><pl><nom>:албал  
+<mf><pl><erg>:алба>дерица  
+<mf><pl><gen>:алба>дерил  
+<mf><pl><dat>:алба>дерие  
+<mf><pl>:алба>дери  
+
+LEXICON N-XONO
+
+<nt><sg><nom>:оно  
+<nt><sg><erg>:оноялъ  
+<nt><sg><gen>:оноялъул  
+<nt><sg><dat>:онояле  
+<nt><sg><erg>:аница  # Dir/LR
+<nt><sg><gen>:анил  # Dir/LR
+<nt><sg><dat>:ание  # Dir/LR
+<nt><sg>:оноял  
+<nt><pl><nom>:анал  
+<nt><pl><erg>:ан>аз  
+<nt><pl><gen>:ан>азул  
+<nt><pl><dat>:ан>азе  
+<nt><pl>:ан>аз  
+
+LEXICON N-ANK
+
+<nt><sg><nom>:  
+<nt><sg><erg>:алъ  
+<nt><sg><gen>:алъул  
+<nt><sg><dat>:але  
+<nt><sg><erg>:ица  # Dir/LR
+<nt><sg><gen>:ил  # Dir/LR
+<nt><sg><dat>:ие  # Dir/LR
+<nt><sg>:и  
+<nt><pl><nom>:ал  
+<nt><pl><erg>:>аз  
+<nt><pl><gen>:>азул  
+<nt><pl><dat>:>азе  
+<nt><pl>:>аз  
+
+LEXICON N-QED
+
+<nt><sg><nom>:ед  
+<nt><sg><erg>:адаца  
+<nt><sg><gen>:адал  
+<nt><sg><dat>:адале  
+<nt><sg>:едал  
+<nt><pl><nom>:адал  
+<nt><pl><erg>:ад>аз  
+<nt><pl><gen>:ад>азул  
+<nt><pl><dat>:ад>азе  
+<nt><pl>:ад>аз  
+
+LEXICON N-LADI-ABS
+<f><sg><nom>:ади
+<f><pl><nom>:удаби
+
+LEXICON N-LADI-OBL
+<f><sg><erg>:адиялъ  
+<f><sg><erg>:адуца   # Dir/LR
+<f><sg><gen>:адиялъул  
+<f><sg><gen>:адул   # Dir/LR
+<f><sg><dat>:адиялъе
+<f><pl><erg>:уд>абаз  
+<f><pl><gen>:уд>абазул  
+<f><pl><dat>:уд>абазе
+
+LEXICON N-LADI-LOC
+<f><sg>:адиял
+<f><pl>:уд>абаз
+
+LEXICON N-TORGIO
+
+<nt><sg><nom>:оргӏо  
+<nt><sg><erg>:оргӏоялъ  
+<nt><sg><erg>:аргӏица   # Dir/LR
+<nt><sg><gen>:оргӏоялъул  
+<nt><sg><gen>:аргӏил   # Dir/LR
+<nt><sg><dat>:аргӏие  
+<nt><sg>:аргӏи  
+<nt><pl><nom>:аргӏал  
+<nt><pl><erg>:аргӏаз  
+<nt><pl><gen>:аргӏазул  
+<nt><pl><dat>:аргӏазе  
+<nt><pl>:аргӏаз  
+
+LEXICON N-MAGIU
+
+<nt><sg><nom>:у  
+<nt><sg><erg>:ица   
+<nt><sg><erg>:уялъ  # Dir/LR
+<nt><sg><gen>:ил  
+<nt><sg><dat>:уе  
+<nt><sg>:у  
+
+LEXICON N-KINI
+
+<nt><sg><nom>:и 
+<nt><sg><erg>:иялъ   
+<nt><sg><gen>:иялъул   
+<nt><sg><gen>:идул   # Dir/LR
+<nt><sg><dat>:ие   
+<nt><sg>:иял   
+<nt><pl><nom>:ал 
+<nt><pl><erg>:аз 
+<nt><pl><erg>:азул 
+<nt><pl><erg>:азе 
+<nt><pl>:аз 
+
+LEXICON N-GIUNGUTII-DECL-SG
+
+<nt><sg><nom>:и 
+<nt><sg><erg>:иялъ   
+<nt><sg><gen>:иялъул   
+<nt><sg><dat>:ие   
+<nt><sg>:иял   
+
+LEXICON N-GIUNGUTII-DECL-PL
+
+<nt><pl><nom>:аби 
+<nt><pl><erg>:абаз 
+<nt><pl><erg>:абазул 
+<nt><pl><erg>:абазе 
+<nt><pl>:абаз 
+
+LEXICON N-HERESI
+
+<nt><sg><nom>:еси 
+<nt><sg><erg>:есиялъ   
+<nt><sg><erg>:сиялъ  # Dir/LR
+<nt><sg><gen>:есиялъул   
+<nt><sg><gen>:есил  # Dir/LR
+<nt><sg><dat>:есие   
+<nt><sg>:есиял   
+<nt><pl><nom>:сал 
+<nt><pl><erg>:саз 
+<nt><pl><erg>:сазул 
+<nt><pl><erg>:сазе 
+<nt><pl>:саз 
+
+LEXICON N-CHCHUGIA
+
+<nt><sg><nom>:а 
+<nt><sg><erg>:аялъ   
+<nt><sg><erg>:ица  # Dir/LR
+<nt><sg><gen>:аялъул   
+<nt><sg><gen>:ил  # Dir/LR
+<nt><sg><dat>:ие   
+<nt><sg>:аял{ъ}   
+<nt><pl><nom>:аби 
+<nt><pl><erg>:абаз 
+<nt><pl><erg>:абазул 
+<nt><pl><erg>:абазе 
+<nt><pl>:абаз 
+
+LEXICON N-GHVETI
+
+<nt><sg><nom>:ветӏ 
+<nt><sg><erg>:ветӏалъ   
+<nt><sg><erg>:отӏоца  # Dir/LR
+<nt><sg><gen>:ветӏалъул   
+<nt><sg><gen>:отӏол  # Dir/LR
+<nt><sg><dat>:ветӏале   
+<nt><sg>:ветӏал   
+<nt><pl><nom>:утӏби 
+<nt><pl><erg>:утӏбаз 
+<nt><pl><erg>:утӏбазул 
+<nt><pl><erg>:утӏбазе 
+<nt><pl>:утӏбаз 
+
+LEXICON N-AXII # N-GIUNGUTII-DECL-SG ; 
+
+<nt><sg><erg>:уца  # Dir/LR
+<nt><sg><gen>:ул  # Dir/LR
+
+LEXICON N-GALI # N-GIUNGUTII ; 
+
+<nt><sg><erg>:уца  # Dir/LR
+<nt><sg><gen>:ул  # Dir/LR
+
+LEXICON N-BO
+
+<nt><sg><nom>: 
+<nt><sg><erg>:ялъ   
+<nt><sg><gen>:л   
+<nt><sg><gen>:дул  # Dir/LR
+<nt><sg><dat>:е   
+<nt><sg>:л{ъ}   
+<nt><pl><nom>:ял 
+<nt><pl><erg>:яз 
+<nt><pl><erg>:язул 
+<nt><pl><erg>:язе 
+<nt><pl>:яз 
+
+LEXICON N-CHED
+
+<nt><sg><nom>:ед 
+<nt><sg><erg>:адица   
+<nt><sg><gen>:адил   
+<nt><sg><dat>:адие   
+<nt><sg>:адал{ъ}   
+<nt><pl><nom>:адал 
+<nt><pl><erg>:адаз 
+<nt><pl><erg>:адазул 
+<nt><pl><erg>:адазе 
+<nt><pl>:адаз 
+
+LEXICON N-BI
+
+<nt><sg><nom>: 
+<nt><sg><erg>:ца   
+<nt><sg><erg>:дуца  # Dir/LR
+<nt><sg><erg>:ялъ  # Dir/LR
+<nt><sg><gen>:дул   
+<nt><sg><dat>:дие   
+#<n><nt><sg>:адал   
+<nt><pl><nom>:ял 
+<nt><pl><erg>:яз 
+<nt><pl><erg>:язул 
+<nt><pl><erg>:язе 
+<nt><pl>:яз 
+
+LEXICON N-BAQAN
+
+<nt><pl><nom>:нал 
+<nt><pl><erg>:наз 
+<nt><pl><erg>:назул 
+<nt><pl><erg>:назе 
+<nt><pl>:наз 
+
+LEXICON N-TIORSHCHEL
+
+<nt><sg><erg>:алица  # Dir/LR
+<nt><sg><gen>:алил  # Dir/LR
+
+LEXICON N-XXVEL
+
+<nt><sg><gen>:алил  # Dir/LR
+
+LEXICON N-CIIBIL
+
+<nt><sg><nom>:ил 
+<nt><sg><erg>:оца   
+<nt><sg><gen>:ол   
+<nt><sg><dat>:ое   
+<nt><sg>:ол   
+
+LEXICON N-SUDJA
+
+<m><sg><nom>:  
+<m><pl><nom>:би  
+<m><pl><erg>:баз  
+<m><pl><gen>:базул  
+
+LEXICON N-XIOR # N-AX ; 
+
+<nt><pl><nom>:дул  # Dir/LR
+
+LEXICON N-KEP # :еп N-STOL ; 
+
+<nt><sg><gen>:опол  
+
+LEXICON N-GIELEGI # :егӏ N-STOL-DECL-SG ; 
+
+<nt><pl><nom>:гӏал 
+<nt><pl><erg>:гӏаз 
+<nt><pl><gen>:гӏазул 
+<nt><pl><dat>:гӏазе 
+<nt><pl>:гӏаз 
+
+LEXICON N-KURDI 
+
+<nt><sg><nom>:и  
+#<n><nt><sg><erg>:  
+<nt><sg><gen>:ул  
+#<n><nt><sg><dat>:ул  
+#<n><nt><sg>:ул  
+<nt><pl><nom>:аби  
+<nt><pl><erg>:абаз  
+<nt><pl><gen>:абазул  
+<nt><pl><dat>:абазе  
+<nt><pl>:абаз  
+
+LEXICON N-BECHED 
+
+<nt><sg><nom>:ечед 
+<nt><sg><erg>:ичас   
+<nt><sg><gen>:ичасул   
+<nt><sg><dat>:ичасе   
+<nt><sg>:ичас   
+<nt><pl><nom>:ечедал 
+<nt><pl><erg>:ечедаз   
+<nt><pl><gen>:ечедазул   
+<nt><pl><dat>:ечедазе   
+<nt><pl>:ечедаз   
+
+LEXICON N-TUKEN
+
+<nt><sg><nom>:ен 
+<nt><sg><erg>:еналъ   
+<nt><sg><erg>:аца   # Dir/LR
+<nt><sg><gen>:еналъул   
+<nt><sg><gen>:адул  # Dir/LR
+<nt><sg><dat>:еналъе   
+<nt><sg>:енал{ъ}   
+<nt><pl><nom>:аби 
+<nt><pl><erg>:абаз   
+<nt><pl><gen>:абазул   
+<nt><pl><dat>:абазе   
+<nt><pl>:абаз   
+
+LEXICON N-RAGIAL
+
+<nt><sg><nom>:  
+<nt><sg><erg>:>{a}лъ  
+<nt><sg><gen>:>{a}лъул  
+<nt><sg><dat>:>{a}лъе  
+<nt><sg>:>  
+<nt><sg>:>ал{ъ}  # Dir/LR
+<nt><pl><nom>:>{a}л  
+<nt><pl><erg>:>{a}з  
+<nt><pl><gen>:>{a}зул  
+<nt><pl><dat>:>{a}зе  
+<nt><pl>:>{a}з  
+
+##########
+
+LEXICON N-VAS-Root
+вас:вас # "мальчик"
+рос:рос # "муж, супруг"
+методист:методист # ""
+капиталист:капиталист # "капиталист"
+лидер:лидер # ""
+диктатор:диктатор # ""
+бизнесмен:бизнесмен # ""
+Аллагь:Аллагь # "Бог"
+террорист:террорист # "террорист"
+партизан:партизан # ""
+терапевт:терапевт # ""
+психотерапевт:психотерапевт # ""
+фашист:фашист # ""
+музыкант:музыкант # "музыкант"
+поэт:поэт # ""
+революционер:революционер # ""
+отличник:отличник # ""
+хъачагъ:хъачагъ # ""
+муфти:муфти # ""
+мэр:мэр # ""
+дурц:дурц # ""
+сенатор:сенатор # ""
+милиционер:милиционер # ""
+бетӏергьанчи:бетӏергьанчи # ""
+инсан:инсан # "человек"
+вац:вац # "брат"
+бахӏарчи:бахӏарчи # "смельчак"
+боксёр:боксер # "боксер"
+тайбоксер:тайбоксер # ""
+кикбоксер:кикбоксер # ""
+электромонтёр:электромонтёр # ""
+студент:студент # "студент"
+боевик:боевик # ""
+
+LEXICON N-BIHINCHI-Root
+бихьинчи:бихьин # "мужчина"
+
+LEXICON N-GIALIMCHI-Root
+гӏалимчи:гӏалим # "учёный; учёный муж"
+
+LEXICON N-CHI-Root
+чи:ч # "человек"
+колхозчи:колхозч # "колхозник"
+хӏаракатчи:хӏаракатч # "активный человек, активист; общественник; деятель"
+хӏиллачи:хӏиллач # "плут, обманщик, мошенник"
+автоматчи:автоматч # " автоматчик"
+вагӏзачи:вагӏзач # " проповедник"
+гӏакълучи:гӏакълуч # " советник, советчик"
+гӏарзачи:гӏарзач # " пренебр. жалобщик, доносчик"
+гӏахьалчи:гӏахьалч # " участник; сотоварищ"
+гӏащтӏичи:гӏащтӏич # " палач"
+гъалмагъирчи:гъалмагъирч # " бузотёр"
+гьокочи:гьокоч # " аробщик, подводчик; возница"
+гьунарчи:гьунарч # " талантливый человек, умелец"
+даранчи:даранч # " перекупщик; торговец, коммерсант; спекулянт"
+жамагӏатчи:жамагӏатч # " "
+жахӏдачи:жахӏдач # "завистник"
+жигарчи:жигарч # "энергичный, расторопный человек 2) инициатор"
+захӏматчи:захӏматч # " труженик"
+зулмучи:зулмуч # " притеснитель, угнетатель, тиран, эксплуататор; деспот"
+ижарачи:ижарач # " 1) арендатор 2) подрядчик"
+кумекчи:кумекч # " помощник"
+махщелчи:махщелч # " искусник, мастер"
+насихӏатчи:насихӏатч # " наставник; советник"
+пастӏанчи:пастӏанч # "огородник"
+ришватчи:ришватч # " взяточник"
+сапарчи:сапарч # " путешественник"
+складчи:складч # ""
+тӏадчи:тӏадч # " руководитель, глава, главарь"
+таксичи:таксич # " таксист"
+такъсирчи:такъсирч # " виновник; преступник"
+талавурчи:талавурч # " грабитель, налётчик"
+тарбиячи:тарбияч # " воспитатель"
+тӏарикъатчи:тӏарикъатч # " 1) последователь тариката; святоша"
+тарихчи:тарихч # " историк"
+узденчи:узденч # ""
+хӏелхӏелчи:хӏелхӏелч # "подлиза, подхалим"
+хӏисабчи:хӏисабч # " учётчик"
+хиянатчи:хиянатч # " изменник, предатель"
+хъамалчи:хъамалч # " грабитель, расхититель; мародёр"
+хъулухъчи:хъулухъч # " 1) служащий 2) слуга, работник"
+
+LEXICON N-GIOLOHANCHI-Root
+гӏолохъанчи:гӏолохъа # "юноша, молодой человек; парень"
+
+LEXICON N-PREDSEDATEL-Root
+секретарь:секретар # ""
+председатель:председател # "председатель"
+заместитель:заместител # "заместитель"
+
+LEXICON N-GIADAN-Root
+гӏадан:гӏада # "человек"
+
+LEXICON N-DARAN-Root
+даран:дар # "торговля, коммерция; торг"
+
+LEXICON N-STOL-Root
+мацӏ:мацӏ # "язык"
+кафе:кафе # ""
+сертификат:сертификат # "сертификат"
+зал:зал # "зал"
+тунка-гӏуси:тунка-гӏуси # "стычка; столкновение"
+интервью:интервью # "интервью"
+статус:статус # ""
+хис-бас:хис-бас # "мена, обмен"
+бюро:бюро # "бюро"
+хиса-баси:хиса-баси # "перемена, перемены; изменения"
+компонент:компонент # "компонент"
+сапар:сапар # "поездка"
+мисал:мисал # "пример, образец"
+хӏал:хӏал # "состояние, положение, дело; обстоятельство; случай; настроение, самочувствие"
+приём:приём # ""
+кьер:кьер # "цвет, окраска"
+метеор:метеор # ""
+рухӏ:рухӏ # "душа"
+посёлок:посёлок # "посёлок"
+сайгъат:сайгъат # ""
+сагӏат:сагӏат # ""
+союз:союз # "союз"
+тадбир:тадбир # "мероприятие, мера"
+ракагӏат:ракагӏат # "ритуальный цикл намаза"
+мавлид:мавлид # "мовлюд"
+амру:амру # "приказ, распоряжение"
+грамм:грамм # "грамм"
+гьечӏолъи:гьечӏолъи # "неимение, нехватка, недостаток"
+хайир:хайир # "польза; прибыль; выгода; благо; доход"
+профсоюз:профсоюз # "профсоюз"
+къваригӏел:къваригӏел # "нужда, потребность, надобность"
+батӏалъи:батӏалъи # "разница"
+хитӏаб:хитӏаб # "обращение"
+газ:газ # "газ"
+грэпплинг:грэпплинг # "грэпплинг"
+спарринг:спарринг # ""
+хиянат:хиянат # "измена, предательство; вероломство"
+хӏажат:хӏажат # "нужда, потребность; надобность; необходимость; желание; дело"
+рахӏат:рахӏат # "отдых, покой; спокойствие"
+суд:суд # "суд"
+медколледж:медколледж # "медколледж"
+колледж:колледж # "колледж"
+дуниял:дуниял # "мир, свет"
+дуниял:дунял # "мир, свет" # Dir/LR
+панкратион:панкратион # "панкратион"
+анищ:анищ # "мечта, чаяние"
+гӏамал:гӏамал # "характер, нрав"
+самолёт:самолёт # "самолёт"
+зоб:зоб # "небо"
+жамагӏат:жамагӏат # "общество"
+хъалиян:хъалиян # "кальян"
+миллат:миллат # "народ"
+центр:центр # "центр"
+пресс-центр:пресс-центр # "центр"
+хӏикмат:хӏикмат # "диво, чудо"
+нигӏмат:нигӏмат # "благо"
+адаб:адаб # "вежливость, учтивость; воспитанность"
+хӏурмат:хӏурмат # "почёт, почтение, уважение, авторитет; честь"
+шахмат:шахмат # ""
+сияхӏ:сияхӏ # "перечень, список"
+яшав:яшав # "жизнь, житьё"
+канал:канал # "канал"
+сайт:сайт # "сайт"
+рищи:рищи # "выборы"
+бергьенлъи:бергьенлъи # "победа"
+бихьи:бихьи # "видимость"
+экзамен:экзамен # "экзамен"
+телескоп:телескоп # "телескоп"
+чу:чу # "лошадь"
+ток:ток # "ток, электричество"
+цӏар:цӏар # "имя"
+консерв:консерв # "консерв"
+къо:къо # "день"
+стол:стол # "стол"
+компьютер:компьютер # "компьютер"
+кьо:кьо # "мост"
+ци:ци # "медвед"
+район:район # "район"
+алфавит:алфавит # "алфавит"
+гьава-бакъ:гьава-бакъ # "погода"
+къасд:къасд # "намерение, желание"
+класс:класс # "класс"
+квер:квер # "рука" #FIXME:paradig
+лъар:лъар # "река" #FIXME:paradig
+чардахъ:чардахъ # "чердак"
+гӏадлу:гӏадлу # "порядок, дисциплина"
+март:март # ""
+август:август # ""
+мех:мех # "время"
+цӏех-рех:цӏех-рех # "распросы, опрос"
+жумхӏурият:жумхӏурият # "республика"
+кӏал:кӏал # "рот"
+журнал:журнал # ""
+кутак:кутак # "сила, мощь"
+тарих:тарих # "история"
+адабият:адабият # "литература"
+халкъ:халкъ # "народ, публика"
+рес:рес # "возможность"
+конгресс:конгресс # "конгресс"
+бакӏ:бакӏ # "место"
+рахъ:рахъ # "сторона"
+къадар:къадар # "судьба, рок; количество"
+космос:космос # "космос"
+дин:дин # "религия"
+баян:баян # "сведение"
+ислам:ислам # "ислам"
+даптар:даптар # "тетрадь"
+департамент:департамент # "департамент"
+регламент:регламент # "регламент"
+интернет:интернет # ""
+мактаб:мактаб # "школа"
+объект:объект # "объект"
+парламент:парламент # "парламент"
+предмет:предмет # "предмет"
+процент:процент # "процент"
+система:система # "система"
+хӏисаб:хӏисаб # "счёт"
+хӏасил:хӏасил # "результат; итог; вывод"
+тӏарикъат:тӏарикъат # "тарикат"
+хӏукумат:хӏукумат # "правительство, власть"
+тухум:тухум # "род, тухум"
+мажгит:мажгит # "мечеть"
+мажгит:масжид # "мечеть" # Dir/LR
+шаригӏат:шаригӏат # "шариат"
+вилаят:вилаят # "провинция, область"
+шаргӏ:шаргӏ # "шариат"
+хасият:хасият # "характер"
+совет:совет # "совет"
+юг:юг # "юг"
+шавкат:шавкат # "сила, мощь, могущество"
+хӏаракат:хӏаракат # "активность"
+сурат:сурат # "изображение, портрет, картина, рисунок"
+полк:полк # "полк"
+медпункт:медпункт # "медпункт"
+мазгьаб:мазгьаб # "учение"
+маданият:маданият # "культура"
+захӏмат:захӏмат # "трудность"
+гъазават:гъазават # "газават"
+балагь:балагь # "беда, несчастье, горе, невзгода"
+калам:калам # "слово; речь; разговор"
+къимат:къимат # "цена; ценность"
+инкар:инкар # "отказ; отрицание; ослушание; возражение"
+хӏайван:хӏайван # "скотина; животное"
+мажлис:мажлис # "собеседование"
+съезд:съезд # "съезд"
+билингвизм:билингвизм # ""
+бюрократизм:бюрократизм # ""
+вагьабизм:вагьабизм # ""
+реализм:реализм # ""
+социализм:социализм # ""
+туризм:туризм # ""
+романтизм:романтизм # ""
+суфизм:суфизм # ""
+буддизм:буддизм # ""
+фашизм:фашизм # ""
+терроризм:терроризм # ""
+экстремизм:экстремизм # ""
+фанатизм:фанатизм # ""
+патриотизм:патриотизм # ""
+сепаратизм:сепаратизм # ""
+марксизм:марксизм # ""
+ленинизм:ленинизм # ""
+контртерроризм:контртерроризм # ""
+коммунизм:коммунизм # ""
+капитализм:капитализм # ""
+атеизм:атеизм # ""
+алкоголизм:алкоголизм # ""
+плюрализм:плюрализм # ""
+радикализм:радикализм # ""
+профессионализм:профессионализм # ""
+шовинизм:шовинизм # ""
+иш:иш # "дело, работа"
+кумек:кумек # "помощь, содействие"
+суал:суал # "вопрос, проблема, задача"
+пайда:пайда # "польза, выгода, прок, толк"
+жаваб:жаваб # "ответ"
+тӏалаб:тӏалаб # "требование, спрос"
+гӏайиб:гӏайиб # "вина, виновность"
+харж:харж # "расход, издержки, трата, затраты"
+зарал:зарал # "вред, убыток, ущерб"
+закон:закон # ""
+гьунар:гьунар # "подвиг; умение, искусство"
+ихтияр:ихтияр # "право, полномочие"
+ахӏвал-хӏал:ахӏвал-хӏал # "положение, обстановка, ситуация"
+асар:асар # "влияние, действие, воздействие"
+низам:низам # "порядок, режим, система"
+хӏакъикъат:хӏакъикъат # "суть, сущность"
+нухмалъи:нухмалъи # "руководство"
+мурад:мурад # "желание, цель"
+президиум:президиум # "президиум"
+магӏишат:магӏишат # "бытовые условия, жизненный уровень"
+спорт:спорт # "спорт"
+кӏвар:кӏвар # "забота, беспокойствие"
+аборт:аборт # "аборт"
+авлахъ:авлахъ # "равнина; степь; салул"
+автобус:автобус # "автобус"
+автовокзал:автовокзал # "автовокзал"
+автограф:автограф # "автограф"
+автомат:автомат # "автомат"
+агрегат:агрегат # "агрегат"
+азбар:азбар # "двор"
+аккумулятор:аккумулятор # "аккумулятор; электрикалъул"
+алат:алат # "орудие, инструмент; прибор; деталь; хӏалтӏул"
+алимент:алимент # "алимент"
+альбом:альбом # "альбом; суратазул"
+анализ:анализ # "анализ; бидул"
+архив:архив # "архив ; пачалихъалъулаб"
+аскар:аскар # "войско, армия; лъелаб"
+атом:атом # "атом"
+аэродром:аэродром # "аэродром"
+аэропорт:аэропорт # "аэропорт"
+базар:базар # "базар, рынок"
+даран-базар:даран-базар # "торговля, купля-продажа, коммерция"
+байрам:байрам # "праздник"
+балет:балет # "балет"
+банк:банк # "банк"
+банкет:банкет # "банкет"
+бланк:бланк # "бланк"
+вагон:вагон # "вагон"
+вариант:вариант # "вариант"
+велосипед:велосипед # "велосипед"
+взвод:взвод # "взвод"
+витамин:витамин # "витамин"
+военкомат:военкомат # "военкомат "
+вокзал:вокзал # "вокзал"
+газет:газет # "газета"
+галстук:галстук # "галстук"
+гараж:гараж # "гараж"
+гектар:гектар # "гектар"
+генератор:генератор # "генератор"
+горизонт:горизонт # "горизонт"
+градус:градус # "градус"
+дандеруссин:дандеруссин # "союз, объединение; собрание, собор"
+диагноз:диагноз # "диагноз"
+диалект:диалект # "диалект"
+доклад:доклад # "доклад"
+документ:документ # "документ"
+доллар:доллар # "доллар"
+жанавар:жанавар # "звер"
+жанр:жанр # "жанр"
+завод:завод # "завод"
+заказ:заказ # "заказ"
+изолятор:изолятор # "изолятор"
+илбис:илбис # "дьявол, чёрт"
+интернат:интернат # "интернат"
+казият:казият # "газета"
+киловатт:киловатт # "киловатт"
+киловольт:киловольт # "киловольт"
+килограмм:килограмм # "килограмм"
+кинотеатр:кинотеатр # "кинотеатр"
+бизнес:бизнес # "бизнес"
+китаб:китаб # "писание, книга"
+колхоз:колхоз # "колхоз"
+комбайн:комбайн # "комбайн"
+комбинат:комбинат # "комбинат"
+сокомбинат:сокомбинат # "комбинат"
+комиссариат:комиссариат # "комиссариат"
+комитет:комитет # "комитет"
+комплекс:комплекс # "комплекс"
+спорткомплекс:спорткомплекс # "спорткомплекс"
+агрокомплекс:агрокомплекс # "агрокомплекс"
+контракт:контракт # "контракт"
+концерт:концерт # "концерт"
+корпус:корпус # "корпус"
+кредит:кредит # "кредит"
+къавм:къавм # "народ, люди; племя; нация"
+къел:къел # "спор"
+лимон:лимон # "лимон"
+лифт:лифт # "лифт"
+магазин:магазин # "магазин"
+маршрут:маршрут # "маршрут"
+материал:материал # "материал"
+металл:металл # "металл"
+минерал:минерал # "минерал"
+митинг:митинг # "митинг"
+мотор:мотор # "мотор"
+мотоцикл:мотоцикл # "мотоцикл"
+налог:налог # "налог"
+образ:образ # "образ"
+океан:океан # "океан"
+округ:округ # "округ"
+орган:орган # "орган"
+отдел:отдел # "отдел"
+отпуск:отпуск # "отпуск"
+отряд:отряд # "отряд"
+памятник:памятник # "памятник, монумент"
+пачалихъ:пачалихъ # "государство"
+поезд:поезд # "поезд"
+помидор:помидор # "помидор"
+портрет:портрет # "портрет"
+пост:пост # "пост"
+поход:поход # "поход"
+поч:поч # "почта"
+праздник:праздник # "праздник"
+пресс:пресс # "пресс"
+приказ:приказ # "приказ"
+продукт:продукт # "продукт"
+проект:проект # "проект"
+законопроект:законопроект # ""
+техпроект:техпроект # ""
+агроэкопроект:агроэкопроект # ""
+проспект:проспект # "проспект"
+процесс:процесс # "процесс; уголовнияб"
+разряд:разряд # "разряд"
+райком:райком # "райком"
+райцентр:райцентр # "райцентр "
+режим:режим # "режим"
+рисалат:рисалат # "письмо; послание; записка"
+сектор:сектор # "сектор"
+совхоз:совхоз # "совхоз"
+солдат:солдат # "солдат"
+спортзал:спортзал # "спортзал"
+спортклуб:спортклуб # "спортклуб"
+стадион:стадион # "стадион"
+субъект:субъект # "субъект"
+талат:талат # "вторник"
+театр:театр # "театр"
+текст:текст # "текст"
+телевизор:телевизор # "телевизор"
+телефон:телефон # "телефон"
+университет:университет # "университет"
+факультет:факультет # "факультет"
+иммунитет:иммунитет # "иммунитет"
+фильм:фильм # "фильм"
+форум:форум # "форум"
+фронт:фронт # "фронт"
+футбол:футбол # "футбол"
+хиял:хиял # "мечта, фантазия; утопия"
+холодильник:холодильник # "холодильник"
+хъулухъ:хъулухъ # "служба, пост; должность; служение"
+цакъ:цакъ # "зуб, зубик"
+цирк:цирк # "цирк"
+чайник:чайник # "чайник"
+экран:экран # "экран"
+элемент:элемент # "элемент"
+ящик:ящик # "ящик"
+гӏарз:гӏарз # "жалоба"
+айгъир:айгъир # "жеребец"
+ангар:ангар # "ангар"
+анекдот:анекдот # "анекдот"
+антракт:антракт # "антракт"
+апельсин:апельсин # "апельсин"
+аппарат:аппарат # "аппарат"
+арбабаш:арбабаш # "кошма"
+аргъан:аргъан # "гармонь, гармоника, гармошка"
+артезиан:артезиан # "артезиан"
+аттестат:аттестат # "аттестат"
+ашбаз:ашбаз # "харчевня, столовая"
+баб:баб # "книжн. глава, раздел произведения"
+баклажан:баклажан # "баклажан"
+бакъдебусс:бакъдебусс # "подсолнечник, подсолнух"
+баргъич:баргъич # "перстень, кольцо"
+батальон:батальон # "батальон"
+баш:баш # "регион. голова" # Use/Sub
+регион:регион # "регион"
+бидурихь:бидурихь # "кровеносный сосуд"
+блиндаж:блиндаж # "блиндаж"
+блок:блок # "блок"
+бокал:бокал # "бокал"
+бокь:бокь # "хлев"
+бриллиант:бриллиант # "бриллиант"
+бульвар:бульвар # "бульварбугеб"
+буран:буран # "буря, буран, вьюга, метель"
+буругъ:буругъ # "вышка буровая"
+бухьен:бухьен # "связь, телефоналъул"
+васигат:васигат # "завещание, завет"
+васият:васият # "см. васигат"
+верст:верст # "см. верс"
+вечер:вечер # "вечер"
+взнос:взнос # "взнос"
+гарнизон:гарнизон # "гарнизон"
+герб:герб # "герб"
+гибрид:гибрид # "биол. гибрид"
+гимн:гимн # "гимн"
+гол:гол # "гол"
+гонорар:гонорар # "гонорар"
+гранатомёт:гранатомёт # "воен. гранатомёт"
+график:график # "график"
+гъулбас:гъулбас # "подпись"
+гьужум:гьужум # "наступление, штурм, приступ, вооружённое нападение, атака, вторжение, натиск, бросок, налёт"
+гӏуж:гӏуж # "пора, время, сезон, период; метка, отметина; знак; тавро"
+период:период # ""
+даб:даб # "десна"
+декрет:декрет # "декрет"
+дивизион:дивизион # "воен. дивизион"
+диктант:диктант # "диктант"
+дневник:дневник # "дневник"
+доход:доход # "доход"
+жанахӏ:жанахӏ # "коридор, сени"
+жуз:жуз # "1. книжн. брошюра"
+забор:забор # "забор"
+залп:залп # "залп"
+заповедник:заповедник # "заповедник"
+значок:значок # "значок"
+исполком:исполком # "исполком"
+их:их # "весна"
+кабинет:кабинет # "кабинет"
+камал:камал # "уст. широкий"
+каникул:каникул # "каникулы"
+карамат:карамат # "чудо"
+квалквал:квалквал # "помеха, препятствие, препона, преграда, затруднение"
+кванирукъ:кванирукъ # "желудок"
+квартет:квартет # "муз. квартет"
+кверкъел:кверкъел # "ручка"
+килас:килас # "уст. крест"
+кирпич:кирпич # "кирпич"
+код:код # "код"
+кодекс:кодекс # "кодекс"
+коллектив:коллектив # "коллектив"
+комплект:комплект # "комплект"
+компот:компот # "компот"
+компресс:компресс # "компресс"
+конверт:конверт # "конверт"
+конкурс:конкурс # "конкурс"
+контейнер:контейнер # "контейнер"
+континент:континент # "континент"
+конфет:конфет # "конфета"
+коньяк:коньяк # "коньяк"
+кооператив:кооператив # "кооператив"
+коридор:коридор # "коридор"
+крахмал:крахмал # "крахмал"
+крем:крем # "крем"
+кризис:кризис # "кризис"
+кроссворд:кроссворд # "кроссворд"
+кружок:кружок # "кружок"
+куб:куб # "мат. куб"
+кубок:кубок # "спорт. кубок"
+кубометр:кубометр # "лъабго"
+кузов:кузов # "кузов"
+куплет:куплет # "куплет"
+курорт:курорт # "курорт"
+курс:курс # "курс"
+къанун:къанун # "закон, канон"
+къарз:къарз # "долг, заём, кредит, ссуда"
+къуват:къуват # "сила, мощь, могущество, энергия"
+Къуръан:Къуръан # "Коран"
+лаб:лаб # "подмётка"
+лажбар:лажбар # "краска"
+лазарет:лазарет # "лазарет"
+ликпункт:ликпункт # "ист. ликпункт"
+лимузин:лимузин # "лимузин"
+лозунг:лозунг # "лозунг"
+магнитофон:магнитофон # "магнитофон"
+мажмугӏ:мажмугӏ # "сборник"
+маймалак:маймалак # "обезьяна, мартышка"
+макарон:макарон # "макароны"
+мандарин:мандарин # "мандарин"
+мандат:мандат # "мандат"
+маркӏачӏукак:маркӏачӏукак # "предвечерний намаз"
+матч:матч # "матч"
+маузер:маузер # "маузер"
+махӏкамат:махӏкамат # "управление"
+мел:мел # "мел"
+мехел:мехел # "сутки"
+микроб:микроб # "микроб"
+микрон:микрон # "микрон"
+микрофон:микрофон # "микрофон"
+миллиард:миллиард # "миллиард"
+миллиметр:миллиметр # "миллиметр"
+миномёт:миномёт # "миномёт"
+минут:минут # "минута, минутка"
+мужалат:мужалат # "переплёт"
+мулк:мулк # "см. милк"
+мунагь:мунагь # "грех, вина"
+накъит:накъит # "беседа, разговор"
+накъиш:накъиш # "узор, рисунок, орнамент, резная надпись, резьба, вышивка, украшение"
+наркотик:наркотик # "наркотик"
+насос:насос # "насос"
+наушник:наушник # "наушник"
+нахърател:нахърател # "запас, запасы"
+нитрат:нитрат # "хим. нитрат"
+ният:ният # "см. нигат"
+норматив:норматив # "норматив"
+нусиреч:нусиреч # "паук-крестовик"
+обелиск:обелиск # "архит. обелиск"
+обком:обком # "обком"
+облисполком:облисполком # "облисполком"
+окоп:окоп # "окоп"
+ор:ор # "ров"
+ордек:ордек # "утка"
+ордер:ордер # "ордер"
+оркестр:оркестр # "муз. оркестр, симфониялъулаб"
+осётр:осётр # "осётр"
+отчёт:отчёт # "отчёт"
+охцер:охцер # "огурец"
+очерк:очерк # "очерк"
+падеж:падеж # "грам. падеж"
+пакет:пакет # "пакет"
+панкъ:панкъ # "лепёшка"
+пансионат:пансионат # "пансионат"
+папирос:папирос # "папироса"
+парад:парад # "парад"
+парик:парик # "парик"
+паровоз:паровоз # "паровоз"
+партбилет:партбилет # "партбилет"
+партер:партер # "партер"
+партком:партком # "партком"
+паспорт:паспорт # "паспорт"
+патефон:патефон # "патефон"
+пединститут:пединститут # "пединститут"
+литинститут:литинститут # "литинститут"
+мединститут:мединститут # "мединститут"
+институт:институт # "институт"
+педуниверситет:педуниверситет # "педуниверситет"
+петер:петер # "уст. постоялый двор"
+пикет:пикет # "пикет"
+пинкь:пинкь # "мозоль"
+питомник:питомник # "питомник"
+плакат:плакат # "плакат"
+план:план # "план"
+плащ:плащ # "плащ"
+пленум:пленум # "пленум"
+пляж:пляж # "пляж"
+полигон:полигон # "полигон"
+порошок:порошок # "порошок"
+порт:порт # "порт"
+почтамт:почтамт # "почтамт"
+препарат:препарат # "препарат"
+прибор:прибор # "прибор"
+приёмник:приёмник # "приёмник, радиоприёмник"
+приз:приз # "приз"
+принцип:принцип # "принцип"
+прогноз:прогноз # "прогноз"
+пропуск:пропуск # "пропуск"
+протез:протез # "протез"
+протокол:протокол # "протокол"
+пулемёт:пулемёт # "пулемёт"
+пульт:пульт # "пульт"
+пункт:пункт # "пункт"
+райвоенкомат:райвоенкомат # "райвоенкомат"
+райисполком:райисполком # "уст. райисполком"
+ранг:ранг # "ранг"
+рапорт:рапорт # "рапорт"
+рас:рас # "волос, волосы"
+расен:расен # "узор"
+раунд:раунд # "спорт. раунд"
+реестр:реестр # "реестр"
+резерв:резерв # "резерв"
+рейд:рейд # "рейд"
+рейс:рейс # "рейс"
+рекорд:рекорд # "рекорд"
+ректорат:ректорат # "ректорат"
+рельс:рельс # "рельс"
+репертуар:репертуар # "репертуар"
+ресторан:ресторан # "ресторан"
+референдум:референдум # "референдум"
+рецепт:рецепт # "рецепт"
+ринг:ринг # "ринг"
+ришват:ришват # "взятка"
+роман:роман # "роман"
+руссен:руссен # "прибежище, пристанище, приют, кров, жилище, стоянка"
+сантиметр:сантиметр # "сантиметр"
+сас:сас # "звук, голос, шум"
+сбербанк:сбербанк # "сбербанк"
+сбор:сбор # "сбор"
+сборник:сборник # "сборник"
+светофор:светофор # "светофор"
+свод:свод # "свод"
+сезон:сезон # "сезон"
+сейф:сейф # "сейф"
+секретариат:секретариат # "секретариат"
+секунд:секунд # "секунда"
+семинар:семинар # "семинар"
+сепаратор:сепаратор # "сепаратор"
+сигарет:сигарет # "сигарета"
+сигнал:сигнал # "сигнал"
+символ:символ # "символ"
+симпозиум:симпозиум # "симпозиум"
+синоним:синоним # "линг. синоним"
+синтаксис:синтаксис # "грам. синтаксис"
+склад:склад # "склад"
+слёт:слёт # "слёт"
+совмин:совмин # "ист. совмин"
+совнарком:совнарком # "совнарком"
+сонет:сонет # "сонет"
+сорт:сорт # "сорт"
+состав:состав # "состав"
+спутник:спутник # "спутник"
+стаж:стаж # "стаж"
+стандарт:стандарт # "стандарт"
+станок:станок # "станок"
+стенд:стенд # "стенд"
+субботник:субботник # "субботник"
+сулахъ:сулахъ # "соты"
+сурсат:сурсат # "провизия"
+суффикс:суффикс # "грам. суффикс"
+сухъмахъ:сухъмахъ # "тропа, тропинка, стёжка"
+счёт:счёт # "фин. счёт"
+счётчик:счётчик # "счётчик"
+сюжет:сюжет # "лит. сюжет"
+таж:таж # "корона, венок"
+тазият:тазият # "место, где выражают соболезнование"
+тайм:тайм # "тайм"
+такъсир:такъсир # "вина, преступление"
+талон:талон # "талон"
+тариф:тариф # "тариф"
+терек:терек # "регион. узор, орнамент" # Use/Sub
+термин:термин # "термин"
+террор:террор # "террор"
+тест:тест # "тест"
+техникум:техникум # "техникум"
+тир:тир # "тир"
+тираж:тираж # "тираж"
+том:том # "том"
+топоним:топоним # "топоним"
+торт:торт # "торт"
+трактор:трактор # "трактор"
+транспарант:транспарант # "транспарант"
+транспорт:транспорт # "транспорт"
+трансформатор:трансформатор # "трансформатор"
+троллейбус:троллейбус # "троллейбус"
+тубдиспансер:тубдиспансер # "тубдиспансер"
+тумен:тумен # "десять рублей, червонец, десятка"
+убач:убач # "ласк. поцелуй, чмоканье"
+углевод:углевод # "хим. углевод"
+уезд:уезд # "ист. уезд"
+указ:указ # "указ"
+укол:укол # "мед. укол"
+уммат:уммат # "народ, племя, община, толпа, сборище"
+ункъил:ункъил # "четвёрка"
+устав:устав # "устав"
+учебник:учебник # "учебник"
+учёт:учёт # "учёт"
+факультатив:факультатив # "факультатив"
+фейерверк:фейерверк # "фейерверк"
+фельетон:фельетон # "фельетон"
+филиал:филиал # "филиал"
+фильтр:фильтр # "фильтр"
+финал:финал # "спорт. финал"
+финотдел:финотдел # "финотдел"
+флот:флот # "флот"
+фонд:фонд # "фонд"
+фотоаппарат:фотоаппарат # "фотоаппарат"
+фотоконкурс:фотоконкурс # "фотоконкурс"
+фунт:фунт # "фунт"
+халип:халип # "формовка"
+хӏамам:хӏамам # "баня"
+хандакъ:хандакъ # "окоп, ров"
+хӏарим:хӏарим # "уст. общественное поле, общественный сенокос"
+харицел:харицел # "коса"
+хӏедучирахъ:хӏедучирахъ # "свеча"
+химикат:химикат # "химикат"
+хор:хор # "хор"
+хурхен:хурхен # "отношение, касательство, связь"
+хъабан:хъабан # "кабан, боров"
+хъарпуз:хъарпуз # "арбуз"
+хъумуз:хъумуз # "комуз"
+центнер:центнер # "центнер"
+цех:цех # "цех"
+цӏурабакь:цӏурабакь # "горская колбаса"
+чайгъуд:чайгъуд # "чайная ложка"
+чангит:чангит # "недоуздок"
+чвахунцӏад:чвахунцӏад # "проливной дождь, ливень"
+чӏегӏерхӏайван:чӏегӏерхӏайван # "крупный рогатый скот, букв. чёрный скот"
+чек:чек # "чек"
+чемодан:чемодан # "чемодан"
+чемпионат:чемпионат # "чемпионат"
+шаг:шаг # "разг. шаг"
+шагьранух:шагьранух # "см. шагьра"
+шапакъат:шапакъат # "награда, вознаграждение"
+шартӏ:шартӏ # "условие, положение, шанс, цо"
+шарф:шарф # "шарф"
+медицина:медицина # "медицина"
+шаршав:шаршав # "простыня"
+шашликӏ:шашликӏ # "шашлык"
+шитил:шитил # "рассада"
+шифер:шифер # "шифер"
+шприц:шприц # "шприц"
+штаб:штаб # "штаб"
+штамп:штамп # "штамп"
+щвантӏих:щвантӏих # "дудка, свирель"
+экземпляр:экземпляр # "экземпляр"
+экипаж:экипаж # "экипаж"
+экскаватор:экскаватор # "экскаватор"
+экспонат:экспонат # "экспонат"
+элеватор:элеватор # "элеватор"
+эпос:эпос # "лит. эпос"
+эскадрон:эскадрон # "эскадрон"
+эшелон:эшелон # "эшелон"
+юк:юк # "ноша, вьюк, груз, поклажа"
+юргъан:юргъан # "стеганое одеяло"
+як:як # "як"
+ясбер:ясбер # "зрачок"
+такрар:такрар # "повтор"
+#чӏухӏи:чӏухӏи # "гордость"
+райбюджет:райбюджет # "райбюджет"
+бюджет:бюджет # "бюжет"
+гӏадат:гӏадат # "адат; обычай, традиция; нравы; обряд"
+ахир:ахир # "конец"
+гъалатӏ:гъалатӏ # "ошибка, упущение, неправильность, погрешность, просчёт"
+гӏаламат:гӏаламат # " знак, признак, веха; примета; метка, марка; отличие, значок, эмблема"
+номер:номер # "номер"
+сипат:сипат # "лицо; внешний вид, наружность, облик, лик; физиономия"
+диплом:диплом # "диплом"
+байрахъ:байрахъ # "знамя, флаг,"
+хӏадис:хӏадис # "рел. хадис"
+нигат:нигат # "намерение; досул"
+ишан:ишан # "прицел"
+бахӏс:бахӏс # "спор; полемика, дискуссия, дебаты; диспут"
+рузман:рузман # "пятница"
+лахӏзат:лахӏзат # "миг, мгновение; момент"
+рагӏад:рагӏад # "тень, защищённое от солнца место"
+рагӏ:рагӏ # "сосуд"
+диск:диск # "диск"
+нур:нур # "свет, луч; сияние; блеск"
+тӏанкӏ:тӏанкӏ # "пятно, крапина, крапинка"
+ясли:ясли # "ясли"
+цӏараки:цӏараки # "хозяйство, очаг, двор"
+дандеккунгутӏи:дандеккунгутӏи # "противоречие, разногласие, расхождение; антагонизм; нелады"
+га:га # "гектар"
+мал:мал # "нога; имущество, состояние, богатство, капитал; собственность"
+гӏел:гӏел # "поколение"
+гара-чӏвари:гара-чӏвари # "беседа"
+гӏункӏрукь:гӏункӏрукь # " локоть"
+гъалбацӏ:гъалбацӏ # "лев"
+жайран:жайран # "джейран, газель, антилопа"
+зиярат:зиярат # " паломничество (к святым местам)"
+икълим:икълим # "страна, сторона"
+кит:кит # "кит"
+лакълакъ:лакълакъ # "аист"
+мугӏжизат:мугӏжизат # " чудо"
+насихӏат:насихӏат # "наставление, назидание"
+нухрагӏункӏкӏ:нухрагӏункӏкӏ # "норка, землеройка"
+пардав:пардав # " занавеска, портьера"
+сахӏ:сахӏ # " сах"
+тӏагӏат:тӏагӏат # "служение"
+тӏоритӏел:тӏоритӏел # "признак, показатель"
+туп:туп # "рулон"
+хӏатӏихинкӏ:хӏатӏихинкӏ # "лодыжка, щиколотка"
+хундуз:хундуз # "бобр"
+хьабалухъагӏучӏ:хьабалухъагӏучӏ # "ребро"
+цӏил:цӏил # "хрящ"
+чакъал:чакъал # " шакал"
+чардахъ:чардахъ # "чердак"
+чин:чин # " чин"
+зат:зат # "сущность"
+шагьадат:шагьадат # ""
+гӏибадат:гӏибадат # ""
+таврат:таврат # ""
+сайигъат:сайигъат # ""
+#рагӏал:рагӏал # "край, конец, оконечность, окраина"
+
+LEXICON N-MARHA-Root
+зона:зона # "зона"
+маргьа:маргьа # "сказка"
+турба:турба # "труба"
+олимпиада:олимпиада # "олимпиада"
+километр:километр # "километр"
+метр:метр # "метр"
+
+LEXICON N-GII-Root
+гӏи:гӏи # "овцы, гурт, отара, баранта"
+
+LEXICON N-CHINKILLI-Root
+чӏинкӏиллъи:чӏинкӏиллъ # "остров"
+цолъи:цолъ # "единство; сплочённость, целостность, спаянность; союз"
+
+LEXICON N-KAJ-Root
+къотӏи-къай:къотӏи-къа # "договор, договорённость"
+къеркьей:къеркье # "борьба, противоборство"
+гӏей:гӏе # "достаточность"
+тӏадецуй:тӏадецу # "напор; давление"
+дандечӏей:дандечӏе # "противостояние, сопротивление; протест; возражение и возражения"
+тӏадкъай:тӏадкъа # "поручение, задание"
+тӏадчӏей:тӏадчӏе # "наступление"
+хъуй:хъу # "крики, шум, гам"
+хъвей:хъве # "убой, резание"
+май:ма # "май"
+балай:бала # "любовь, увлечение"
+калий:кали # "калий"
+лезгияй:лезгия # "лезгинка"
+мугъчӏвай:мугъчӏва # "опора, защита"
+натрий:натри # "хим. натрий"
+пай:па # "пай, часть, доля, гьелда гьоркьоб дирги"
+хӏалкъай:хӏалкъа # "грусть, печаль, огорчение, горесть, горе, скорбь"
+
+LEXICON N-MUZEJ-Root
+музей:музе # "музей"
+малъа-хъвай:малъа-хъва # ""
+хъвай-хъвагӏай:хъвай-хъвагӏа # "запис"
+бадибчӏвай:бадибчӏва # "упрёк, укор; попрёк"
+край:кра # "край"
+гвай:гва # "помочь; субботник"
+гъуй:гъу # "колодец"
+журай:жура # ""
+лицей:лице # "лицей"
+мавзолей:мавзоле # "мавзолей"
+рахай:раха # "замок, запор, задвижка, засов"
+санаторий:санатори # "санаторий"
+сарай:сара # "сарай"
+сий:си # "авторитет, почёт, уважение"
+сценарий:сценари # "сценарий"
+тай:та # "кипа, тюк"
+тӏей²:тӏе # "терраса"
+той:то # "пир, пиршество"
+тугъай:тугъа # "лиман; пойма реки; заливные луга; заросли на берегу воды"
+хӏай:хӏа # "игра"
+хӏисабкьей:хӏисабкье # "отчёт"
+юбилей:юбиле # "юбилей"
+
+LEXICON N-CHAJ-Root
+чай:ча # "чай"
+тӏалай:тӏала # ""
+дарай:дара # ""
+пуй²:пу # ""
+
+LEXICON N-ZAVEDUJUSHCHIJ-Root
+заведующий:заведующи # "заведующий"
+
+LEXICON N-SOBRANIJE-Root
+собрание:собрани # "собрание"
+райсобрание:райсобрани # "райсобрание"
+пособие:пособи # "пособие"
+учреждение:учреждени # ""
+медучреждение:медучреждени # ""
+предприятие:предприяти # ""
+предложение:предложени # ""
+образование:образовани # ""
+здравоохранение:здравоохранени # ""
+удобрение:удобрени # ""
+телевидение:телевидени # ""
+управление:управлени # ""
+отделение:отделени # ""
+направление:направлени # ""
+страхование:страховани # ""
+
+LEXICON N-CHERX-Root
+черх:ч # "тело, организм"
+
+LEXICON N-ZHO-Root
+жо:ж # "вещь, предмет"
+гӏиялъажо:гӏиялъаж # "овца"
+
+LEXICON N-CAD-Root
+цӏад:цӏад # "дождь"
+
+LEXICON N-JAS-Root
+яс:яс # "девочка"
+ясгӏадан:ясгӏадан # "девушка"
+клуб:клуб # "клуб"
+яц:яц # "сестра"
+
+LEXICON N-LADI-Root
+лъади:лъ # "жена"
+
+LEXICON N-KIODO-Root
+кӏодо:кӏодо # "бабушка"
+
+LEXICON N-EMEN-Root
+# "отец"
+эбел-:эбел- # "родители"
+
+LEXICON N-EBEL-Root
+# "мать"
+кӏодо:кӏодо # "бабушка"
+
+LEXICON N-CCIN-Root
+ццин:цци # "жёлчь; гнев, ярость, злоба, злость; досада, возмущение, негодование, озлобление"
+
+LEXICON N-XANZHU-Root
+ханжу:ханж # "мука"
+
+LEXICON N-CHIUZHU-Root
+# "жена"
+гӏалим:гӏалим # "академик"
+
+LEXICON N-AX-Root
+ах:ах # "сад"
+как:как # "намаз, молитва"
+моцӏ²:моцӏ # "месяц"
+хъат:хъат # "ладонь; пятерня; горсть; лапа, рука"
+хъап:хъап # "мешок"
+хьит:хьит # "обувь"
+бацӏ:бацӏ # "волк"
+
+LEXICON N-MOCI-Root
+моцӏ:моцӏ # "луна, месяц"
+
+LEXICON N-TAMIXI-Root
+моцӏ³:моцӏ # "месячник"
+санагӏат:санагӏат # "удобство"
+тухум-кьибил:тухум-кьибил # ""
+рищни-къул:рищни-къул # ""
+бокс:бокс # ""
+рищни-кьущ:рищни-кьущ # ""
+гӏорхъи-рахъ:гӏорхъи-рахъ # "рамки, мера"
+гӏорхъи-ссан:гӏорхъи-ссан # "межа, граница"
+волейбол:волейбол # "волейбол"
+комсомол:комсомол # "комсомол"
+къадру-къимат:къадру-къимат # "почёт и уважение"
+маслахӏат:маслахӏат # "примирение, соглашение"
+маслахӏат:маслигӏат # "примирение, соглашение" # Dir/LR # Use/Sub
+маслахӏат:маслихӏат # "примирение, соглашение" # Dir/LR # Use/Sub
+машрикъ:машрикъ # "восток"
+бетон:бетон # "бетон"
+ракь-мухъ:ракь-мухъ # "территория, регион, край; страна"
+нух²:нух # "раз"
+тӏабигӏат:тӏабигӏат # "природа"
+цӏа-кан:цӏа-кан # "температура, жар"
+алхӏам:алхӏам # "алхамд"
+баркат:баркат # "благодать, изобилие, обилие; достаток; благополучие"
+баркат:баракат # "благодать, изобилие, обилие; достаток; благополучие" # Dir/LR
+хӏасрат:хӏасрат # "страсть, любовь"
+гӏолохъан:гӏолохъан # "бычок"
+къец:къец # "спор, ссора; полемика; дебаты"
+намус:намус # "честь, достоинство"
+яхӏ-намус:яхӏ-намус # "честь"
+талихӏ:талихӏ # "счастье; удача"
+къисмат:къисмат # "судьба, участь, доля, удел; предопределение; фортуна"
+яхӏ:яхӏ # "честь; достоинство"
+тамихӏ:тамихӏ # "наказание; кара"
+боцӏи-мал:боцӏи-мал # "богатство"
+боцӏи-панз:боцӏи-панз # "домашние животные, скот, скотина"
+ахӏи-хӏур:ахӏи-хӏур # "шум и гам, крики"
+туберкулёз:туберкулёз # "туберкулёз"
+рецц:рецц # "похвала, хвала; восхваление; прославление; слава"
+рецӏел:рецӏел # "расплата, выкуп"
+талихӏ:талихӏ # "счастье; удача"
+туснахъ:туснахъ # "тюрьма"
+иман:иман # " вера (в бога)"
+агъаз:агъаз # "заботы, хлопоты"
+мадар:мадар # "удовлетворительное состояние; сносное положение"
+ватӏан:ватӏан # "родина, отечество, отчизна; место рождения; отчий край"
+ремонт:ремонт # "ремонт"
+махӏ:махӏ # "запах; аромат"
+интерес:интерес # "интерес"
+болжал:болжал # "срок"
+гӏазаб:гӏазаб # "мука и муки, мучение и мучения, страдание и страдания"
+партал:партал # "одежда, одеяние"
+хӏалуцин:хӏалуцин # " напряжение сил, натуга"
+литр:литр # " литр"
+миллилитр:миллилитр # "миллилитр"
+борч:борч # "долг, обязанность"
+жамгӏият:жамгӏият # "общество"
+зиян:зиян # "вред"
+тӏагӏам:тӏагӏам # "пища, питание, еда"
+нич:нич # "стыд"
+жигар:жигар # "энергия, сноровка; расторопность; живость; пытливость"
+хӏеж:хӏеж # "хадж"
+цӏикӏкӏин:цӏикӏкӏин # " увеличение"
+манзил:манзил # "расстояние; промежуток"
+ихтилат:ихтилат # "веселье, веселое времяпрепровождение"
+щуйил:щуйил # "пятёрка"
+мунпагӏат:мунпагӏат # "польза, выгода"
+кӏвахӏ:кӏвахӏ # "лень, леность, ленца"
+гъалмагъир:гъалмагъир # "хулиганство, дебош, скандал"
+шавкъ:шавкъ # "страсть, страстное желание; любовь"
+къурбан:къурбан # " жертва"
+ахбазан:ахбазан # "абрикос и абрикосы (плод и плоды)"
+цӏарагӏ:цӏарагӏ # "посуда"
+ирс:ирс # "наследство; инсул"
+болмацӏ:болмацӏ # "болмац"
+хъал:хъал # "кора, луб, лубок"
+свак:свак # "усталость, утомление"
+рентген:рентген # "рентген"
+рекӏкӏ:рекӏкӏ # "подвох; коварство, обман; предательство"
+квач:квач # "холод, мороз, стужа"
+диабет:диабет # "диабет"
+гуч:гуч # "сила, мощь, энергия; воля, власть"
+грипп:грипп # "грипп"
+гӏалам:гӏалам # "толпа, народ"
+тартиб:тартиб # "порядок"
+ахират:ахират # "потусторонний"
+
+LEXICON N-INZHIT-Root
+инжит:инжит # "подлец, подлюга"
+
+LEXICON N-FIZIKA-Root
+тӏалъи:тӏалъи # "плоскогорье, плато; пост главы"
+мутӏигӏлъи:мутӏигӏлъи # "покорность, послушание; преданность"
+чороклъи:чороклъи # "грязь, нечистота; нечистоплотность"
+каратэ:каратэ # ""
+лъарагӏлъи:лъарагӏлъи # "Кумыкия, равнинная"
+тӏадежо:тӏадежо # "" # Use/Dial
+джиу-джитсу:джиу-джитсу # ""
+хъаравуллъи:хъаравуллъи # "охрана, караул, дозор, стража"
+эркенлъи:эркенлъи # "свобода; вольность; приволье; раскрепощение, освобождение"
+цӏодорлъи:цӏодорлъи # "ум, разум, рассудок; рассудительность, благоразумие"
+берцинлъи:берцинлъи # "красота, краса; изящество"
+бетӏергьанлъи:бетӏергьанлъи # "собственность"
+цолъи:цолъи # "единство; сплочённость, целостность, спаянность"
+лъикӏлъизаби:лъикӏлъизаби # "улучшение"
+хӏадури:хӏадури # "заготовка, заготавливание; приготавливание"
+хиса-баси:хиса-баси # "перемена, перемены"
+самбо:самбо # "самбо"
+бигьалъи:бигьалъи # "легкость"
+рокьукълъи:рокьукълъи # "ненависть, антипатия"
+унти:унти # "болезнь, заболевание; хворь, недуг" # Dir/LR
+налъи:налъи # "долг, задолженность" # Dir/LR
+хӏалтӏи:хӏалтӏи # "работа, труд, действие, занятие" # Dir/LR
+гӏака²:гӏака # ""
+карьера:карьера # "карьера"
+гӏунгутӏи:гӏунгутӏи # "нехватка"
+музыка:музыка # ""
+божи:божи # "вера, верование"
+релъи:релъи # "смех"
+рохьихъанлъи:рохьихъанлъи # "занятие, должность, специальность"
+чӏухӏи:чӏухӏи # "гордость"
+речӏчӏи:речӏчӏи # "удар"
+хӏинкъи:хӏинкъи # "страх, боязнь"
+рос-лъади:рос-лъади # "муж с женой, супруги, супружеская чета"
+рос-лъади:рослъади # "муж с женой, супруги, супружеская чета" # Dir/LR
+нугӏлъи:нугӏлъи # "свидетельство, показание"
+хӏажалъи:хӏажалъи # "нужда, нуждаемость; потребность, надобность; дело"
+гьудуллъи:гьудуллъи # "дружба"
+боцӏи-рикъзи:боцӏи-рикъзи # "богатство"
+чара:чара # "способ, средство; выход; исход"
+нугӏлъи:нугӏлъи # "свидетельство, показание"
+бахӏарчилъи:бахӏарчилъи # "героизм, геройство; смелость, храбрость, отвага; подвиг; доблесть"
+квербакъи:квербакъи # "помощь, содействие"
+байбихьи:байбихьи # "начало"
+авараглъи:авараглъи # "пророчество"
+авторлъи:авторлъи # "авторство"
+агъада:агъада # "агадай"
+бербалагьи:бербалагьи # "присмотр, надзор, наблюдение"
+азбука:азбука # "азбука"
+аллитерация:аллитерация # "лит. аллитерация"
+ангина:ангина # "ангина"
+архитектура:архитектура # "архитектура"
+аспирантура:аспирантура # "аспирантура"
+ассистентлъи:ассистентлъи # "должность ассистента"
+ахихъанлъи:ахихъанлъи # "садовничество, садоводство"
+багьадурлъи:багьадурлъи # "храбрость, смелость, удаль, отвага, удальство, богатырство"
+баркала:баркала # "благодарность"
+бахъи:бахъи # "мат. вычитание"
+бегавуллъи:бегавуллъи # "уст. должность старшины аула"
+би²:би # "ба"
+бида:бида # "чистокровный, породистый конь, конь арабской"
+бикьи:бикьи # "мат. деление"
+бихьи:бихьи # "видимость"
+божилъи:божилъи # "вера, доверие"
+бокьи:бокьи # "см. рокьи"
+генетика:генетика # "биол. генетика"
+атлетика:атлетика # "атлетика"
+гиригара:гиригара # "земляника"
+глюкоза:глюкоза # "хим. глюкоза"
+гогьлъи:гогьлъи # "избалованость, баловство"
+горсвери:горсвери # "круг, окружение"
+гражданлъи:гражданлъи # "гражданство"
+гъара¹:гъара # "нападение, набег, налёт, нашествие, грабёж"
+гъирачилъи:гъирачилъи # "редко энтузиазм"
+гьекъолдухъанлъи:гьекъолдухъанлъи # "редко пьянство"
+гьижра:гьижра # "1) хиджра"
+гьоркьоблъи:гьоркьоблъи # "отношение и отношения, взаимоотношение"
+гьоркьохъанлъи:гьоркьохъанлъи # "сводничество, посредничество"
+гьура:гьура # "ура#"
+дагьлъи:дагьлъи # "малочисленность, недостаточность"
+дандерижи:дандерижи # "эхо"
+дванки:дванки # "стук"
+дваргъи:дваргъи # "шум, треск, грохот"
+дежурналъи:дежурналъи # "дежурство"
+депутатлъи:депутатлъи # "обязанности депутата, работа депутата, депутатство"
+дзюдо:дзюдо # "спорт. дзюдо"
+дибирлъи:дибирлъи # "пост, служба дибира, обязанности дибира, мулльство"
+диета:диета # "диета"
+диктатура:диктатура # "диктатура"
+динамо:динамо # "динамо"
+директорлъи:директорлъи # "работа, должность директора, директорство"
+дума:дума # "дума"
+жавабчилъи:жавабчилъи # "ответственность"
+журналистика:журналистика # "журналистика"
+жюри:жюри # "жюри"
+зарядка:зарядка # "зарядка, рада-радал"
+зигара:зигара # "соболезнование"
+изну:изну # "позволение, дозволение, разрешение"
+икра:икра # "икра"
+инвалидлъи:инвалидлъи # "инвалидность, досие"
+итни:итни # "понедельник"
+какикьжо:какикьжо # "коврик"
+ками:ками # "нехватка, недостаток, недостача"
+кандидатлъи:кандидатлъи # "степень кандидата, досие"
+кардиограмма:кардиограмма # "кардиограмма"
+карьера:карьера # "карьера"
+кверщелчилъи:кверщелчилъи # "редко власть"
+данделъи:данделъи # "собрание, заседание"
+килька:килька # "килька и кильки"
+классика:классика # "классика"
+клубника:клубника # "клубника"
+командировка:командировка # "командировка"
+кондитерлъи:кондитерлъи # "профессия, специальность, работа, занятие кондитера"
+косметика:косметика # "косметика"
+кофе:кофе # "кофе"
+критика:критика # "критика"
+къадру:къадру # "приличие, пристойность"
+къайимлъи:къайимлъи # "опекунство"
+къираллъи:къираллъи # "королевство"
+лига:лига # "лига"
+лирика:лирика # "лирика"
+логика:логика # "логика"
+лото:лото # "лото"
+лъавукълъи:лъавукълъи # "невежество, безграмотность, дурго"
+лъалхъи:лъалхъи # "передышка, пауза"
+лъимерлъи:лъимерлъи # "детство"
+майданлъи:майданлъи # "равнина, ровное место"
+мама:мама # "дет. кушанье, пища, хлеб"
+мармаргьецӏо:мармаргьецӏо # "мрамор см. мармар"
+математика:математика # "математика"
+махӏла:махӏла # "квартал, участок, округа, край, место, гьаб"
+махщелчилъи:махщелчилъи # "мастерство"
+мацӏихъанлъи:мацӏихъанлъи # "клеветничество"
+мекълъи:мекълъи # "непослушание, упрямство, норов, дур"
+методика:методика # "методика"
+миллатчилъи:миллатчилъи # "национализм"
+министрлъи:министрлъи # "министерская должность"
+мугӏалимлъи:мугӏалимлъи # "учительство"
+мугьру:мугьру # "печать"
+мунпагӏалъи:мунпагӏалъи # "полезность, выгодность"
+найихъанлъи:найихъанлъи # "занятие пчеловода, пчеловодство"
+начальниклъи:начальниклъи # "должность начальника"
+нуси¹:нуси # "полотно, натянутое на ткацкий станок"
+нухмалъи:нухмалъи # "руководство"
+нуцаллъи:нуцаллъи # "уст. принадлежность к роду нуцалов"
+оборона:оборона # "оборона"
+олифа:олифа # "олифа, лажбар"
+ораторлъи:ораторлъи # "ораторство"
+охра:охра # "охра"
+пагьму:пагьму # "способность, понятливость, одарённость, талант, талантливость"
+палихъанлъи:палихъанлъи # "занятие гаданием, предсказыванием"
+пара¹:пара # "очень малый промежуток времени, миг, момент, мгновение"
+пасха:пасха # "пасха"
+пахру:пахру # "гордость, высокомерие, гонор, надменность, заносчивость, кичливость, спесивость"
+пача²:пача # "щит"
+педагогика:педагогика # "педагогика"
+пластмасса:пластмасса # "пластмасса"
+политбюро:политбюро # "политбюро"
+поэтика:поэтика # "лит. поэтика"
+пресса:пресса # "пресса"
+проза:проза # "проза, магӏарулазул"
+психика:психика # "психика"
+публицистика:публицистика # "публицистика"
+радио:радио # "радио, тӏолгороссиялъулаб"
+разведка:разведка # "разведка, геологиялъулаб"
+ракъдаллъи²:ракъдаллъи # "земля, суша, гамидасан"
+ракьбагъари:ракьбагъари # "землетрясение, кутакаб"
+раса:раса # "раса, хъахӏаб"
+ращалъи:ращалъи # "равенство, равноправие"
+релъи:релъи # "смех, кутакаб"
+риба:риба # "то, что даётся в рост см. рибачи"
+риторика:риторика # "риторика"
+ришватчилъи:ришватчилъи # "взяточничество"
+сахлъи:сахлъи # "1. здоровье, загӏипаб"
+синтетика:синтетика # "синтетика"
+скарлатина:скарлатина # "мед. скарлатина"
+следовательлъи:следовательлъи # "должность следователя"
+сода:сода # "сода, кванил"
+статистика:статистика # "статистика, математикияб"
+тактика:тактика # "тактика, рагъулаб"
+такъсирчилъи:такъсирчилъи # "виновность, преступность"
+тала²:тала # "грабёж см. талавур"
+талавурчилъи:талавурчилъи # "грабительство"
+тамадалъи:тамадалъи # "должность тамады, обязанности тамады"
+температура:температура # "температура, гьаваялъул"
+тилмачлъи:тилмачлъи # "абстр. имя от тилмач"
+тири:тири # "поворот см. свери"
+толо:толо # "мед. рак"
+тохлъи:тохлъи # "упущение, пропуск, небрежность"
+тунки:тунки # "козни"
+тухумчилъи:тухумчилъи # "семейственность, кумовство"
+узденлъи:узденлъи # "узденство, дирго"
+урба:урба # "урбеч"
+учучу:учучу # "соблазн"
+фанера:фанера # "фанера, лъабго гъат бугеб"
+фермерлъи:фермерлъи # "фермерство"
+физика:физика # "физика"
+физкультура:физкультура # "физкультура"
+фонетика:фонетика # "фонетика"
+хӏалкӏолъи:хӏалкӏолъи # "могущество, мощь, сила, всемогущество"
+хӏамабагьадурлъи:хӏамабагьадурлъи # "самодурство, безрассудное геройство, букв. ослиное геройство"
+хӏамагага:хӏамагага # "одуванчик"
+хӏаракатчӏужу:хӏаракатчӏужу # "активная женщина активистка, общественница, деятельница"
+хасалихълъи:хасалихълъи # "осень"
+хаслъи:хаслъи # "особенность"
+хӏелхӏелчилъи:хӏелхӏелчилъи # "подхалимство, подхалимаж"
+херлъи:херлъи # "старость"
+хинлъи:хинлъи # "тепло, теплота"
+хӏинцлъи:хӏинцлъи # "медлительность, ленивость, вялость, неповоротливость, нерасторопность"
+хири:хири # "тонкий шёлковый платок"
+хияналъи:хияналъи # "измена, предательство, вероломство"
+хроника:хроника # "хроника, газеталъулаб"
+хурухъанлъи:хурухъанлъи # "полеводство, растениеводство, хлеборобство, земледелие"
+хӏухьбахъи:хӏухьбахъи # "отдых, передышка"
+хъамалчилъи:хъамалчилъи # "грабительство, разбой, мародёрство"
+хъварщи:хъварщи # "звукоподр. топот, шум шагов"
+хьиндаллъи:хьиндаллъи # "тёплая местность в долинах Дагестана"
+цӏадиро:цӏадиро # "чашка весов"
+цӏаргӏа:цӏаргӏа # "см. цӏарагӏ"
+цӏатари:цӏатари # "топливо, хасалоялде"
+цензорлъи:цензорлъи # "работа, занятие цензора"
+цензура:цензура # "цензура"
+цӏилъи:цӏилъи # "новшество"
+цинагӏаллъи:цинагӏаллъи # "родственная связь между троюродными братьями или сёстрами"
+цӏолбохъанлъи:цӏолбохъанлъи # "виноградарство"
+цӏукӏалъи:цӏукӏалъи # "трусость"
+чӏами:чӏами # "жевание"
+чанахъанлъи:чанахъанлъи # "охота, охотничий промысел"
+чӏанда:чӏанда # "пустая болтовня, вздор разг., пустой разговор, дичь, белиберда, чепуха, чушь"
+чӏвадарухъанлъи:чӏвадарухъанлъи # "занятие палача"
+чилчили:чилчили # "звукоподр. журчание, иццул"
+чилъи:чилъи # "мужество"
+чӏиргъи:чӏиргъи # "шум, гам, гомон, галдёж, щебет"
+членлъи:членлъи # "членство"
+чӏунхутӏи:чӏунхутӏи # "застой"
+чучлъи:чучлъи # "слабость"
+чӏчӏичӏчӏи:чӏчӏичӏчӏи # "крик, шум, гам, шум и гам, гомон, гвалт"
+ччугӏихъанлъи:ччугӏихъанлъи # "рыболовство, рыбоводство"
+штукатурка:штукатурка # "штукатура"
+шукру:шукру # "благодарность, выражение благодарности, признательность, выражение признательности"
+щаклъи:щаклъи # "подозрение, сомнение, неуверенность, колебание"
+щокълъи:щокълъи # "болезнь, хворь, недуг, нездоровье"
+эбеллъи:эбеллъи # "материнство"
+электротехника:электротехника # "электротехника"
+энергетика:энергетика # "энергетика"
+эра:эра # "эра"
+эстетика:эстетика # "эстетика"
+янгъизлъи:янгъизлъи # "см. ялгъузлъи"
+агрономлъи:агрономлъи # "специальность агронома"
+адвокатлъи:адвокатлъи # "профессия, занятие, работа адвоката, адвокатура"
+актёрлъи:актёрлъи # "занятие, профессия, работа актёра, актёрство"
+архитекторлъи:архитекторлъи # "занятие, профессия архитектора"
+богогьанлъи:богогьанлъи # "поварское дело, профессия повара"
+бухгалтерлъи:бухгалтерлъи # "профессия, специальность, должность, работа бухгалтера, бухгалтерия"
+гугарухъанлъи:гугарухъанлъи # "занятие борьбой"
+терапевтлъи:терапевтлъи # "работа, должность, профессия, специальность терапевта"
+тренерлъи:тренерлъи # "работа, должность, профессия, специальность тренера"
+устарлъи:устарлъи # "профессия мастера, умение, мастерство"
+учительлъи:учительлъи # "работа, должность, профессия, специальность учителя, учительство"
+фельдшерлъи:фельдшерлъи # "работа, должность, профессия, специальность фельдшера"
+инструкторлъи:инструкторлъи # "работа, должность, профессия инструктора"
+заместительлъи:заместительлъи # "должность, работа заместителя кого-л."
+журналистлъи:журналистлъи # "работа, специальность, профессия журналиста"
+исрапчилъи:исрапчилъи # "см. исраплъи"
+секретарьлъи:секретарьлъи # "работа, должность, занятие, обязанность секретаря"
+президентлъи:президентлъи # "должность президента, президентство"
+педагоглъи:педагоглъи # "профессия педагога"
+прокурорлъи:прокурорлъи # "должность прокурора"
+счетоводлъи:счетоводлъи # "должность счетовода, счетоводство"
+ритӏухълъи:ритӏухълъи # "верность, преданность"
+квербакъи:квербакъи # "помощь, содействие"
+гӏакъуба:гӏакъуба # "мука и муки; мучение, страдание, боль; трудности, затруднения"
+тӏокӏлъи:тӏокӏлъи # "излишество, излишек, избыток превосходство, преимущество"
+гӏагарлъи:гӏагарлъи # "приближение, сближение"
+гӏагарлъи:гӏагарлъи # "родство, родственные отношения, родственная связь"
+хӏаракатчилъи:хӏаракатчилъи # "активность, деятельность расторопность старание, усилие, усердие"
+хӏадурлъи:хӏадурлъи # "подготовка, приготовление"
+бетӏербахъи:бетӏербахъи # "существование, жизнь"
+захӏмалъи:захӏмалъи # " трудность; затруднение, осложнение тяготы, невзгоды; мука, мучение, страдание"
+бетӏерлъи:бетӏерлъи # "главенство; возглавление"
+квешлъи:квешлъи # "зло, вред"
+жахӏда:жахӏда # "враждебность; неприязнь, недоброжелательство"
+магӏаруллъи:магӏаруллъи # "страна гор; страна горцев"
+жагъаллъи:жагъаллъи # " непрочность, ненадёжность неисправность, испорченность"
+кьвагьи:кьвагьи # " пальба, стрельба; выстрелы"
+гӏаданлъи:гӏаданлъи # "человечность, гуманность; отзывчивость; вежливость"
+хӏалхьи:хӏалхьи # "отдых; передышка"
+мухӏканлъи:мухӏканлъи # " тщательность, аккуратность чёткость, ясность; конкретность, определённость"
+загьру:загьру # "яд, отрава; борхьил"
+лъангутӏи:лъангутӏи # "незнание, неведение"
+лъамалъи:лъамалъи # " разжижение жидкость"
+хазина:хазина # "казна сокровище"
+тӏири:тӏири # " упрямство"
+гьалмагълъи:гьалмагълъи # "товарищество; товарищеские отношения"
+сверухълъи:сверухълъи # "окрестность, окрестности"
+вахӏшилъи:вахӏшилъи # " дикость; варварство; зверство, свирепость; бесчеловечность, жестокость; хищничество"
+жигарчилъи:жигарчилъи # "энергичность инициативность; предприимчивость"
+гьуинлъи:гьуинлъи # " сладость; макьил"
+чӏаголъи:чӏаголъи # " оживание возрождение; пробуждение (природы) жизнь, существование"
+ханлъи:ханлъи # "ханствование"
+хӏалаллъи:хӏалаллъи # " рел. дозволение, разрешение; прощение"
+тасамахӏлъи:тасамахӏлъи # " попустительство, халатность, разгильдяйство"
+рахӏму:рахӏму # "милосердие, жалость"
+лагълъи:лагълъи # "рабство, невольничество"
+беэнлъи:беэнлъи # " жирность"
+хӏалихьалъи:хӏалихьалъи # " подлость"
+тату:тату # "вкус"
+квегӏенлъи:квегӏенлъи # " удобство, выгодность"
+гӏалагъважа:гӏалагъважа # "шум и крик; гвалт; неразбериха; содом"
+хъахӏбалъи:хъахӏбалъи # "разврат, распутство, блуд; проституция; прелюбодеяние"
+халалъи:халалъи # "длина"
+мискинлъи:мискинлъи # " бедность, убожество, нужда; обеднение, обнищание"
+гӏолохъанчӏужу:гӏолохъанчӏужу # "девушка, молодица, молодая женщина"
+гӏемерлъи:гӏемерлъи # " рост, увеличение (в числе, количестве); умножение, размножение"
+бихьинчилъи:бихьинчилъи # "мужество"
+яслъи:яслъи # "дочерний долг девственность"
+щакдари:щакдари # "ревность подозрение, сомнение"
+тӏадекӏанцӏи:тӏадекӏанцӏи # " наступление, штурм, атака"
+басма:басма # "печатание, издание"
+сун-суни:сун-суни # "сопение"
+кколеблъи:кколеблъи # ""
+
+LEXICON N-DARS-Root
+дарс:дарс # "урок"
+цӏиркъ:цӏиркъ # "рысь"
+
+LEXICON N-RUQ-Root
+рукъ:рукъ # "дом"
+хур:хур # "пашня"
+нугӏ:нугӏ # свидетеель"
+
+LEXICON N-XIZAN-Root
+хъизан:хъиза # "семья"
+
+LEXICON N-AVTOR-Root
+режиссёр:режиссёр # "режиссёр"
+контролёр:контролёр # ""
+лифтёр:лифтёр # ""
+монтёр:монтёр # ""
+режиссёр:режиссёр # ""
+репортёр:репортёр # ""
+стажёр:стажёр # ""
+фоторепортёр:фоторепортёр # ""
+декан:декан # ""
+тренер:тренер # "тренер"
+мухбир:мухбир # "корреспондент; корреспондентша"
+прокурор:прокурор # "прокурор"
+автор:автор # "автор"
+инженер:инженер # "инженер"
+агент:агент # "агент"
+академик:академик # ""
+астроном:астроном # ""
+гьалмагъ:гьалмагъ # "товарищ, друг"
+депутат:депутат # ""
+адвокат:адвокат # ""
+доктор:доктор # ""
+кандидат:кандидат # ""
+классик:классик # ""
+комиссар:комиссар # ""
+конструктор:конструктор # ""
+начальник:начальник # ""
+организатор:организатор # ""
+полковник:полковник # ""
+президент:президент # ""
+премьер:премьер # ""
+профессор:профессор # ""
+редактор:редактор # ""
+технолог:технолог # ""
+тушман:тушман # ""
+философ:философ # ""
+делегат:делегат # ""
+специалист:специалист # ""
+юрист:юрист # ""
+экономист:экономист # ""
+лингвист:лингвист # ""
+журналист:журналист # "журналист"
+тележурналист:тележурналист # "тележурналист"
+фольклорист:фольклорист # ""
+член:член # "член"
+инвалид:инвалид # "инвалид"
+ветеран:ветеран # "ветеран"
+ректор:ректор # "ректор"
+хирург:хирург # "хирург"
+политик:политик # "политик"
+эксперт:эксперт # "эксперт; судалъул"
+фермер:фермер # "фермер"
+педагог:педагог # "педагог"
+художник:художник # "художник и художница"
+майор:майор # "майор"
+проректор:проректор # " проректор"
+асир:асир # "пленник и пленница"
+композитор:композитор # "композитор и композиторша"
+лейтенант:лейтенант # ""
+чиновник:чиновник # "чиновник"
+
+LEXICON N-MUGHALIM-Root
+шофёр:шофёр # ""
+устар:устар # ""
+ремонтёр:ремонтёр # ""
+мугӏалим:мугӏалим # "учитель, преподаватель"
+гьудул:гьудул # "друг, подруга; приятель, приятельница"
+бухгалтер:бухгалтер # "бухгалтер"
+министр:министр # "министр"
+премьер-министр:премьер-министр # ""
+директор:директор # ""
+гӏакъил:гӏакъил # "мудрец и мудрая женщина"
+инспектор:инспектор # ""
+инструктор:инструктор # ""
+командир:командир # ""
+мадугьал:мадугьал # "сосед и соседка"
+мажбикь:мажбикь # "четвероюродный брат или сестра"
+макир:макир # "коварный, лукавый человек"
+мискин:мискин # "бедняга, бедняжка, горемыка; несчастливец и несчастливица"
+мунапикъ:мунапикъ # "лицемер, лицемерка"
+офицер:офицер # ""
+хӏаким:хӏаким # "правитель и правительница; начальник и начальница; руководитель и руководительница"
+цинагӏал:цинагӏал # "троюродный брат; троюродная сестра"
+цинагӏал:цунагӏал # "троюродный брат; троюродная сестра" # Dir/LR
+
+LEXICON N-URGHEL-Root
+ургъел:ургъ # ""
+
+LEXICON N-KAGHAT-Root
+кагъат:кагъ # "бумага"
+
+LEXICON N-ROCEN-Root
+роцен:роц # "мерка, размер"
+
+LEXICON N-HVEL-Root
+лъагӏел:лъагӏ # "год"
+тӏагӏел:тӏагӏ # "инструмент, орудие, приспособление"
+божел:бож # "доверие, вера"
+#гвала:гвала # ""
+гел:г # "половник, поварёшка"
+гулла:гулла # "пуля, снаряд"
+гьекъел:гьекъ # "хмельное, спиртное"
+махщел:махщ # "мастерство, умение, искусство"
+#рачел:рач # "пояс, ремень, ремешок, кушак" # FIXME:paradigm
+регьел:регь # "сырость, влажность"
+реччел:речч # "сырость, влажность; жидкость, влага, мокрота"
+риххел:рихх # "понос, дизентерия"
+рохел:рох # "радость, отрада"
+#ругьел:ругь # "весть, известие, сообщение; уведомление" #FIXME:paradigm
+#руккел:рукк # "сбор, сборище, толпа"
+#тӏенкел:тӏенк # "потник" #FIXME:paradigm
+хасел:хас # "зима"
+хвел:хв # "смерть, гибель, кончина"
+#ченгел:ченг # "деревянная кружка" #FIXME:paradigm
+
+LEXICON N-FINANSAL-Root
+финансал:финанса # "финансы"
+гӏага-божарал:гӏага-божара # "родня, близкие"
+
+LEXICON N-GIEMERISEL-Root
+гражданал:граждана # ""
+гӏемерисел:гӏемерисе # "многие" #FIXME:check POS
+къецал:къеца # "соревнование, состязание"
+
+LEXICON N-GIASRU-Root
+гӏасру:гӏаср # "век, столетие"
+
+LEXICON N-ZULMU-Root
+зулму:зулм # "притеснение; насилие; угнетение, гнёт; тирания; ярмо, иго, эксплуатация"
+аслу:асл # "основа; сущность; суть"
+агьлу:агьл # "семья; родня, родные; родственники"
+магӏу²:магӏ # "плач"
+
+LEXICON N-MAGIU;-Root
+
+LEXICON N-MAGIU-Root
+макьу:макь # "сон"
+
+LEXICON N-KINI-Root
+кини:кин # "колыбель, люлька"
+
+LEXICON N-SCENA-Root
+передача:передача # "передача"
+миома:миома # ""
+къагӏида:къагӏида # "манера, подход; способ, прием, метод"
+вазипа:вазипа # "обязанность, долг"
+идара:идара # "управление, учреждение; канцелярия"
+гӏуна:гӏуна # "" # Use/Sub
+даража:даража # "степень, уровень, ступень"
+тонна:тонна # "тонна"
+хӏужа:хӏужа # "аргумент, довод; доказательство; факт"
+больница:больница # "больница"
+маршрутка:маршрутка # "маршрутка"
+райбольница:райбольница # "райбольница"
+туббольница:туббольница # "райбольница"
+команда:команда # "команда"
+выставка:выставка # "выставка"
+улка:улка # "страна"
+кафедра:кафедра # "кафедра"
+программа:программа # "программа"
+фонограмма:фонограмма # ""
+реформа:реформа # "реформа"
+гӏуцӏи:гӏуцӏи # "организация, учреждение"
+гӏарза:гӏарза # "заявление; жалоба, прошение"
+мина:мина # "дом, изба, здание, строение, постройка; жилище"
+прокуратура:прокуратура # "прокуратура"
+кандидатура:кандидатура # "кандидатура"
+культура:культура # ""
+комета:комета # ""
+литература:литература # ""
+масъала:масъала # "задача"
+палата:палата # "палата"
+багьа:багьа # "цена"
+библиотека:библиотека # "библиотека"
+шигӏру:шигӏру # "стихотворение"
+ца:ца # "зуб"
+бару:бару # "лекарство"
+рагӏи:рагӏи # "слово"
+итаркӏо:итаркӏо # "сокол"
+цӏва:цӏва # "звезда"
+машина:машина # "машина"
+макъала:макъала # "макъала"
+поэма:поэма # "поэма"
+заман:заман # "время"
+замана:замана # "время"
+республика:республика # ""
+грамматика:грамматика # "грамматика"
+политика:политика # "политика"
+техника:техника # ""
+экономика:экономика # ""
+аптека:аптека # "" # Dir/LR
+диаспора:диаспора # "диаспора"
+справка:справка # "справка"
+поликлиника:поликлиника # "поликлиника"
+профилактика:профилактика # "профилактика"
+фабрика:фабрика # "фабрика"
+антилопа:антилопа # ""
+тема:тема # "тема"
+учительница:учительница # "учительница"
+форма:форма # "в разн. знач. форма"
+пьеса:пьеса # "лит. пьеса"
+махсара:махсара # "шутка; острота, острое словцо; подыгривание; насмешка"
+хӏилла:хӏилла # "ухищрение, хитрость, уловка, обман; козни, плутни"
+ферма:ферма # "ферма"
+группа:группа # "группа"
+база:база # "база"
+экспертиза:экспертиза # "экспертиза"
+вагӏза:вагӏза # "проповедь; напоминание; духовное наставление"
+бригада:бригада # "бригада"
+багьана:багьана # "предлог, причина, повод"
+жаназа:жаназа # "покойник; труп; останки"
+журналистка:журналистка # "журналистка"
+къатӏра:къатӏра # "капля, капелька"
+граната:граната # "граната"
+бомба:бомба # "бомба"
+автомашина:автомашина # "автомашина"
+автолавка:автолавка # "автолавка"
+анкета:анкета # "анкета"
+аспирантка:аспирантка # "аспирантка"
+балалайка:балалайка # "балалайка"
+банка:банка # "банка"
+баржа:баржа # "баржа"
+баррикада:баррикада # "баррикада"
+басмахана:басмахана # "типография"
+батарейка:батарейка # "батарейка"
+биржа:биржа # "биржа"
+брошюра:брошюра # "брошюра"
+будка:будка # "будка"
+вагонетка:вагонетка # "вагонетка"
+ванна:ванна # "ванна"
+гайка:гайка # "гайка"
+гӏаларча:гӏаларча # "добрый конь"
+гостиница:гостиница # "гостиница"
+грамота:грамота # "грамота"
+гъара²:гъара # "пика"
+гьижа:гьижа # "слог"
+#дала:дала # "диал. лом (инструмент), засов (чем изнутри закрывались ворота) см. хӏос"
+дама:дама # "дамка"
+дача:дача # "дача"
+декада:декада # "декада"
+диванхана:диванхана # "помещение суда"
+директива:директива # "директива"
+доска:доска # "доска"
+драма:драма # "драма"
+ёлка:ёлка # "ёлка"
+забастовка:забастовка # "забастовка"
+зарра:зарра # "пылинка"
+застава:застава # "застава"
+заявка:заявка # "заявка"
+#императрица:императрица # "императрица" FIXME: Gender
+ишара:ишара # "намёк"
+казарма:казарма # "казарма"
+калима:калима # "слово, изречение"
+камера:камера # "камера"
+карикатура:карикатура # "карикатура"
+карта:карта # "карта"
+карточка:карточка # "карточка"
+касса:касса # "касса"
+квартира:квартира # "квартира"
+килиса:килиса # "церковь"
+кислота:кислота # "кислота"
+клетка¹:клетка # "клетка"
+клетка²:клетка # "биол. клетка"
+клиника:клиника # "клиника"
+книжка:книжка # "книжка"
+кнопка:кнопка # "кнопка"
+койка:койка # "койка"
+коммуна:коммуна # "коммуна"
+кофта:кофта # "кофта"
+кружка:кружка # "кружка"
+куртка:куртка # "куртка"
+къапа:къапа # "шапка, шапчонка; тюбетейка"
+къиса:къиса # "повествование, рассказ, история"
+лента:лента # "лента"
+мадраса:мадраса # "медресе"
+майка:майка # "майка"
+марка:марка # "марка"
+маска:маска # "маска"
+методистка:методистка # "методистка"
+мода:мода # "мода"
+мурапа:мурапа # "варенье"
+норма:норма # "норма"
+нота:нота # "нота"
+ода:ода # "ода"
+опера:опера # "опера"
+орбита:орбита # "орбита"
+отставка:отставка # "отставка"
+палата:палата # "палата"
+папка:папка # "папка"
+пара²:пара # "грош"
+парта:парта # "парта"
+пачка:пачка # "пачка"
+планета:планета # " планета"
+пластинка:пластинка # "пластинка"
+повестка:повестка # "повестка"
+посылка:посылка # " посылка"
+поэтесса:поэтесса # "поэтесса"
+практика:практика # "практика"
+премьера:премьера # "премьера"
+прививка:прививка # "прививка"
+пропаганда:пропаганда # " пропаганда"
+прописка:прописка # "прописка"
+подписка:подписка # ""
+процедура:процедура # "процедура"
+путёвка:путёвка # "путёвка"
+разведчица:разведчица # "разведчица"
+раква:раква # "турбина"
+ракета:ракета # "ракета"
+регистратура:регистратура # " регистратура"
+реклама:реклама # " реклама"
+рифма:рифма # "рифма"
+роза:роза # "роза"
+розетка:розетка # "розетка"
+рота:рота # "рота"
+ручка:ручка # "ручка"
+санитарка:санитарка # "санитарка"
+сатира:сатира # "сатира"
+сетка:сетка # "сетка"
+скамейка:скамейка # "скамейка"
+скобка:скобка # "скобка"
+скульптура:скульптура # "скульптура"
+смена:смена # "смена"
+смета:смета # "смета"
+сосиска:сосиска # "сосиска"
+спартакиада:спартакиада # "спартакиада"
+спичка:спичка # "спичка"
+ставка¹:ставка # "ставка"
+ставка²:ставка # "ставка"
+станица:станица # "станица"
+стенограмма:стенограмма # "стенограмма"
+стюардесса:стюардесса # "стюардесса"
+сужда:сужда # "земной поклон"
+сутка:сутка # "сутки"
+схема:схема # "схема"
+сцена:сцена # "сцена"
+таблетка:таблетка # "таблетка"
+таблица:таблица # "таблица"
+тала¹:тала # "поляна"
+танкетка:танкетка # "танкетка"
+таржама:таржама # "перевод"
+телепередача:телепередача # "телепередача"
+тематика:тематика # "тематика"
+тренировка:тренировка # "тренировка"
+трибуна:трибуна # "трибуна"
+турбаза:турбаза # "турбаза"
+турбина:турбина # "турбина"
+туфла:туфла # "туфля"
+уборщица:уборщица # "уборщица"
+ургьисала:ургьисала # "почка"
+участка:участка # "участок"
+фигура:фигура # "фигура"
+фирма:фирма # "фирма"
+фуражка:фуражка # "фуражка"
+футболка:футболка # "футболка"
+хӏажа:хӏажа # "диал. орудие, инструмент"
+хӏажатхана:хӏажатхана # "уборная, туалет, отхожее место, сортир, клозет"
+хатӏа:хатӏа # "ошибка"
+хутӏба:хутӏба # ""
+хъахӏбахана:хъахӏбахана # "бордель, дом терпимости, публичный дом"
+чайка:чайка # "чайка"
+шагьра:шагьра # "шоссе, шоссейная дорога"
+шайка:шайка # "шайка"
+шахта:шахта # "шахта"
+шашка:шашка # "шашка"
+штанга:штанга # "штанга"
+щётка:щётка # "щётка"
+эпиграмма:эпиграмма # "эпиграмма"
+эстафета:эстафета # "эстафета"
+эстрада:эстрада # "эстрада"
+этикетка:этикетка # "этикетка"
+юбка:юбка # "юбка"
+ярмарка:ярмарка # "ярмарка"
+кадр:кадр # "кадр"
+
+LEXICON N-TIEH-Root
+тӏехь:тӏ # "книга"
+
+LEXICON N-TIEX-Root
+тӏех:тӏ # "толокно"
+
+LEXICON N-BERTIN-Root
+бертин:берт # "свадьба"
+
+LEXICON N-ROSU-Root
+росу:рос # "аул"
+чахъу:чахъ # "овца" # FIXME:checkpar
+
+LEXICON N-SHKOLA-Root
+школа:школа # "школа"
+
+LEXICON N-KECH-Root
+кечӏ:к # "песня, пение (птиц)"
+
+LEXICON N-KUCH-Root
+кьучӏ:кь # "основание, фундамент"
+
+LEXICON N-BOSEN-Root
+босен:бос # "постель"
+курхьен:курх # "браслет"
+рехъен:рехъ # "стадо"
+
+LEXICON N-PREPODAVATEL-Root
+следователь:следовател # ""
+преподаватель:преподавател # "преподаватель"
+
+LEXICON N-UCHITEL-Root
+учитель:учител # "учитель"
+
+LEXICON N-SHAGIIR-Root
+шагӏир:шагӏир # "поэт"
+
+LEXICON N-IMAM-Root
+имам:имам # "имам"
+малла:малла # "мулла"
+гъази:гъази # ""
+вацгӏал:вацгӏал # ""
+бегавул:бегавул # "старшина аула"
+баяр:баяр # "баяр"
+назир:назир # "управляющий"
+шайих:шайих # "шейх"
+шейх:шейх # "шейх" # Dir/LR # Use/Sub
+шайх:шайх # "шейх" # Dir/LR # Use/Sub
+тохтур:тохтур # "врач"
+гӏалим:гӏалим # "учёный"
+авараг:авараг # "пророк"
+вакил:вакил # "уполномоченный"
+хӏажи:хӏажи # "паломник"
+азнавур:азнавур # "дворянин"
+асхӏаб:асхӏаб # "соратник, сподвижник"
+ахӏмакъ:ахӏмакъ # "глупец, безумец, дурак, дурень, дуралей, дурачина, идиот, простофиля"
+бег:бег # "бек"
+гӏабдал:гӏабдал # "сумасшедший, умалишённый, безумец, идиот, дурак"
+генерал:генерал # "генерал"
+гиназ:гиназ # "князь"
+дибир:дибир # "дибир, мулла"
+диванбег:диванбег # "аульский судья"
+залим:залим # "тиран, угнетатель"
+имгӏал:имгӏал # "дядя"
+консул:консул # "консул"
+къирал:къирал # "король"
+малаик:малаик # "ангел, архангел"
+маршал:маршал # "маршал"
+мастер:мастер # "мастер"
+наиб:наиб # "наиб"
+насир:насир # "помощник, помогающий"
+тӏалиб:тӏалиб # "учащийся, студент"
+узден:узден # "уздень"
+хӏамабагьадур:хӏамабагьадур # "самодур"
+хан:хан # "хан, властитель"
+чапар:чапар # "нарочный, гонец"
+шагь:шагь # "шах"
+
+LEXICON N-MEGHER-Root
+мегӏер:м # "гора"
+
+LEXICON N-BETIER-Root
+бетӏер:б # "голова"
+
+LEXICON N-HUMER-Root
+гьумер:гьу # "лицо"
+
+LEXICON N-KAPEK-Root
+капек:к # "копейка"
+
+LEXICON N-JANVAR-Root
+январь:январ # "январь"
+февраль:феврал # ""
+апрель:апрел # ""
+июнь:июн # ""
+июль:июл # ""
+сентябрь:сентябр # ""
+октябрь:октябр # ""
+ноябрь:ноябр # ""
+декабрь:декабр # ""
+инветарь:инветар # ""
+контроль:контрол # ""
+мебель:мебел # ""
+миндаль:миндал # ""
+никель:никел # ""
+ноль:нол # ""
+промышленность:промышленност # ""
+авиапромышленность:авиапромышленност # ""
+самодеятельность:самодеятельност # ""
+связь:связ # ""
+толь:тол # ""
+хрусталь:хрустал # ""
+инвалидность:инвалидност # ""
+верность:верност # ""
+толерантность:толерантност # ""
+собственность:собственност # ""
+национальность:национальност # ""
+специальность:специальност # ""
+общественность:общественност # ""
+
+LEXICON N-XVADARUXAN-Root
+хъвадарухъан:хъвадарухъа # ""
+кьурдухъан:кьурдухъа # "танцор"
+цӏалдохъан:цӏалдохъа # ""
+кочӏохъан:кочӏохъа # ""
+бетӏергьан:бетӏергьа # ""
+
+LEXICON N-AHIHAN-Root
+хӏалтӏухъан:хӏалтӏухъа # "рабочий и рабочая; работник и работница"
+ахихъан:ахихъа # "садовник и садовница; садовод"
+
+LEXICON N-NAJIXAN-Root
+найихъан:найихъа # "пчеловод; пасечник"
+гугарухъан:гугарухъа # "борец"
+рагъухъан:рагъухъа # "воин, боец, ратник"
+
+LEXICON N-OBSHCHESTVO-Root
+эмирство:эмирств # ""
+королевство:королевств # ""
+кило:кил # "кило"
+очко:очк # "очко"
+дело:дел # "дело"
+общество:обществ # "общество"
+производство:производств # ""
+хозяйство:хозяйств # ""
+творчество:творчеств # ""
+агентство:агентств # ""
+качество:качеств # ""
+искусство:искусств # ""
+ведомство:ведомств # ""
+министерство:министерств # "министерство"
+
+LEXICON N-RALAD-Root
+ралъад:ралъ # "море"
+
+LEXICON N-BAQ-Root
+макъаркурак:макъаркурак # ""
+биаранах:биаранах # ""
+гӏетӏ:гӏетӏ # ""
+квас:квас # ""
+кӏварщ:кӏварщ # ""
+кӏущ:кӏущ # ""
+рак:рак # ""
+тӏупуннакӏкӏ:тӏупуннакӏкӏ # ""
+хасалогӏеч:хасалогӏеч # ""
+хъахӏмахх:хъахӏмахх # ""
+хӏарщ:хӏарщ # ""
+цӏам:цӏам # ""
+махх:махх # "железо"
+бакъ:бакъ # "солнце"
+
+LEXICON N-RAGH-Root
+рагъ:рагъ # "война, фронт"
+
+LEXICON N-NAX-Root
+нах:нах # "масло"
+ролъ:ролъ # "пшеница"
+
+LEXICON N-GIORXI-Root
+гӏорхъи:гӏорхъ # "граница, рубеж, предел"
+
+LEXICON N-KANLI-Root
+канлъи:канлъ # "свет"
+
+LEXICON N-RAK-Root
+ракь:ракь # "земля"
+кьал:кьал # "война; междуусобица"
+
+LEXICON N-GIECH-Root
+гӏеч:гӏеч # "яблоко и яблоки"
+
+LEXICON N-RAKI-Root
+ракӏ:р # "сердце"
+
+LEXICON N-IRGA-Root
+ирга:ирга # "очередь, черёд"
+
+LEXICON N-HARAK-Root
+гьаракь:гьар # "звук и звуки"
+
+LEXICON N-XER-Root
+хер:х # "трава; сено; зельё, отрава, яд; порох"
+
+LEXICON N-SHAL-Root
+шал:шал # "шаль, шерстяная ткань"
+
+LEXICON N-JARGH-Root
+ярагъ:яр # "оружие"
+
+LEXICON N-KEREN-Root
+керен:к # "грудь"
+
+LEXICON N-MAZGAR-Root
+мазгар:мазгар # "бронза"
+алжан:алжан # "рай"
+жулам:жулам # "кизил, кизиль"
+чакар:чакар # "сахар"
+
+LEXICON N-QVATI-Root
+къватӏ:къватӏ # "улица"
+
+LEXICON N-MESED-Root
+пихъ:пихъ # "плод и плоды; фрукт и фрукты"
+хъил:хъил # "смола; битум, асфальт"
+месед:месед # "золото"
+хьул:хьул # "надежда, чаяние, ожидание"
+мухъ:мухъ # "линия, черта; вереница; сторона, край"
+
+LEXICON N-GIUMRU-Root
+гӏумру:гӏумру # "жизнь"
+картошка:картошка # "картошка"
+наслу:наслу # "потомство, потомок; поколение"
+
+LEXICON N-SHAHAR-Root
+шагьар:шагь # "город"
+тахшагьар:тахшагь # "столица"
+
+LEXICON N-APTEKA-Root
+аптека:аптека # ""
+
+LEXICON N-GEOGRAFIJA-Root
+этнология:этнология # ""
+коллегия:коллегия # ""
+антропология:антропология # ""
+онкология:онкология # ""
+субсидия:субсидия # ""
+автономия:автономия # ""
+бюрократия:бюрократия # ""
+демократия:демократия # ""
+сессия:сессия # ""
+лицензия:лицензия # ""
+стипендия:стипендия # ""
+компания:компания # ""
+энциклопедия:энциклопедия # "энциклопедия"
+резолюция:резолюция # "резолюция"
+революция:революция # ""
+химия:химия # ""
+авария:авария # ""
+технология:технология # ""
+армия:армия # ""
+монополия:монополия # ""
+энергия:энергия # ""
+ревизия:ревизия # ""
+дивизия:дивизия # ""
+инфекция:инфекция # ""
+конференция:конференция # ""
+инвестиция:инвестиция # ""
+коллективизация:коллективизация # ""
+реанимация:реанимация # ""
+аттестация:аттестация # ""
+организация:организация # ""
+диссертация:диссертация # ""
+лекция:лекция # ""
+дотация:дотация # ""
+информация:информация # ""
+академия:академия # ""
+станция:станция # ""
+райадминистрация:райадминистрация # ""
+коррупция:коррупция # ""
+филология:филология # ""
+продукция:продукция # ""
+категория:категория # ""
+инспекция:инспекция # ""
+электроэнергия:электроэнергия # ""
+травматология:травматология # ""
+секция:секция # ""
+гимназия:гимназия # ""
+лаборатория:лаборатория # ""
+комиссия:комиссия # "комиссия"
+милиция:милиция # "милиция"
+тарбия:тарбия # "воспитание"
+география:география # "география"
+археография:археография # "археография"
+операция:операция # ""
+копия:копия # ""
+история:история # ""
+поэзия:поэзия # ""
+партия:партия # ""
+администрация:администрация # ""
+федерация:федерация # ""
+канализация:канализация # ""
+приватизация:приватизация # ""
+делегация:делегация # ""
+астрономия:астрономия # ""
+биография:биография # ""
+идеология:идеология # ""
+империя:империя # ""
+комментария:комментария # ""
+конституция:конституция # ""
+материя:материя # ""
+наркомания:наркомания # ""
+пенсия:пенсия # ""
+теория:теория # ""
+фамилия:фамилия # ""
+философия:философия # ""
+фотография:фотография # ""
+премия:премия # ""
+редакция:редакция # ""
+резиденция:резиденция # ""
+ревлюция:ревлюция # ""
+ревлюция:ревалюция # "" # Use/Sub
+экология:экология # ""
+газета:газета # ""
+карьера:карьера # "карьера" # Dir/LR # Use/Sub
+репрессия:репрессия # "репрессия"
+
+LEXICON N-EKSPEDICIJA-Root
+экскурсия:экскурсия # ""
+экспедиция:экспедиция # ""
+
+LEXICON N-OC-Root
+оц:оц # "бык, вол"
+тӏом:тӏом # "шкура, кожа"
+
+LEXICON N-CHURI-Root
+унти:унт # "болезнь, заболевание; хворь, недуг"
+цӏали:цӏал # "" #FIXME:checkpar
+налъи:налъ # "долг, задолженность"
+хӏалтӏи:хӏалтӏ # "работа, труд, действие, занятие"
+рищи:рищ # "сустав"
+
+LEXICON N-HORKO-Root
+гьоркьо:гь # "расчёска, гребень, гребешок"
+
+LEXICON N-TURKAV-Root
+туркав:турка # "турок" # FIXME:adj?
+адыгеяв:адыгея # ""
+
+LEXICON N-SON-Root
+сон:с # "год"
+
+LEXICON N-LAGHEL-Root
+лъагӏел:лъагӏ # "год"
+
+LEXICON N-RETIEL-Root
+ретӏел:ретӏ # "одежда, платье, наряд"
+
+LEXICON N-LAGA-Root
+лага:л # "орган"
+
+LEXICON N-GIALAX-Root
+гӏалах:гӏал # "глушь"
+
+LEXICON N-STUDENTKA-Root
+студентка:студентка # "студентка"
+
+LEXICON N-ARTIST-Root
+артист:артист # "артист"
+чемпион:чемпион # ""
+спортсмен:спортсмен # ""
+футболист:футболист # ""
+пенсионер:пенсионер # ""
+коммунист:коммунист # ""
+
+LEXICON N-SPEKTAKL-Root
+спектакль:спектакл # "спектакль"
+ансамбль:ансамбл # ""
+
+LEXICON N-KALENDAR-Root
+календарь:календар # ""
+роль:рол # ""
+медаль:медал # "медаль"
+область:област # "область"
+автомобиль:автомобил # "автомобиль; машина"
+акварель:акварел # "акварель"
+артель:артел # "артель"
+бандероль:бандерол # "бандероль"
+букварь:буквар # " букварь"
+бюллетень:бюллетен # "бюллетень"
+ведомость:ведомост # "ведомость"
+власть:власт # "власть"
+гавань:гаван # "гьавань"
+глушитель:глушител # "глушитель"
+госпиталь:госпитал # "госпиталь"
+диагональ:диагонал # "диагональ"
+дизель:дизел # "дизель"
+доверенность:доверенност # "доверенность;"
+дуэль:дуэл # "дуэль"
+кабель:кабел # "кабель"
+календарь:календар # "календарь"
+карамель:карамел # "карамель"
+китель:кител # "китель"
+концлагерь:концлагер # "концлагерь"
+кровать:кроват # "кровать"
+лагерь:лагер # "лагерь"
+окись:окис # "окись"
+окунь:окун # "окунь"
+омуль:омул # "омуль"
+отель:отел # "отель"
+очередь:очеред # "очередь"
+параллель:параллел # "параллель"
+пасквиль:пасквил # "пасквиль"
+патруль:патрул # "патруль"
+педаль:педал # " педаль"
+пескарь:пескар # "пескарь"
+печать:печат # "печать"
+печь:печ # "печь"
+портфель:портфел # "портфель"
+поршень:поршен # " поршень"
+проявитель:проявител # "проявитель"
+радиосеть:радиосет # "радиосеть"
+рояль:роял # "рояль"
+руль:рул # "руль"
+санчасть:санчаст # "санчасть"
+сельдь:сельд # "сельдь"
+сирень:сирен # "сирень"
+скальпель:скальпел # "скальпель"
+словарь:словар # "словарь"
+спираль:спирал # "спираль"
+стиль:стил # ""
+табель:табел # "табель"
+тетрадь:тетрад # "тетрадь"
+туннель:туннел # "туннель"
+угорь:угор # "угорь"
+указатель:указател # "указатель"
+усилитель:усилител # " усилитель"
+ферзь:ферз # "ферзь"
+фестиваль:фестивал # "фестиваль"
+фонарь:фонар # "фонарь;"
+фотоувеличитель:фотоувеличител # "фотоувеличитель"
+циркуль:циркул # "циркуль"
+четверть:четверт # "четверть"
+числитель:числител # "числитель"
+шинель:шинел # "шинель"
+шницель:шницел # "шницель"
+штемпель:штемпел # "штамп"
+якорь:якор # "якорь"
+
+LEXICON N-GIELMU-Root
+гӏелму:гӏелм # "наук; знание"
+пикру:пикр # "мысль, идея, помысел, намерение"
+
+LEXICON N-GHURUSH-Root
+гъурущ:гъур # "рубль"
+
+LEXICON N-RAH-Root
+рахь:рахь # "молоко"
+
+LEXICON N-XABAR-Root
+хабар:ха # "весть, известие, сообщение, сведение"
+
+LEXICON N-SORDO-Root
+сордо:с # "ночь, вечер"
+
+LEXICON N-GIAKLU-Root
+гӏакълу:гӏакъл # "ум, разум, интеллект"
+
+LEXICON N-XIUKMU-Root
+хӏукму:хӏукм # "постановление, решение, приговор, веление"
+дару:дар # "лекарство, лекарственный препарат"
+
+LEXICON N-MAGINA-Root
+магӏна:магӏна # "смысл, значение; суть"
+тайпа:тайпа # ""
+гӏакӏа:гӏакӏа # "штраф; пеня"
+пиша:пиша # "ремесло, профессия, занятие, промысел"
+кӏалгӏа:кӏалгӏа # "дворец, чертог, хоромы"
+дугӏа:дугӏа # "мольба, зов, просьба; молитва"
+нагӏана:нагӏана # "проклятие"
+къокъа:къокъа # "отряд, группа; куча; партия; компания"
+гӏилла:гӏилла # "причина, повод, предлог"
+дагӏба:дагӏба # "тяжба, иск, спорное дело"
+къайи:къайи # "товар, товары"
+мина²:мина # "мина"
+бутӏа:бутӏа # "часть, доля"
+
+LEXICON N-GIAKA-Root
+гӏака:гӏа # "корова"
+
+LEXICON N-LEL-Root
+лъел:лъ # "чехол, футляр, ножны; кобура"
+
+LEXICON N-GIOR-Root
+гӏор:гӏ # "река"
+
+LEXICON N-CIA-Root
+цӏа:цӏ # "огонь"
+
+LEXICON N-LIM-Root
+лъим:лъ # "вода"
+
+LEXICON N-GIARAC-Root
+гӏарац:гӏар # "серебро"
+
+LEXICON N-MUX-Root
+мухь:мухь # "плата, мзда"
+
+LEXICON N-NUX-Root
+нух:нух # "дорога, путь, трасса, стезя; тропа;"
+
+LEXICON N-MURSHID-Root
+муршид:муршид # ""
+мурид:мурид # "мюрид; воин"
+амир:амир # "эмир, правитель"
+
+LEXICON N-ROH-Root
+рохь:рохь # "лес, чаща"
+
+LEXICON N-ASKARIJAV-Root
+аскарияв:аскария # "солдат, воин"
+
+LEXICON N-GIOLILAV-Root
+гӏолилав:гӏолила # "юноша, парень; девушка; молодёжь"
+росуцояв:росуцоя # "односельчанин; односельчанка; односельчане"
+магӏарулав:магӏарула # "аварец; аварка; аварцы"
+дагъистанияв:дагъистания # "дагестанец; дагестанка; дагестанцы"
+аварав:авара # "аварец"
+чачанав:чачана # "чеченец"
+кавказияв:кавказия # "кавказец"
+даргияв:даргия # "даргинец"
+азербайжанав:азербайжана # "азербайджанец"
+азербайжанав:азарбижана # "азербайджанец" # Dir/LR # Use/Sub
+немцав:немца # "немец"
+иранав:ирана # "иранец"
+чачанав:чачана # "чеченец"
+табасаранав:табасарана # "табасаранец"
+тумав:тума # "лакец"
+немцав:немца # "немец"
+украинав:украина # "украинец"
+къажарав:къажара # "иранец"
+италияв:италия # "итальянец"
+испанияв:испания # "испанец"
+иранав:ирана # "иранец"
+балкарав:балкара # "балкарец"
+афгъанав:афгъана # "афганец"
+американав:американа # "американец"
+лъарагӏав:лъарагӏа # "кумык"
+лезгияв:лезгия # "лезгин, лезгинка, лезгины"
+ракьцояв:ракьцоя # "земляк, землячка, земляки"
+латинав:латина # "латинянин, латинянка, латиняне"
+гӏурусав:гӏуруса # "русский"
+падарав:падара # "азербайджанец"
+абхазав:абхаза # "абхазы, абхазцы"
+башкирав:башкира # "башкиры"
+белорусав:белоруса # "белорусы"
+грекав:грека # "греки"
+гуржияв:гуржия # "грузины"
+гьирияв:гьирия # "осетины"
+ингилисав:ингилиса # "англичане"
+ингушав:ингуша # "ингуши см. гъалгъаял"
+гъалгъаяв:гъалгъая # "ингуши
+китаяв:китая # "китайцы"
+кореяв:корея # "корейцы"
+полякав:поляка # "поляки"
+славянав:славяна # "славяне"
+татав:тата # "таты"
+татарав:татара # "татары"
+туркменав:туркмена # "туркмены"
+удмуртав:удмурта # "удмурты"
+французав:француза # "французы"
+чехав:чеха # "чехи"
+чувашав:чуваша # "чуваши"
+шведав:шведа # "шведы"
+эскимосав:эскимоса # "эскимосы"
+эстонияв:эстония # "эстонцы"
+югославав:югослава # "югосславы"
+японияв:япония # "японцы"
+гӏайибияв:гӏайибия # "виновник, виновница, виновники"
+унтарав:унтара # "больной, больная"
+ватӏанцояв:ватӏанцоя # "земляк, землячка, земляки"
+нухмалъулев:нухмалъуле # ""
+
+LEXICON N-KUC-Root
+куц:к # "форма, образец; выкройка, колодка"
+
+LEXICON N-KVEN-Root
+квен:кв # "пища, еда, провизия, снедь; кушанье; припаси"
+
+LEXICON N-HAN-Root
+гьан:гьан # "мясо"
+
+LEXICON N-BOCI-Root
+боцӏи:боцӏ # "скот, скотина"
+
+LEXICON N-NART-Root
+нарт:нарт # "керосин, нефт"
+
+LEXICON N-CIAJI-Root
+цӏайи:цӏа # "вес"
+
+LEXICON N-PRAVILO-Root
+правило:правил # "правило"
+
+LEXICON N-TIALA-Root
+тӏала:тӏ # "овцы, гурт, отара, баранта"
+
+LEXICON N-BASI-Root
+баси:б # "бычок"
+
+LEXICON N-GHIRA-Root
+багӏли:багӏли # "черешня"
+магъало:магъало # "дань, подать, ясак"
+бакӏлъи:бакӏлъи # "тяжесть, вес; бремя"
+басма²:басма # "чёрная краска"
+бигьаро:бигьаро # "тополь"
+богӏоллъи:богӏоллъи # "пища, мучное съестное"
+габани:габани # "конопля"
+гӏишкъу:гӏишкъу # "любовь, влюблённость, страсть"
+гъира:гъира # "сильное, страстное желание, пристрастие; стремление, страсть"
+гьава¹:гьава # "воздух"
+жага:жага # "вишня"
+зикру:зикру # "зикр"
+зина:зина # "прелюбодеяние; распутство; блуд"
+ижара:ижара # "аренда, наём"
+кагьру:кагьру # "янтарь"
+капуста:капуста # "капуста"
+катӏари:катӏари # "чуб, шевелюра"
+кири:кири # "воздаяние, вознаграждение"
+кӏури:кӏури # "обрезанные ветки"
+къавуда:къавуда # "мор, холера"
+лъикӏлъи:лъикӏлъи # "добро, нечто хорошее; благо, благополучие"
+назру:назру # "обет"
+напакъа:напакъа # ""
+парча²:парча # "парча (ххам)"
+пиво:пиво # "пиво"
+пири:пири # "молния"
+раккури:раккури # "пар"
+рикъзи:рикъзи # "пропитание, продовольствие, продукты питания"
+рихьи:рихьи # "лесоматериалы"
+ричӏчӏи:ричӏчӏи # "труха"
+сири:сири # "дрожь, лихорадка"
+солярка:солярка # "солярка"
+сура:сура # "квасцы"
+тури¹:тури # "рассол"
+ужра:ужра # "уст. плата, арендная плата"
+хурма:хурма # "хурма"
+цӏекӏу:цӏекӏу # "щавель"
+цӏира:цӏира # "шерсть весннней стрижки; шерсть-линька"
+чинари:чинари # "чинара, бук, кавказский платан"
+чини:чини # "фарфор"
+чурпа:чурпа # "суп; гьанал "
+
+LEXICON N-XAL-INDECL-Root
+хал:хал # "внимание, забота"
+чӏухь:чӏухь # "обыск, шмон жаргон"
+примечания:примечания # ""
+
+LEXICON N-BICEN-Root
+бицен:биц # "предание"
+
+LEXICON N-XINHCHI-Root
+хӏинчӏ:хӏ # "птица"
+
+LEXICON N-XIARP-Root
+хӏарп:хӏ # "буква"
+
+LEXICON N-HURI-Root
+гьури:гь # "ветер"
+
+LEXICON N-RII-Root
+рии:р # "лето"
+
+LEXICON N-HOBOL-Root
+гьобол:гь # "гость и гостья; кунак и куначка"
+
+LEXICON N-XONO-Root
+хоно:х # "яйцо"
+къоно:къ # "плита"
+
+LEXICON N-BUSEN-Root
+бусен:бус # "постель, тюфяк"
+
+LEXICON N-ANK-Root
+анкь:анкь # "неделя"
+лъалкӏ:лъалкӏ # "след и следы"
+
+LEXICON N-QED-Root
+къед:къ # "стена"
+
+LEXICON N-TORGIO-Root
+торгӏо:т # "мяч"
+
+LEXICON N-GIUNGUTII-Root
+гӏунгутӏи:гӏунгутӏ # "недостаток, упущение, пробел"
+захӏмалъи:захӏмалъ # "трудность; затруднение, осложнение"
+
+LEXICON N-HERESI-Root
+гьереси:гьер # "ложь, враньё, неправда"
+
+LEXICON N-CHCHUGIA-Root
+ччугӏа:ччугӏ # "рыба"
+
+LEXICON N-GHVETI-Root
+гъветӏ:гъ # "дерево"
+
+LEXICON N-GALI-Root
+гали:гал # "шаг"
+
+LEXICON N-BO-Root
+бо:бо # "народ"
+
+LEXICON N-CHED-Root
+чед:ч # "хлеб"
+
+LEXICON N-BI-Root
+би:би # "кровь"
+
+LEXICON N-BAQAN-Root
+бакъан:бакъ # "напев, мелодия; мотив"
+
+LEXICON N-AXII-Root
+ахӏи:ахӏ # "зов, крик; призыв"
+рокьи:рокь # "любовь; влюблённость; влечение, привязанность, симпатия; страсть"
+
+LEXICON N-TIORSHCHEL-Root
+тӏорщел:тӏорщ # "зерно, хлеб"
+
+LEXICON N-XXVEL-Root
+ххвел:ххв # "притворство, симуляция"
+
+LEXICON N-CIIBIL-Root
+цӏибил:цӏиб # "виноград"
+
+LEXICON N-SUDJA-Root
+судья:судья # ""
+
+LEXICON N-XIOR-Root
+хӏор:хӏор # "лужа; пруд; озеро"
+
+LEXICON N-KEP-Root
+кеп:к # "кайф, веселье"
+
+LEXICON N-GIELEGI-Root
+гӏелегӏ:гӏел # "ров, препятствие"
+
+LEXICON N-KURDI-Root
+кьурди:кьурд # " танец, пляска"
+
+LEXICON N-QADI-Root
+къади:къади # "кадий"
+
+LEXICON N-BECHED-Root
+бечед:б # "бог, творец"
+
+LEXICON N-TUKEN-Root
+тукен:тук # "магазин, лавка, ларёк"
+
+LEXICON N-PIL-Root
+пил:пил # "слон"
+
+LEXICON N-RAGIAL-Root
+рагӏал:рагӏал # "край, конец, оконечность, окраина"
