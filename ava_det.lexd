@@ -1,0 +1,39 @@
+PATTERN Determiner
+
+DET-ITG-KINAB-Root [<det><itg>:] CLASS-DET CLIT-ADJEC-I?
+DET-DEM-HEB-Root [<det><dem>:] CLASS-DET CLIT-ADJEC-I?
+DET-DEF-SHCHINAB-Root [<det><def>:] CLASS-DET CLIT-ADJEC-I?
+DET-DEF-SHCHIBAB-Root [<det><def>:] DET-DEF-SHCHIBAB CLASS-DET
+DET-IND-HADINA-Root [<det><ind>:] CLASS-DET CLIT-ADJEC-I?
+
+LEXICON DET-DEF-SHCHIBAB
+<nt>:ба
+<m>:ва
+<f>:я
+<pl>:ба
+
+LEXICON CLASS-DET
+<nt>:б
+<m>:в
+<f>:й
+<pl>:л
+
+##########
+
+LEXICON DET-ITG-KINAB-Root
+кинаб:кина # "какой"
+
+LEXICON DET-DEM-HEB-Root
+гьаб:гьа # "это"
+гьеб:гье # "то"
+
+LEXICON DET-DEF-SHCHINAB-Root
+щинаб:щина # "каждый"
+
+LEXICON DET-DEF-SHCHIBAB-Root
+щибаб:щи # "каждый"
+
+LEXICON DET-IND-HADINA-Root
+гьадинаб:гьадина # "такой"
+гӏадинаб:гӏадина # "такой"
+гьединаб:гьедина # "такой"

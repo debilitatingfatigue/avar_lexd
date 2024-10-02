@@ -1,0 +1,15 @@
+PATTERN Miscellaneous
+MISC ((INTERJ) | (CLIT-ADV-I))?
+
+LEXICON MISC
+
+ян<quot>:ан
+ан<quot>:ан
+~ан<quot>:ан
+
+гурищ:гурищ
+гурин:гурин
+гуреблъи:гуреблъи
+
+гьале:гьале
+гьеле:гьеле

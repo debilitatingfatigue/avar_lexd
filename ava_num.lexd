@@ -1,0 +1,97 @@
+PATTERN Numeral
+
+Num-CO-Root [<num>:] NUM-CO-Infl? # не понимаю, зачем апертиум добавлял там клитику =го и зачем они пытались образовать порядковое на -абиле, если в аварском это невозможно
+Num-Root [<num>:] (Hundred-Clit) | (Hundred-Root? Thousand-Clit) | (NUM-Infl) | (Ordinal CLASS-NUM) | (NUM-TO-SUBST CLASS-NUM [го]) | ([го] NUM-TO-SUBST CLASS-NUM)
+Num-DOZENS-Root [<num>:] (NUM-Infl) | (Twenty)
+Hundred-Root [<num>:] (NUM-Infl) | (After-Hundred)
+Thousand-Root [<num>:] (NUM-Infl) | (After-Thousand)
+Num-ANCIILA-Root [<num>:]
+Num-PL-Root [<num><pl>:]
+Num-MILLION-Root [<num>:] # N-STOL-DECL: склоняются как существительные типа "стол", судя по апертиуму, но я им не верю
+Num-ONLY-Root [<num>:]
+
+LEXICON NUM-CO-Infl
++гӏанасеб<post>:гӏанасе
+
+LEXICON NUM-TO-SUBST
+<subst>:я # субстантивация показателем после клитики =го
+
+LEXICON NUM-Infl # clitics
+:го 
++гӏанасеб<post>:гогӏанасе
+
+LEXICON Ordinal
+<ord>:абиле # может далее принимать показатели рода, по дефолту показатель среднего рода
+<ord>:абили
+
+LEXICON Twenty
+<cmp>:ялда # "по два раза" нужно для 50, 70, 90 и 41, 62 и т.п.
+
+LEXICON After-Hundred
+<cmp>:иялда # для счета после ста
+
+LEXICON After-Thousand
+<cmp>:алда # для счета после тысячи
+
+LEXICON Hundred-Clit
++нусго<num>:нусго # "х сотен"
+
+LEXICON Thousand-Clit
++азарго<num>:азарго # "х тысяч"
+
+LEXICON CLASS-NUM
+<nt>:б
+<m>:в
+<f>:й
+<pl>:л
+
+##########
+
+LEXICON Num-CO-Root
+цо:цо # "один"
+
+LEXICON Num-Root
+кӏиго:кӏи # "два"
+лъабго:лъаб # "три"
+ункъго:ункъ # "четыре"
+щуго:щу # "пять"
+анлъго:анлъ # "шесть"
+анкьго:анкь # "семь"
+микьго:микь # "восемь"
+ичӏго:ичӏ # "девять"
+анцӏго:анцӏ # "десять"
+къого:къо # "двадцать"
+лъеберго:лъебер # "тридцать"
+
+LEXICON Num-DOZENS-Root
+кӏикъого:кӏикъо # "сорок"
+лъабкъого:лъабкъо # "шестьдесят"
+ункъого:ункъо # "восемьдесят"
+
+LEXICON Hundred-Root
+нусго:нус # "сто"
+
+LEXICON Thousand-Root
+азарго:азарго # "тысяча"
+азарго:азар # "тысяча с чем-то"
+
+LEXICON Num-ANCIILA-Root
+анцӏила:анцӏила # "x-надцать" и для счета по числительным, которые не делятся на 20
+къоло:къоло # "двадцать с чем-то"
+
+LEXICON Num-PL-Root
+цо-цо:цо-цо # "по одному"
+кӏи-кӏи:кӏи-кӏи # "по два"
+лъаб-лъаб:лъаб-лъаб # "по три"
+анцӏ-анцӏ:анцӏ-анцӏ # "по десять"
+лъебе-лъебер:лъебе-лъебер # "по тридцать, по тридцати"
+нус-нус:нус-нус # "по сто"
+аза-азар:аза-азар # "по тысяче"
+
+LEXICON Num-MILLION-Root
+миллион
+миллиард
+триллион
+
+LEXICON Num-ONLY-Root
+цохӏо:цохӏо # "только один"
